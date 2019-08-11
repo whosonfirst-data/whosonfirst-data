@@ -11,3 +11,5 @@ This is an edit #4.
 This is an edit #5.
 
 This is an edit #6.
+
+This is an edit #7.
