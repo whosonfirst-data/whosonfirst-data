@@ -2,6 +2,44 @@
 _This is a human generated overview of significant changes to Who's On First place data 
 across all repos. More recent changes are at the top, oldest changes at the bottom._
 
+## 2019 November
+
+### INDIA
+- Updated administrative records in select localities in India ([issue](https://github.com/whosonfirst-data/whosonfirst-data/issues/1593))
+- Fixed by:
+  - https://github.com/whosonfirst-data/whosonfirst-data-admin-in/pull/12
+  - https://github.com/whosonfirst-data/whosonfirst-data-admin-in/pull/11
+- This work is ongoing and will update neighbourhood, borough, locality, county, and region geometries in and around ten of the most populous localities in India. Two of the ten localities were updated this month, the remaining eight will be completed in December.
+- Specific work included:
+  - Updating geometries for neighbourhood, borough, locality, county, and region records in Chandigarh and Kolkata
+  - Updating properties for these records, including name translations, `mz:` property flags, and `wof:` properties
+  - PIP work to update `wof:hierarchy` and `wof:parent_id` properties for all records
+  - Validating all geometries using osgeo, validating all records using Who's On First's `go-whosonfirst-validate` tool
+  - Completing PIP work to updating or confirming all `wof:hierarchy` properties for all records in the India admin repository
+
+### FRANCE
+- Updated French `label:` properties in region records ([issue](https://github.com/whosonfirst-data/whosonfirst-data/issues/1734))
+- Fixed by: https://github.com/whosonfirst-data/whosonfirst-data-admin-fr/pull/18
+  - Verifying and fixing each unique `"label:fra_x_preferred_longname"` property values for each of the 101 region records
+
+### SCOTLAND
+- Updated neighbourhood geometries in Glasgow ([issue](https://github.com/whosonfirst-data/whosonfirst-data/issues/1724))
+- Fixed by: https://github.com/whosonfirst-data/whosonfirst-data-admin-gb/pull/18
+  - Clipping existing geometries to the Glasgow locality geometry
+  - Flagging each updated record with a `mz:is_current` property value of `1`
+  - Storing existing geometries in alt-geometry files
+
+### VARIOUS
+- Fixed incorrect concordances and name translations in a locality record in Norway ([issue](https://github.com/whosonfirst-data/whosonfirst-data/issues/1730))
+  - Fixed by: https://github.com/whosonfirst-data/whosonfirst-data-admin-no/pull/7
+- Updating the locality geometry of a locality in Honduras ([issue](https://github.com/whosonfirst-data/whosonfirst-data/issues/1736)):
+  - Fixed by: https://github.com/whosonfirst-data/whosonfirst-data-admin-hn/pull/6
+- Minor updates to locality records in Poland ([issue](https://github.com/whosonfirst-data/whosonfirst-data/issues/1738))
+  - Fixed by: https://github.com/whosonfirst-data/whosonfirst-data-admin-pl/pull/14
+- Update name translations in various locality records ([issue](https://github.com/whosonfirst-data/whosonfirst-data/issues/1743))
+  - See issue for PR fixes
+
+
 ## 2019 October
 
 ### NORWAY
@@ -15,7 +53,7 @@ across all repos. More recent changes are at the top, oldest changes at the bott
   - Resetting all `lbl:bbox` values for records that received new Polygon or MultiPolygon geometries
   - Validating all geometries using osgeo, validating all records using Who's On First's `go-whosonfirst-validate` tool
   - Adding Wikipedia and Wikidata-sourced name translations to any record without a name translation
-  - Completing PIP work to updating or confirming all `wof:hierarchy` properties for all records in the Poland admin repository
+  - Completing PIP work to updating or confirming all `wof:hierarchy` properties for all records in the Norway admin repository
 
 ### FRANCE
 - Corrected postalcode hierarchies in France ([issue](https://github.com/whosonfirst-data/whosonfirst-data/issues/1713))
