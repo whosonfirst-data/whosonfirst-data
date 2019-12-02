@@ -30,13 +30,14 @@ across all repos. More recent changes are at the top, oldest changes at the bott
   - Storing existing geometries in alt-geometry files
 
 ### VARIOUS
-- Fixed incorrect concordances and name translations in a locality record in Norway ([issue](https://github.com/whosonfirst-data/whosonfirst-data/issues/1730))
+- Fixed incorrect concordances and name translations in a locality record in **Norway** ([issue](https://github.com/whosonfirst-data/whosonfirst-data/issues/1730))
   - Fixed by: https://github.com/whosonfirst-data/whosonfirst-data-admin-no/pull/7
-- Updating the locality geometry of a locality in Honduras ([issue](https://github.com/whosonfirst-data/whosonfirst-data/issues/1736)):
+- Updated the locality geometry of a locality in **Honduras** ([issue](https://github.com/whosonfirst-data/whosonfirst-data/issues/1736)):
   - Fixed by: https://github.com/whosonfirst-data/whosonfirst-data-admin-hn/pull/6
-- Minor updates to locality records in Poland ([issue](https://github.com/whosonfirst-data/whosonfirst-data/issues/1738))
+- Minor updates to locality records in **Poland** ([issue](https://github.com/whosonfirst-data/whosonfirst-data/issues/1738))
   - Fixed by: https://github.com/whosonfirst-data/whosonfirst-data-admin-pl/pull/14
-- Update name translations in various locality records ([issue](https://github.com/whosonfirst-data/whosonfirst-data/issues/1743))
+- Updated name translations in various locality records ([issue](https://github.com/whosonfirst-data/whosonfirst-data/issues/1743))
+  - Fixed locality records in the **Angola**, **Austria**, **Hungary**, **India**, **Lithuania**, **Poland**, **Spain**, and the **United States**.
   - See issue for PR fixes
 
 
