@@ -36,6 +36,8 @@ across all repos. More recent changes are at the top, oldest changes at the bott
   - Fixed by: https://github.com/whosonfirst-data/whosonfirst-data-admin-hn/pull/6
 - Minor updates to locality records in **Poland** ([issue](https://github.com/whosonfirst-data/whosonfirst-data/issues/1738))
   - Fixed by: https://github.com/whosonfirst-data/whosonfirst-data-admin-pl/pull/14
+- Updated the properties of two county records in **Germany** ([issue](https://github.com/whosonfirst-data/whosonfirst-data/issues/1697))
+  - Fixed by: https://github.com/whosonfirst-data/whosonfirst-data-admin-de/pull/17
 - Updated name translations in various locality records ([issue](https://github.com/whosonfirst-data/whosonfirst-data/issues/1743))
   - Fixed locality records in the **Angola**, **Austria**, **Hungary**, **India**, **Lithuania**, **Poland**, **Spain**, and the **United States**.
   - See issue for PR fixes
