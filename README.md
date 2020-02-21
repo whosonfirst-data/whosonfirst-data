@@ -290,9 +290,7 @@ Repository examples:
 
 Crediting Who's On First is recommended and linking back to this License is required.
 
-```
-Data from Who's On First <a href="https://whosonfirst.org/docs/sources/list/">sources</a>.
-```
+> Data from Who's On First. [License](https://whosonfirst.org/docs/licenses/).
 
 The Who's On First dataset is both original work and a modification of existing open data. Some of those open data projects **do** require attribution. We have listed some sources below.
 
