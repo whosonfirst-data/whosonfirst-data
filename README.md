@@ -305,7 +305,7 @@ When we [source](https://github.com/whosonfirst/whosonfirst-sources/) other open
 * `qs` - [Quattroshapes](https://github.com/foursquare/quattroshapes/) (CC-BY)
 * `zs` - [Zetashapes](http://zetashapes.com/) (CC-BY)
 
-See an up-to-date list of sources [here](https://github.com/whosonfirst/whosonfirst-sources/blob/master/sources/README.md).
+See an up-to-date list of sources [here](https://whosonfirst.org/docs/sources/list/).
 
 Please notify us if you believe that an open data project has not been properly noted.
 
