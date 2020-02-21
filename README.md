@@ -290,9 +290,7 @@ Repository examples:
 
 Crediting Who's On First is recommended and linking back to this License is required.
 
-```
-Data from Who's On First. <a href="https://whosonfirst.org/docs/licenses/">License</a> and <a href="https://github.com/whosonfirst/whosonfirst-sources/blob/master/sources/README.md">Sources</a>.
-```
+> Data from Who's On First. [License](https://whosonfirst.org/docs/licenses/).
 
 The Who's On First dataset is both original work and a modification of existing open data. Some of those open data projects **do** require attribution. We have listed some sources below.
 
@@ -305,7 +303,7 @@ When we [source](https://github.com/whosonfirst/whosonfirst-sources/) other open
 * `qs` - [Quattroshapes](https://github.com/foursquare/quattroshapes/) (CC-BY)
 * `zs` - [Zetashapes](http://zetashapes.com/) (CC-BY)
 
-See an up-to-date list of sources [here](https://github.com/whosonfirst/whosonfirst-sources/blob/master/sources/README.md).
+See an up-to-date list of sources [here](https://whosonfirst.org/docs/sources/list/).
 
 Please notify us if you believe that an open data project has not been properly noted.
 
