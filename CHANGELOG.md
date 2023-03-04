@@ -3,6 +3,56 @@
 _This is a human generated overview of significant changes to Who's On First place data
 across all repos. More recent changes are at the top, oldest changes at the bottom._
 
+## 2020 April
+
+### AFGHANISTAN
+- Update Fatah record to remove funky name translation. ([Pull request #11](https://github.com/whosonfirst-data/whosonfirst-data-admin-af/pull/11))
+
+### CZECHIA
+- Add name and label localizations for 14 region records, in Czech and English. ([Pull request #10](https://github.com/whosonfirst-data/whosonfirst-data-admin-cz/pull/10) related to [Issue #1640](https://github.com/whosonfirst-data/whosonfirst-data/issues/1640))
+
+### DENMARK
+- Update Denmark region name translations and `wof:name` values. ([Issue #1453](https://github.com/whosonfirst-data/whosonfirst-data/issues/1453))
+
+### GERMANY
+- Update Korzendorf record's German and English names. ([Pull request #24](https://github.com/whosonfirst-data/whosonfirst-data-admin-de/pull/24))
+
+### INDIA
+- Update Gandhuan record's default and English names. ([Pull request #42](https://github.com/whosonfirst-data/whosonfirst-data-admin-in/pull/42))
+- Update Jhanbke record's default and English names. ([Pull request #43](https://github.com/whosonfirst-data/whosonfirst-data-admin-in/pull/43))
+
+### ITALY
+- Update Fie allo Sciliar to resolve funky `�` character in names. ([Pull request #18](https://github.com/whosonfirst-data/whosonfirst-data-admin-it/pull/18) related to [Issue #1830](https://github.com/whosonfirst-data/whosonfirst-data/issues/1830))
+
+### NORWAY
+- Update Norway region name translations and `wof:name` values. ([Issue #1445](https://github.com/whosonfirst-data/whosonfirst-data/issues/1445))
+
+### PORTUGAL
+- Add name and label localizations for 18 region records, in Portuguese and English. ([Pull request #11](https://github.com/whosonfirst-data/whosonfirst-data-admin-pt/pull/11) related to [Issue #1640](https://github.com/whosonfirst-data/whosonfirst-data/issues/1640))
+
+### ROMANIA
+- Add name and label localizations for 42 region records, in Romanian and English. ([Pull request #13](https://github.com/whosonfirst-data/whosonfirst-data-admin-ro/pull/13) related to [Issue #1640](https://github.com/whosonfirst-data/whosonfirst-data/issues/1640))
+
+### SWITZERLAND
+- Update Schaffhausen record's English names. ([Pull request #16](https://github.com/whosonfirst-data/whosonfirst-data-admin-ch/pull/16))
+
+### UKRAINE
+- Update Polyakhova reocrd to remove bad name variant. ([Pull request #10](https://github.com/whosonfirst-data/whosonfirst-data-admin-ua/pull/10))
+
+### UNITED STATES
+- Resolve duplicate Kansas City, MO records. ([Issue #1791](https://github.com/whosonfirst-data/whosonfirst-data/issues/1791))
+- Update Cheektowasa record's default and English names. ([Pull request #55](https://github.com/whosonfirst-data/whosonfirst-data-admin-us/pull/55))
+
+### VARIOUS
+- Run wiki names script on "high priority" places. ([Issue #1821](https://github.com/whosonfirst-data/whosonfirst-data/issues/1821))
+- Fix `ST_GeogFromGeoJSON` fails on a handful of country geometries. ([Issue #1819](https://github.com/whosonfirst-data/whosonfirst-data/issues/1819))
+- Add name translations to continent records. ([Issue #1818](https://github.com/whosonfirst-data/whosonfirst-data/issues/1818))
+- Fix Spratley Islands names and concordances. ([Issue #1459](https://github.com/whosonfirst-data/whosonfirst-data/issues/1459))
+- Update locality names for Schaffhausen, Bachowali, Charik, and Ballyhisky. ([Issue #1805](https://github.com/whosonfirst-data/whosonfirst-data/issues/1805))
+- Fix 2,031 cases of bunk new lines/whitespaces newline in wof:name values (this makes it easier to import into Postgres). ([Issue #1796](https://github.com/whosonfirst-data/whosonfirst-data/issues/1796))
+- Goodbye old Tempelhof Central Airport. ([Pull request #18](https://github.com/whosonfirst-data/whosonfirst-data-admin-xy/pull/18))
+
+
 ## 2020 March
 
 ### GAMBIA
@@ -28,7 +78,7 @@ across all repos. More recent changes are at the top, oldest changes at the bott
 - Update Roznowo with English and Polish names. ([Pull request #16](https://github.com/whosonfirst-data/whosonfirst-data-admin-pl/pull/16))
 
 ### UNITED KINGDOM
-- Update to ONS Feb 2020 data release for `postalcode` records. ([Pull request #4](https://github.com/whosonfirst-data/whosonfirst-data-postalcode-gb/pull/4))
+- Update to ONS Feb 2020 data release for `postalcode` records. ([Issue #1685](https://github.com/whosonfirst-data/whosonfirst-data/issues/1685))
 
 ### UNITED STATES
 - Update East Side, Kansas City neighbourhood. ([Issue #1789](https://github.com/whosonfirst-data/whosonfirst-data/issues/1789))
