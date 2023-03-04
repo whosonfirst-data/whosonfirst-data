@@ -3,6 +3,70 @@
 _This is a human generated overview of significant changes to Who's On First place data
 across all repos. More recent changes are at the top, oldest changes at the bottom._
 
+## 2020 March
+
+### GAMBIA
+- Update names for Banjul. ([Issue #1802](https://github.com/whosonfirst-data/whosonfirst-data/issues/1802))
+
+### INDIA
+- Resolve Devli duplicate of Delhi. ([Issue #1784](https://github.com/whosonfirst-data/whosonfirst-data/issues/1784))
+- Update Bajowali English and default names. ([Pull request #38](https://github.com/whosonfirst-data/whosonfirst-data-admin-in/pull/38))
+- Update Chirak English and default names. ([Pull request #39](https://github.com/whosonfirst-data/whosonfirst-data-admin-in/pull/39))
+
+### IRELAND
+- Update Ballylusky English and default names. ([Pull request #12](https://github.com/whosonfirst-data/whosonfirst-data-admin-ie/pull/12))
+
+### ITALY
+- Updates English, Italian, and French label properties on `region` records, population and src properties, and concordances. ([Pull request #14](https://github.com/whosonfirst-data/whosonfirst-data-admin-it/pull/14))
+
+### NORWAY
+- Adds/updates `label` properties to Norway `region` records. ([Pull request #13](https://github.com/whosonfirst-data/whosonfirst-data-admin-no/pull/13))
+    - Also updates `wof:lang*` properties in all `region` and `country` records
+    - Corrects `name` property values, storing variant names when applicable
+
+### POLAND
+- Update Roznowo with English and Polish names. ([Pull request #16](https://github.com/whosonfirst-data/whosonfirst-data-admin-pl/pull/16))
+
+### UNITED KINGDOM
+- Update to ONS Feb 2020 data release for `postalcode` records. ([Pull request #4](https://github.com/whosonfirst-data/whosonfirst-data-postalcode-gb/pull/4))
+
+### UNITED STATES
+- Update East Side, Kansas City neighbourhood. ([Issue #1789](https://github.com/whosonfirst-data/whosonfirst-data/issues/1789))
+- Update Minnewawa, MN English and default names. ([Issue #1799](https://github.com/whosonfirst-data/whosonfirst-data/issues/1799))
+- Update Place Shawnee. ([Pull request #49](https://github.com/whosonfirst-data/whosonfirst-data-admin-us/pull/49))
+
+### VARIOUS
+- Import DigitalEnvoy concordances for `country`, `region`, `localadmin`, and `marketarea` records (eg `digitalenvoy:country_code`). ([Issue #1807](https://github.com/whosonfirst-data/whosonfirst-data/issues/1807))
+- Add `README` and `ISSUE_TEMPLATE` to all the new admin repos. ([Issue #1667](https://github.com/whosonfirst-data/whosonfirst-data/issues/1667))
+- Add `wof:repo` property to all alt files. ([Issue #1729](https://github.com/whosonfirst-data/whosonfirst-data/issues/1729))
+- Add missing `src:alt_label` properties. ([Issue #1804](https://github.com/whosonfirst-data/whosonfirst-data/issues/1804))
+- Add new `wof:geom_alt` property. ([Issue #1793](https://github.com/whosonfirst-data/whosonfirst-data/issues/1793))
+- Remove whosonfirst-data-{country code} repos as we went with different naming convention. ([Issue #1806](https://github.com/whosonfirst-data/whosonfirst-data/issues/1806))
+
+
+## 2020 February
+
+### AFGHANISTAN
+- Remove 2 funk temporary files from repp. ([Issue #1800](https://github.com/whosonfirst-data/whosonfirst-data/issues/1800))
+
+### INDIA
+- Update Place Zerakpur. ([Pull request #37](https://github.com/whosonfirst-data/whosonfirst-data-admin-in/pull/37))
+
+### NORWAY
+- Update Norway regions and add new localadmin ("counties") to reflect 2020 boundary changes. ([Issue #1757](https://github.com/whosonfirst-data/whosonfirst-data/issues/1757))
+
+### OMAN
+- Add 2 missing country records. ([Issue #1773](https://github.com/whosonfirst-data/whosonfirst-data/issues/1773))
+
+### SWITZERLAND
+- Update Rothenburg. ([Pull request #9](https://github.com/whosonfirst-data/whosonfirst-data-admin-ch/pull/9))
+
+### VARIOUS
+- Generate licenses file from whosonfirst-sources. ([Issue #1081](https://github.com/whosonfirst-data/whosonfirst-data/issues/1081))
+- Licensing information - link targets not available. ([Issue #1651](https://github.com/whosonfirst-data/whosonfirst-data/issues/1651))
+- Add back LICENSE file as pointer. ([Issue #1795](https://github.com/whosonfirst-data/whosonfirst-data/issues/1795))
+
+
 ## 2020 January
 
 ### BRAZIL
