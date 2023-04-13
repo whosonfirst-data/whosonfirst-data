@@ -344,6 +344,16 @@ across all repos. More recent changes are at the top, oldest changes at the bott
 
 ### 2019 February
 
+- Australia: add new macrocounty places for "significant urban areas", flag county records with mz:hierarchy_label of 0 so they don't show up in labeled reverse geocoding hierarchies, flag any locality and localadmin that are coterminous, deprecated any locality point (GeoNames or Quattroshapes) if it falls within an existing locality polygon, Updates neighbourhoods, deprecating records that share names with their parent locality or – if names are unique – moving the neighbourhood to a point geometry. From Australian Government Open Data Portal (PMSA). #218
+- United States: Some new GeoNames locality records for mobile home parks should be campuses instead #1431
+- Israel & Palestine: Improve coverage and polygon detail of disputed records (including adding controlled hierarchies); more consistently align country, region, and county polygons; add polygons for largest cities in Israel; cleanup of localities and neighbourhoods in and around Jerusalem. #1473
+- United Arab Emirates: updated country (and for Oman), region, and county records #1421
+- United Arab Emirates: add locality polygons, rework neighbourhoods #1472
+- South Africa: rename "Northern Province" region "Limpopo" (since 2003!) #1458
+- France: Untangle Annecy and Pringy names (cleanup from 2018 work in France) #1491
+- United Kingdom: Deprecate Drumhirk locality #1481
+- France: the Spanish exclave of Llívia needed to be removed from the France country geometry #1433
+
 ### 2019 March
 
 ### 2019 April
