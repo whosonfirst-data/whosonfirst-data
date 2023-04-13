@@ -328,11 +328,181 @@ across all repos. More recent changes are at the top, oldest changes at the bott
 
 - Achieve 99% global `locality` coverage via Geonames.org ingest of missing records, [blog post](https://www.whosonfirst.org/blog/2019/05/13/geonames/). This increased locality count from 345,000 to just over 4.4 million records (+12.7x increase), with a new total number of administrative records in the whosonfirst-data repositories to 4.8 million places.
 - The big data mono-repo is split into per-country repos at Github's request because "so much datas", [blog post](https://www.whosonfirst.org/blog/2019/05/09/changes/).
+- TODO
 
 ## 2018
 
-- Mapzen shuts down but [WOF continues on](https://www.whosonfirst.org/blog/2018/01/02/chapter-two/) thru work at Snapchat and SFO Museum.
-- A loosely affiliated `venue` scraper project starts, [alltheplaces.xyz](https://alltheplaces.xyz).
+- While Mapzen shuts down in Dec 2017, [WOF continued on](https://www.whosonfirst.org/blog/2018/01/02/chapter-two/) in 2018 thru work at Snapchat and SFO Museum.
+- A loosely affiliated `venue` scraper project launched, [alltheplaces.xyz](https://alltheplaces.xyz) – also seeded by Mapzen.
+- Gazetteer data updates resumed in May, 2018 once Stephen and Nathaniel settled at Snapchat.
+
+### 2018 May
+
+- The country of `Swaziland` was renamed to `eSwatini` #1179
+- 5 places had a `wof:country` that is not a two letter ISO code (it's `-99` instead) but should be `XS` #1070
+- Deprecate 1,439 records sourced from Quattroshpaes point gazetteer in the Netherlands that are archaic compared to imported national mapping agency data #1061
+- Sanitize 559 localadmin / country names in Australia which shouldn't also contain their state abbreviation #737 and #904
+- Fix hierarchy issues in Paris, FR for reverse geocoding #608
+- Fixup Korean county names (post Mesoshapes import) #528
+- Backfill `mz:is_current` fields for deprecated records #456
+- JSON schema validation and WOF document property normalisation (thanks @vicchi) #1190
+
+### 2018 June
+
+- Add names for 6 county features in Qatar (previously NULL names) #1230
+- 367 neighbourhoods were missing their hierarchies #1225
+- Bunk Nepali name translation for Portland #1219
+- Update disputed areas from Natural Earth v4.1, including a new set of controlled WOF properties for `mz:hierarchy_label:{placetype}` to indicate which name strings should appear with hierarchy labels in reverse geocoding. #1215
+- Set hierarchy_label on macroregions in France to false #1212
+- Swap polygon geometries in Iraq for country polygon so it includes Kurdistan, and update hierarchy of new children records. #1207
+- Correct label centroid for Sydney, Australia to be in city center instead of far away at airport. #1205
+- Correct `wk` prefix on many properties to `wd` for information imported from Wikidata. #1201
+- Romania: region updates to merge duplicate Tulcea county records #1177
+- Moldova: update regions #1163
+- Clean up disputed records for ice field between Argentina and Chile #1133
+- Update Rose Atoll and Bajo Nuevo Bank to be parented by empire of United States instead of the country #1127
+- Consolidated regions in Ireland per 2014 local gov't reform act, from Ireland Ordnance Survey. Duplicate records superseded into a single record for Cork, Donegal, Galway, Kerry, and Mayo. Some featured merged, like: Limerick/Limerick City, North Tipperary/South Tipperary, and Waterford/Waterford City. #115
+- Add 290 municipality records for Sweden as new county records, from Sweden Land Survey. #1123
+- Add 2,523 localadmin records in Sweden, from Sweden Land Survey. #1110
+- Update localadmin records in Norway, from GeoNorge. #1107
+- Add 70 county records in Finland, from Statistics Finland. #1105
+- Add 98 localadmin records for Denmark municipalities, from GeoDanmark. #1102
+- Greenfield Town is the wrong name for Greenfield, MA #1077
+- Fixed weird characters in German (so they instead look like ä, ö, ü) #1069
+- Deprecated records had descendants in error in Ukraine #1040
+- Fix Lagos, Nigeria shape and reverse geocoding properties for hierarchies #960
+- Import Statoids data for the Netherlands region and county records #929
+- Fix 360 records that were missing a hierarchy #922
+- Add shortcodes and label abbreviations for regions in six countries `region` records in 6 countries (Australia, Brazil, India, China, South Africa, and Russia) to join abbreviations already present in United States. #840
+- Review all `misc:*` properties and re-assigned most to `qs:*` instead #826
+- Upgrade Austrian county geometries by dissolving locality geometries #699
+- Upgrade Austrian region geometries by dissolving locality geometries #696
+- Cleanup duplicate locality records in Guam #690
+- Sanity check hierarchies for string values (oops) #450
+- Updates in Faroe Islands (cc, geometry) #383
+- County in Ukraine incorrectly parented by Moldova because of convex geometry #305
+- Update outlying Tuvalu Islands #272
+- Aleutians West has conflicting admin data (because of ±180 geom wrapping) #215
+- Fix name of localadmin for Picton (NSW) to remove NSW indicator #110
+- Fix Rimini, Italy name #1224
+
+### 2018 July
+
+- Use `mz:tier_locality` to set `mz:hierarchy_label` #1258
+- Updates ISO and WOF country codes for record on the US/MX border. #1249
+- Corrects properties, name translations, and concordance values in the Multnomah neighbourhood. #1248
+- Update ISO code for Poland descendants (to PL from bad PO from Quattroshapes) #1236
+- Neighbourhoods in Solihull (UK) should be descendants of the locality of Solihull #1221
+- Hong Kong was missing it's continent #1206
+- Fix up Edinburgh and Musselburgh localities #1011
+- Fix duplicate dependency/region records in Guam, Puerto Rico & etc #988
+- Updates from US Census Table and Geography Changes, including Wade Hampton Census Area, Alaska, was renamed as Kusilvak Census Area, Shannon County, South Dakota, was renamed as Oglala Lakota County, Helena and McRae cities in Georgia have merged, Thomson city in Carlton County, Minnesota was merged into Carlton city, ceased Islandia City (Florida), Helena City (Georgia), McRae City (Georgia),  Millville City (Iowa), Thomson City (Minnesota). #766
+- Imported administrative data from the Surveying and Mapping Authority of the Republic of Slovenia. 12 new region records (with `mz:hierarchy_label` property of `0` and `wof:statistical_gore` property of `1`), 212 new `localadmin` records (and region records deprecated) #755
+- Clean up hierarchy and controlled properties for Sydney, AUS #731
+- Add Swedish municipalities from Sweden Land Survey #617
+- Canary Islands and descendents were missing hierarchy because of centroid in water #201
+- Diego Garcia NSF isn't a dependency and had bad WOE sourced names #9
+
+### 2018 August
+
+- Remove outmoded Île de France name variant in French for Mauritius #1286
+- Concordance work with Wikidata (discussion) #1284
+- Add Park City, UT, USA neighbourhoods #1264
+- Append " Township" to name of 13,943 localadmin records in the United States, of US Census twp type (Ohio Township, Indiana which makes more sense than Ohio, Indiana) #1260
+- Add English name for Ratnapura, Sri Lanka #1254
+- Rework National Capital Region in Philippines #1214
+- Update Hong Kong country, macroregion, region & more records, from Hong Kong Open Data portal. #1106
+- Superceed duplicate point record Nashville, USA locality into polygon record #1082
+- Fix 78 records that had self-intersecting geometries #1071
+- Add county and locality records in Alberta, Canada #1044
+- Reset unreasonably large Zetashapes neighbourhoods in USA to original smaller geometries (or point centroids) #1006 and #1259
+- Clean up county records in Canada (from 231 to 291 features), including marking some statistical gore = 1 #926 and #666
+- Updates to China, India, Pakistan for country, disputed, and region placetypes #169 and pull/#1280
+- Promote overseas collectivities of France to dependency (from region of France) – St Martin, Saint Pierre, and Miquelon #13
+- Add dual hierarchy for SFO airport to include San Mateo county, because geography #1289
+- SFO airport campus geometry changes #1287
+
+### 2018 September
+
+- Some 534 records in Mexico were incorrectly given `iso:country` and `wof:country` codes of "ME" (Montenegro) instead of "MX" (Mexico), from Quattroshapes. #1315
+- Some 3 neighbourhood records in USA had Mexico in their hierarchy incorrectly #1313
+- Fix few records with more than one preferred name #1311
+- Fix NULL name for record 890458063 #1308
+- Untangle Frankfurt am Main vs. Frankfurt (Oder) #1294
+- Ensure current and src:geom property on recently imported Austria records #1285
+- Fix Burnaby, BC descendants by correcting reverse geocoding centroid #1276
+- Some Austrian cities listed in Australia (oops), from Quattroshapes. #1255
+- SQLite whosonfirst-data-latest.db has not been updated since 2018-01-25 #1226
+- Add reversegeo:* properties to 85685675 on San Marino and Italy frontier #1112
+- Update funky lake county in Switzerland to mark it as statistical gore and fix reverse geocoding centroid #1104
+- Add reverse geoding centroid to Rimini on San Marino and Italy frontier #1097
+- Broadbench, a neighborhood in Queensland, Australia needed a reverse geocoding centroid #1075
+- Tackle ground truth simplification / alt geoms for 17 records with large geometries causing > 10MB file size #1072
+- Cleanup reverse geocoding geometries to resolve 2 capital city regressions related to few island places in France and Australia empires #1027
+- Create and populate new wof:shortcode, mostly for country, region, and county placetypes #924
+- The 'Minor Islands of ~ 20 records were merged/superseded into the relevant region records, including in Germany and Denmark #888
+- Consider a smaller New Zealand geometry, and manage original with GIT LFS #834
+- Two valid neighbourhood records were incorrectly deprecated in Alexandria neighbourhood #803
+- Link up countries and their capital cities with new `wof:capital` and `wof:capital_of` properties #57
+- Add marketarea records for the US #1328
+- Add concordances and shortcodes to us-house records whosonfirst-data/whosonfirst-data-constituency-us/#10
+- Spain: Updated single localadmin and descendants pull/#1302
+
+### 2018 October
+
+- GeoNames point locality import, part 1 #1342
+- Greece: region updates to add North Aegean, autonomous region of Mt. Athos, and cut up existing geometries of East Macedonia and Thrace to assign various islands to the correct region. #1145
+- NYC neighbourhood clean-up for Clinton (Hell's Kitchen), Uptown, and Lincoln Square. #1229
+- Revert Paris neighbourhoods because of licensing issues (later re-added from different source) #1204
+- Add localized names to the New Zealand record (still figuring out GIT LFS) #969
+- Untangle San Luis, Cuba region and county #911
+- Various airports data imports pull/#1361, #1356, #1350, #1348, #1354, #1344, and #1345
+- Improve county geometries when earlier sourced from Natural Earth either by using U.S. Department of State geometries or by dissolving more detailed child features #1318
+- Update Telangana, India and descendants, including Hyderabad #1330
+
+### 2018 November
+
+- United Kingdom: major placetype cleanup to add new ceremonial county records at the region placetype, move pre-existing WOF region records to the county placetype, set the localadmin and region records in Scotland as coterminous, add new region records to Northern Ireland, Add county to `placetype_alt` of London or make new `coterminous` record with label hierarchy 0, pdate buffered point geometries to points, with appropriate property flags, flag null localadmin as statistical gore, no hier label, update name, and more. pull/#1368 and #1265 and #1228 and #44
+- France: Significant reworking of localadmin and locality records in France, including marking many that are unitary with `wof:placetype_alt`, and retiring of many of the earlier Quattroshapes polygons, from IGN. #1094 and #1277
+- Verify macroregions with `hierarchy_label=1` and reset to 0 for Italy, Spain, and Belgium #1370
+- GeoNames locality import, part 2 pull/#1353
+- GeoNames locality import, part 3 pull/#1376
+- Clean-up various preferred names of localities in Canada #1409
+- India: Region cleanup, properties and geometries pull/#1341
+- Update Pakistan regions (like for defunct Federally Administered Tribal Areas) and add Urdu names #1404
+- Update China region names and ISO codes #1402
+- Update Russia region names for English and Cyrilic, and add more name localizations and `placetype_local` indications #1397
+- Incorrect hierarchy for Abu Musa Island between United Arab Emirates and Iran #1382
+- Correct Manilla locality name from earlier work in #1214 around the national capital region #1378
+- Add consistency to wof:name values in Ukraine #1371
+- Clean-up parent records of Cairo, Egypt for three governates #1366
+- Philippine locality of Hinoba-an has an out of date name (which Asia) #1365
+- Fix Bern and the Bundesstadt #1363
+- Superceed two more funky London records into the capital city record #1360
+- Update `fra_x_preferred` name for Saint-Alban locality #1351
+- Australian Capital Territory abbreviation is not CT #1349
+- AUS: Updated codes for Victoria ready pull/#1395
+- More airport campus fixes, thanks @imresamu pull/#1392, #1390, #1389, #1388, #1387, #1386, and #1375
+- Update Ukrain regions pull/#1384
+
+### 2018 December
+
+- Completed GeoNames populated places import #108 via part 4 pull/#1391
+- Move buffered point geoms to alts, replace with points, for any Quattroshapes-sourced record with a "qs:type" of "buffered point". #234
+- Add new Italian region of South Sardinia (from 4 February 2016) #798
+- Update names, translations for Spanish regions, and updated macroregion and region geometries #42
+- Update names for regions in the United Arab Emirates #1422
+- Update geometry of Italy to exclude San Marino and Vatican City, and include Campione D'Italia.  #1414
+- Update Saudi Arabia region and county names and translations, including for English and Arabic #1413
+- Add macroregion and region data in Finland #1099
+- Cleanup outdated and new Finland localadmin records #1184
+- Post-merge neighbourhood cleanup in Calgary neighbourhood #838
+- Update Marseille, France #1439
+- Update names in Lyon, France and parents #1427
+- Fix "No data" name #1411
+- Fix more airport campuses pull/#1437, #1419, #1418, #1417, #1416
+- Various: Update uppercase admin2 county names pull/#1424
+- Various: Update No Data and NULL names pull/#1420
 
 ## 2017
 
