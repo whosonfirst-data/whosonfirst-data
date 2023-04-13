@@ -4,12 +4,14 @@ _This is a human generated overview of significant changes to Who's On First pla
 across all repos. More recent changes are at the top, oldest changes at the bottom._
 
 ## 2022
--
+- Tk tk tk
 
 ## 2021
 - Improved quality of 590 megacity locality records, [blog post](https://www.whosonfirst.org/blog/2021/02/11/megacities/).
 
-## 2020 May
+## 2020
+
+### 2020 May
 
 ### AUSTRALIA
 - Update Ulimambri. (Pull request [#23](https://github.com/whosonfirst-data/whosonfirst-data-admin-au/pull/23))
@@ -62,7 +64,7 @@ across all repos. More recent changes are at the top, oldest changes at the bott
 - Standardize on unknown source in various countries. (E.G. pull request [#62](https://github.com/whosonfirst-data/whosonfirst-data-admin-us/pull/62))
 
 
-## 2020 April
+### 2020 April
 
 ### AFGHANISTAN
 - Update Fatah record to remove funky name translation. ([Pull request. (Issue [#11](https://github.com/whosonfirst-data/whosonfirst-data-admin-af/pull/11))](https://github.com/whosonfirst-data/whosonfirst-data/issues/11](https://github.com/whosonfirst-data/whosonfirst-data-admin-af/pull/11))))
@@ -112,7 +114,7 @@ across all repos. More recent changes are at the top, oldest changes at the bott
 - Goodbye old Tempelhof Central Airport. ([Pull request. (Issue [#18](https://github.com/whosonfirst-data/whosonfirst-data-admin-xy/pull/18))](https://github.com/whosonfirst-data/whosonfirst-data/issues/18](https://github.com/whosonfirst-data/whosonfirst-data-admin-xy/pull/18))))
 
 
-## 2020 March
+### 2020 March
 
 ### GAMBIA
 - Update names for Banjul. ([Issue. (Issue [#1802](https://github.com/whosonfirst-data/whosonfirst-data/issues/1802))](https://github.com/whosonfirst-data/whosonfirst-data/issues/1802](https://github.com/whosonfirst-data/whosonfirst-data/issues/1802))))
@@ -153,7 +155,7 @@ across all repos. More recent changes are at the top, oldest changes at the bott
 - Remove whosonfirst-data-{country code} repos as we went with different naming convention. ([Issue. (Issue [#1806](https://github.com/whosonfirst-data/whosonfirst-data/issues/1806))](https://github.com/whosonfirst-data/whosonfirst-data/issues/1806](https://github.com/whosonfirst-data/whosonfirst-data/issues/1806))))
 
 
-## 2020 February
+### 2020 February
 
 ### AFGHANISTAN
 - Remove 2 funk temporary files from repp. ([Issue. (Issue [#1800](https://github.com/whosonfirst-data/whosonfirst-data/issues/1800))](https://github.com/whosonfirst-data/whosonfirst-data/issues/1800](https://github.com/whosonfirst-data/whosonfirst-data/issues/1800))))
@@ -176,7 +178,7 @@ across all repos. More recent changes are at the top, oldest changes at the bott
 - Add back LICENSE file as pointer. ([Issue. (Issue [#1795](https://github.com/whosonfirst-data/whosonfirst-data/issues/1795))](https://github.com/whosonfirst-data/whosonfirst-data/issues/1795](https://github.com/whosonfirst-data/whosonfirst-data/issues/1795))))
 
 
-## 2020 January
+### 2020 January
 
 ### BRAZIL
 - Add 5 macroregion records for statistical purposes ([issue. (Issue [#1128](https://github.com/whosonfirst-data/whosonfirst-data/issues/1128))](https://github.com/whosonfirst-data/whosonfirst-data/issues/1128](https://github.com/whosonfirst-data/whosonfirst-data/issues/1128))))
@@ -209,8 +211,9 @@ across all repos. More recent changes are at the top, oldest changes at the bott
 - Clean up records with a megacity tag ([issue. (Issue [#701](https://github.com/whosonfirst-data/whosonfirst-data/issues/701))](https://github.com/whosonfirst-data/whosonfirst-data/issues/701](https://github.com/whosonfirst-data/whosonfirst-data/issues/701))))
 - Ensure megacities have `population` and `population_rank` ([issue. (Issue [#797](https://github.com/whosonfirst-data/whosonfirst-data/issues/797))](https://github.com/whosonfirst-data/whosonfirst-data/issues/797](https://github.com/whosonfirst-data/whosonfirst-data/issues/797))))
 
+## 2019
 
-## 2019 December
+### 2019 December
 
 ### BRAZIL
 - Update Portugese localized names of around 4,500 counties, and correct names of 3 ([issue. (Issue [#1756](https://github.com/whosonfirst-data/whosonfirst-data/issues/1756))](https://github.com/whosonfirst-data/whosonfirst-data/issues/1756](https://github.com/whosonfirst-data/whosonfirst-data/issues/1756))))
@@ -240,7 +243,7 @@ across all repos. More recent changes are at the top, oldest changes at the bott
 - Fix invalid JSON in single alt file ([issue. (Issue [#1764](https://github.com/whosonfirst-data/whosonfirst-data/issues/1764))](https://github.com/whosonfirst-data/whosonfirst-data/issues/1764](https://github.com/whosonfirst-data/whosonfirst-data/issues/1764))))
 
 
-## 2019 November
+### 2019 November
 
 ### INDIA
 - Updated administrative records in select localities in India ([issue](https://github.com/whosonfirst-data/whosonfirst-data/issues/1593))
@@ -281,7 +284,7 @@ across all repos. More recent changes are at the top, oldest changes at the bott
   - See issue for PR fixes
 
 
-## 2019 October
+### 2019 October
 
 ### NORWAY
 - Updated locality and neighbourhood records in Norway ([issue](https://github.com/whosonfirst-data/whosonfirst-data/issues/298))
@@ -324,7 +327,7 @@ across all repos. More recent changes are at the top, oldest changes at the bott
   - Adding Wikipedia and Wikidata-sourced name translations to any record without a name translation
   - Completing PIP work to updating or confirming all `wof:hierarchy` properties for all records in the Poland admin repository
 
-## 2019 January thru September
+### 2019 January thru September
 
 - Achieve 99% global `locality` coverage via Geonames.org ingest of missing records, [blog post](https://www.whosonfirst.org/blog/2019/05/13/geonames/). This increased locality count from 345,000 to just over 4.4 million records (+12.7x increase), with a new total number of administrative records in the whosonfirst-data repositories to 4.8 million places.
 - The big data mono-repo is split into per-country repos at Github's request because "so much datas", [blog post](https://www.whosonfirst.org/blog/2019/05/09/changes/).
