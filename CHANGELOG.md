@@ -331,7 +331,28 @@ across all repos. More recent changes are at the top, oldest changes at the bott
 
 - Achieve 99% global `locality` coverage via Geonames.org ingest of missing records, [blog post](https://www.whosonfirst.org/blog/2019/05/13/geonames/). This increased locality count from 345,000 to just over 4.4 million records (+12.7x increase), with a new total number of administrative records in the whosonfirst-data repositories to 4.8 million places.
 - The big data mono-repo is split into per-country repos at Github's request because "so much datas", [blog post](https://www.whosonfirst.org/blog/2019/05/09/changes/).
-- TODO
+
+### 2019 January
+
+- Saudi Arabia: Updated country, region, county, locality, and neighbourhood geometries, often with polygons #1468
+- Update/verify Arabic translations in Saudi Arabia #1462
+- Cleanup and add Arabic name translation in Arabic speaking countries pulls/#1465
+- United Kingdom locality vis-a-vis localadmin & general placetype cleanup after November 2018 work #1367 and #1086
+- Fix more airport campus records pulls/#1470
+- Exportify and correct two junk records in United Kingdom pulls/#1467
+- Make Coonville in Ohio search only (not for map display) pulls/#1444
+
+### 2019 February
+
+### 2019 March
+
+### 2019 April
+
+### 2019 May
+
+- We published [blog post](https://www.whosonfirst.org/blog/2019/05/13/geonames/) for the GeoNames locality import completed 4th quarter of 2018.
+- The big data mono-repo is split into per-country repos at Github's request because "so much datas", [blog post](https://www.whosonfirst.org/blog/2019/05/09/changes/).
+
 
 ## 2018
 
@@ -465,12 +486,13 @@ across all repos. More recent changes are at the top, oldest changes at the bott
 
 ### 2018 November
 
-- United Kingdom: major placetype cleanup to add new ceremonial county records at the region placetype, move pre-existing WOF region records to the county placetype, set the localadmin and region records in Scotland as coterminous, add new region records to Northern Ireland, Add county to `placetype_alt` of London or make new `coterminous` record with label hierarchy 0, pdate buffered point geometries to points, with appropriate property flags, flag null localadmin as statistical gore, no hier label, update name, and more. pull/#1368 and #1265 and #1228 and #44
+- United Kingdom: major placetype cleanup to add new ceremonial county records at the region placetype, move pre-existing WOF region records to the county placetype, set the localadmin and region records in Scotland as coterminous, add new region records to Northern Ireland, Add county to `placetype_alt` of London or make new `coterminous` record with label hierarchy 0, pdate buffered point geometries to points, with appropriate property flags, flag null localadmin as statistical gore, no hier label, update name, and more. pull/#1368 and #1265 and #1228 and #44 and #1367
 - France: Significant reworking of localadmin and locality records in France, including marking many that are unitary with `wof:placetype_alt`, and retiring of many of the earlier Quattroshapes polygons, from IGN. #1094 and #1277
 - Verify macroregions with `hierarchy_label=1` and reset to 0 for Italy, Spain, and Belgium #1370
 - GeoNames locality import, part 2 pull/#1353
 - GeoNames locality import, part 3 pull/#1376
 - Clean-up various preferred names of localities in Canada #1409
+- Saudi Arabia region and county names and translations, including for English and Arabic #1413
 - India: Region cleanup, properties and geometries pull/#1341
 - Update Pakistan regions (like for defunct Federally Administered Tribal Areas) and add Urdu names #1404
 - Update China region names and ISO codes #1402
@@ -484,7 +506,7 @@ across all repos. More recent changes are at the top, oldest changes at the bott
 - Superceed two more funky London records into the capital city record #1360
 - Update `fra_x_preferred` name for Saint-Alban locality #1351
 - Australian Capital Territory abbreviation is not CT #1349
-- AUS: Updated codes for Victoria ready pull/#1395
+- Australia: Updated codes for Victoria ready pull/#1395
 - More airport campus fixes, thanks @imresamu pull/#1392, #1390, #1389, #1388, #1387, #1386, and #1375
 - Update Ukrain regions pull/#1384
 
@@ -496,7 +518,6 @@ across all repos. More recent changes are at the top, oldest changes at the bott
 - Update names, translations for Spanish regions, and updated macroregion and region geometries #42
 - Update names for regions in the United Arab Emirates #1422
 - Update geometry of Italy to exclude San Marino and Vatican City, and include Campione D'Italia.  #1414
-- Update Saudi Arabia region and county names and translations, including for English and Arabic #1413
 - Add macroregion and region data in Finland #1099
 - Cleanup outdated and new Finland localadmin records #1184
 - Post-merge neighbourhood cleanup in Calgary neighbourhood #838
