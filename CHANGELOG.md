@@ -3,11 +3,178 @@
 _This is a human generated overview of significant changes to Who's On First place data
 across all repos. More recent changes are at the top, oldest changes at the bottom._
 
+## 2023
+
+### 2023 April
+
+- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-04-01..2022-04-30+is%3Aclosed+) made directly to the individual country repos as PRs...
+
+### 2023 March
+
+- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-03-01..2022-03-31+is%3Aclosed+) made directly to the individual country repos as PRs...
+
+### 2023 February
+
+- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-02-01..2022-02-28+is%3Aclosed+) made directly to the individual country repos as PRs...
+
+### 2023 January
+
+- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-01-01..2022-01-31+is%3Aclosed+) made directly to the individual country repos as PRs...
+
 ## 2022
-- Tk tk tk
+
+### 2022 December
+
+- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-12-01..2022-12-31+is%3Aclosed+) made directly to the individual country repos as PRs...
+
+### 2022 November
+
+- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-11-01..2022-11-30+is%3Aclosed+) made directly to the individual country repos as PRs...
+
+### 2022 October
+
+- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-10-01..2022-10-31+is%3Aclosed+) made directly to the individual country repos as PRs...
+
+### 2022 September
+
+- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-09-01..2022-09-30+is%3Aclosed+) made directly to the individual country repos as PRs...
+
+### 2022 August
+
+- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-08-01..2022-08-31+is%3Aclosed+) made directly to the individual country repos as PRs...
+
+### 2022 July
+
+- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-07-01..2022-07-30+is%3Aclosed+) made directly to the individual country repos as PRs...
+
+### 2022 June
+
+- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-06-01..2022-06-30+is%3Aclosed+) made directly to the individual country repos as PRs...
+
+### 2022 May
+
+- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-05-01..2022-05-31+is%3Aclosed+) made directly to the individual country repos as PRs...
+
+### 2022 April
+
+- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-04-01..2022-04-30+is%3Aclosed+) made directly to the individual country repos as PRs...
+
+### 2022 March
+
+- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-03-01..2022-03-31+is%3Aclosed+) made directly to the individual country repos as PRs...
+
+### 2022 February
+
+- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-02-01..2022-02-28+is%3Aclosed+) made directly to the individual country repos as PRs...
+
+### 2022 January
+
+- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-01-01..2022-01-31+is%3Aclosed+) made directly to the individual country repos as PRs...
 
 ## 2021
-- Improved quality of 590 megacity locality records, [blog post](https://www.whosonfirst.org/blog/2021/02/11/megacities/).
+
+### 2021 December
+
+- Albania: Add missing locality of Divjakë (Issue [#1822](https://github.com/whosonfirst-data/whosonfirst-data/issues/1822))
+- Finland: Update region geometries for Northern Ostrobothnia and Kainuu (Issue [#1499](https://github.com/whosonfirst-data/whosonfirst-data/issues/1499))
+- France: Resolve duplicate features between France and Guadalupe (Issue [#726](https://github.com/whosonfirst-data/whosonfirst-data/issues/726))
+- Ireland: Admin updates across region, county, localadmin, and locality records, with particular care around Dublin, Galway, and Cork, from Ordnance Survey Ireland. (Issue [#1443 and #1238 and #1134 and #1849](https://github.com/whosonfirst-data/whosonfirst-data/issues/1443 and #1238 and #1134 and #1849))
+- Ireland: Fix invalid json (with initial discussion of adding GitHub actions to ensure future validations) (Issue [#1989](https://github.com/whosonfirst-data/whosonfirst-data/issues/1989))
+- Puerto Rico: Update dependency geometry (Issue [#1780](https://github.com/whosonfirst-data/whosonfirst-data/issues/1780))
+- United States: Add cessation date and mark San Francisco (Minnesota) ghost town as non-current (Issue [#1987](https://github.com/whosonfirst-data/whosonfirst-data/issues/1987))
+- United States: Deprecate funky neighbourhood record in Detroit (Issue [#1515](https://github.com/whosonfirst-data/whosonfirst-data/issues/1515))
+- United States: Sort out multiple records for Cleveland Museum of Art venue (Issue [#1978](https://github.com/whosonfirst-data/whosonfirst-data/issues/1978))
+- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2021-12-01..2021-12-31+is%3Aclosed+) made directly to the individual country repos as PRs...
+
+### 2021 November
+
+- Greece: Merge multi-part polygon records for Athens (Issue [#733 #711](https://github.com/whosonfirst-data/whosonfirst-data/issues/733 #711))
+- Indonesia: Update region name translations and wof:name values (Issue [#1448](https://github.com/whosonfirst-data/whosonfirst-data/issues/1448))
+- St. Pierre and Miquelon: Untangle records for dependency, region, and locality placetypes (Issue [#1843](https://github.com/whosonfirst-data/whosonfirst-data/issues/1843))
+- United States: Charlotte (North Carolina) was missing population rank (Issue [#1633](https://github.com/whosonfirst-data/whosonfirst-data/issues/1633))
+- United States: Deprecate Art Institute of Chicago venue (Illinois) (Issue [#1970](https://github.com/whosonfirst-data/whosonfirst-data/issues/1970))
+- United States: Update Stapleton neighbourhood name (Central Park) (Issue [#1968](https://github.com/whosonfirst-data/whosonfirst-data/issues/1968))
+- Various: Import more name translations from Natural Earth version 5 (Issue [#1961](https://github.com/whosonfirst-data/whosonfirst-data/issues/1961))
+- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2021-11-01..2021-11-30+is%3Aclosed+) made directly to the individual country repos as PRs...
+
+### 2021 October
+
+- Portugal: Updates 56 neighbourhoods in Porto (Issue [#1949](https://github.com/whosonfirst-data/whosonfirst-data/issues/1949))
+- Various: Move all disputed areas to XY repo and cleanup their names, including validating against Natural Earth, and setting controlled hierarchies (Issue [#6](https://github.com/whosonfirst-data/whosonfirst-data/issues/6))
+- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2021-10-01..2021-10-31+is%3Aclosed+) made directly to the individual country repos as PRs...
+
+### 2021 September
+
+- North Macedonia: Rename country from Macedonia (related to European Union's accession deal with Greece)  (Issue [#1653](https://github.com/whosonfirst-data/whosonfirst-data/issues/1653))
+- South Korea: Update 3 neighbourhood records around Yongin (Issue [#1916](https://github.com/whosonfirst-data/whosonfirst-data/issues/1916))
+- United States: Correct spelling of Parnassus neighbourhood in San Francisco (California) (Issue [#1962](https://github.com/whosonfirst-data/whosonfirst-data/issues/1962))
+- Various: Backfill airport campus name variant properties with IATA/ICAO codes (Issue [#1963](https://github.com/whosonfirst-data/whosonfirst-data/issues/1963))
+- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2021-09-01..2021-09-30+is%3Aclosed+) made directly to the individual country repos as PRs...
+
+### 2021 August
+
+- Neighbourhood "Usa" actually referrs to University of South Alabama (Issue [#1959](https://github.com/whosonfirst-data/whosonfirst-data/issues/1959))
+- Locality geometry mismatch (Issue [#1958](https://github.com/whosonfirst-data/whosonfirst-data/issues/1958))
+- Saudi Arabia: Update neighbourhoods in Mecca (Issue [#1955](https://github.com/whosonfirst-data/whosonfirst-data/issues/1955))
+- Saudi Arabia: Update Riyadh neighbourhoods (Issue [#1952](https://github.com/whosonfirst-data/whosonfirst-data/issues/1952))
+- Incorrect region in the hierarchy on Kennett, MO (Issue [#1889](https://github.com/whosonfirst-data/whosonfirst-data/issues/1889))
+- Communications Hill, San Jose, CA boundary is a construction site, not the neighborhood (Issue [#1787](https://github.com/whosonfirst-data/whosonfirst-data/issues/1787))
+- Add localized label properties to admin1/admin2 (Issue [#1640](https://github.com/whosonfirst-data/whosonfirst-data/issues/1640))
+- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2021-08-01..2021-08-31+is%3Aclosed+) made directly to the individual country repos as PRs...
+
+### 2021 July
+
+- Luxembourg: Admin updates across region, localadmin, locality, and neighbourhood placetypes, from Digital Lëtzebuerg (Issue [#1149 and #1948](https://github.com/whosonfirst-data/whosonfirst-data/issues/1149 and #1948))
+- United States: Wrong population figure for Detroit (Illinois) versus the one in Michigan (Issue [#1951](https://github.com/whosonfirst-data/whosonfirst-data/issues/1951))
+- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2021-07-01..2021-07-30+is%3Aclosed+) made directly to the individual country repos as PRs...
+
+### 2021 June
+
+- Germany: Untangle coterminous records for Bremen (Issue [#1945](https://github.com/whosonfirst-data/whosonfirst-data/issues/1945))
+- Indonesia: Update labels, names, and concordances in region records (Issue [#1448](https://github.com/whosonfirst-data/whosonfirst-data/issues/1448))
+- Poland: County Poznan appears incorrectly as "Loredan Popa" (Issue [#1943](https://github.com/whosonfirst-data/whosonfirst-data/issues/1943))
+- Switzerland: Update translations, centroids, etc in 31 locality records (Issue [#1931](https://github.com/whosonfirst-data/whosonfirst-data/issues/1931))
+- High Seas: Confirm WOF already has Southern Ocean record (Issue [#1944](https://github.com/whosonfirst-data/whosonfirst-data/issues/1944))
+- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2021-06-01..2021-06-30+is%3Aclosed+) made directly to the individual country repos as PRs...
+
+### 2021 May
+
+- Palestine: Update around 1,102 localities records by resolving exploded multi-part features (Issue [#1627](https://github.com/whosonfirst-data/whosonfirst-data/issues/1627))
+- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2021-05-01..2021-05-31+is%3Aclosed+) made directly to the individual country repos as PRs...
+
+### 2021 April
+
+- Albanis: Add Kukes International Airport (Issue [#1938](https://github.com/whosonfirst-data/whosonfirst-data/issues/1938))
+- South Korea: Update and add localized labels and populations to 267 region and county features (Issue [#1454](https://github.com/whosonfirst-data/whosonfirst-data/issues/1454))
+- United Arab Emirates: Update locality geometries when record is coterminous with parent (Issue [#1939](https://github.com/whosonfirst-data/whosonfirst-data/issues/1939))
+- United Arab Emirates: County of Al Gharba was renamed (Al Dhafra) (Issue [#1932](https://github.com/whosonfirst-data/whosonfirst-data/issues/1932))
+- United Kingdom: Harlesdon neighborhood should be named Harlesden (Issue [#1933](https://github.com/whosonfirst-data/whosonfirst-data/issues/1933))
+- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2021-04-01..2021-04-30+is%3Aclosed+) made directly to the individual country repos as PRs...
+
+### 2021 March
+
+- Indonesia: Fix up locality polygons (needs more work) and add custom neighbourhood polygon coverage in Surabaya and Jakarta (Issue [#1903](https://github.com/whosonfirst-data/whosonfirst-data/issues/1903))
+- Singapore: Updates admin records across country, region, county, locality, borough, macrohood, and neighbourhood placetypes, from Singapore Open Data Portal. (Issue [#1109 and #1092](https://github.com/whosonfirst-data/whosonfirst-data/issues/1109 and #1092))
+- Various: Ensure basic worldview / point-of-view features and geom consistency of country, dependency, and disputed features (needs more work to set the alt geoms with POV tags) (Issue [#1930 and #170 and #1580 and #1218 and #1068](https://github.com/whosonfirst-data/whosonfirst-data/issues/1930 and #170 and #1580 and #1218 and #1068))
+- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2021-03-01..2021-03-31+is%3Aclosed+) made directly to the individual country repos as PRs...
+
+### 2021 February
+
+- Brazil: Small cities named São Paulo seem to have inherited the population of the big one (Issue [#1924](https://github.com/whosonfirst-data/whosonfirst-data/issues/1924))
+- Denmark: Fix typo in Holbaek (Issue [#1925](https://github.com/whosonfirst-data/whosonfirst-data/issues/1925))
+- Kuwait: Update 513 admin records across region, county, locality, neighbourhood, and campus placetypes (Issue [#1912](https://github.com/whosonfirst-data/whosonfirst-data/issues/1912))
+- Qatar: Update 73 admin records across neighbourhoods and localities placetypes, with other general cleanup around Doha and Ar Rayyan (Issue [#1911](https://github.com/whosonfirst-data/whosonfirst-data/issues/1911))
+- United States: Resolve locality vis-a-vis localadmin conterminous places (Towns of Marthas Vineyard & etc), including updating to Census 2019 data, flag localadmin records in Indiana and Missouri as `mz:hierarchy_label = 0`, and create a few localadmin and locality `wof:statistical_gore = 1` features to ensure continuous fabric of features. (Issue [#538](https://github.com/whosonfirst-data/whosonfirst-data/issues/538) and in [us/#86](https://github.com/whosonfirst-data/whosonfirst-data-admin-us/pull/86) and updated [property descriptions](https://github.com/whosonfirst/whosonfirst-properties/issues/104))
+- Various: Add ITU phone dialing calling codes to country records (`itu:country_code` and `itu:region`) (Issue [#1929](https://github.com/whosonfirst-data/whosonfirst-data/issues/1929))
+- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2021-02-01..2021-02-28+is%3Aclosed+) made directly to the individual country repos as PRs...
+
+### 2021 January
+
+- New Zealand: Fix 5 bad locality records (Issue [#1920](https://github.com/whosonfirst-data/whosonfirst-data/issues/1920))
+- Philippines: Remove lbl:bbox properties on megacity records (Issue [#1918](https://github.com/whosonfirst-data/whosonfirst-data/issues/1918))
+- United States: Add postal cities (add locality names on postalcode placetype features), with new `"mz:postal_locality"` (common), `"mz:postal_locality_alt"` (common), and `"mz:postal_locality_funky"` (limited to several examples) properties based on WOF venues data. (Issue [#202 and discussion in [us/#5](https://github.com/whosonfirst-data/whosonfirst-data-postalcode-us/pull/5).](https://github.com/whosonfirst-data/whosonfirst-data/issues/202 and discussion in [us/#5](https://github.com/whosonfirst-data/whosonfirst-data-postalcode-us/pull/5).))
+- Various: Give course polygon geometries to 590 "megacity" from Natural Earth's locality polygons. [blog post](https://www.whosonfirst.org/blog/2021/02/11/megacities/). (Issue [#1547](https://github.com/whosonfirst-data/whosonfirst-data/issues/1547))
+- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2021-01-01..2021-01-31+is%3Aclosed+) made directly to the individual country repos as PRs...
 
 ## 2020
 
