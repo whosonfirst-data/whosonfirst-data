@@ -27,73 +27,82 @@ across all repos. More recent changes are at the top, oldest changes at the bott
 
 - Morocco: Add extra names and Wikidata concordance to Laayoune #302
 - Spain: Update admin data in Catalonia at county and localadmin placetypes for geometries and names, from Institut Cartogràfic i Geològic de Catalunya #1613
-- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-12-01..2022-12-31+is%3Aclosed+) made directly to the individual country repos as PRs...
+- Various: ~2 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-12-01..2022-12-31+is%3Aclosed+) made directly to the individual country repos as PRs...
 
 ### 2022 November
 
 - Morocco: Updates regions to match 2015 redistricting, adds polygon geoms to ~200 locality, ensures any former locality points in new locality polygons are marked as neighbourhoods instead #1164 and #302
 - Nigeria: Update and/or add 4,073 localities country-wide and neighbourhoods in Lagos, including demoting some GeoNames.org sourced localities to neighbourhoods. #2015
 - Poland: Updates 300 locality records adding polygons and adding 10 missing localities. however additional work should be done via [#2011](https://github.com/whosonfirst-data/whosonfirst-data/issues/2011). #1934
-- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-11-01..2022-11-30+is%3Aclosed+) made directly to the individual country repos as PRs...
+- Various: ~3 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-11-01..2022-11-30+is%3Aclosed+) made directly to the individual country repos as PRs...
 
 ### 2022 October
 
 - India: Darjeeling had in incorrect longitude #2012
 - Iraq: Update and add 1,130 records for neighbourhoods as polygons in Baghdad and adjust locality of the capital (and few othe major localities), with name updates #1910
-- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-10-01..2022-10-31+is%3Aclosed+) made directly to the individual country repos as PRs...
+- Taiwan: Update Taiwan name properties (Pull request [tw/#17](https://github.com/whosonfirst-data/whosonfirst-data-admin-tw/pull/17) and [tw/#19](https://github.com/whosonfirst-data/whosonfirst-data-admin-tw/pull/19))
+- Taiwan: Update Taiwan name properties (Pull request [xx/#21](https://github.com/whosonfirst-data/whosonfirst-data-admin-xx/pull/21))
+- Various: ~16 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-10-01..2022-10-31+is%3Aclosed+) made directly to the individual country repos as PRs...
 
 ### 2022 September
 
 - India: Add 5 missing localities #1855
 - United Arab Emirates: Add and update 1,018 features across locality and neighbourhood placetypes, including geometry cleanup along coastline and Arabic and English name localizaitons and review of "leftover" point geometries. Good example of screenshots in PR. #2010
-- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-09-01..2022-09-30+is%3Aclosed+) made directly to the individual country repos as PRs...
+- United Kingdom: Update postalcode records to May 2020 official release. (Pull request [postalcode-gb/#6](https://github.com/whosonfirst-data/whosonfirst-data-postalcode-gb/pull/6))
+- United Kingdom: Update postalcode records to August 2021 official release. (Pull request [postalcode-gb/#7](https://github.com/whosonfirst-data/whosonfirst-data-postalcode-gb/pull/7))
+- United Kingdom: Update postalcode records to August 2022 official release. (Pull request [postalcode-gb/#8](https://github.com/whosonfirst-data/whosonfirst-data-postalcode-gb/pull/8))
+- Various: ~3 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-09-01..2022-09-30+is%3Aclosed+) made directly to the individual country repos as PRs...
 
 ### 2022 August
 
 - Australia: Add missing Yarrabilba (Queensland) locality, including good discussion on how to make more complicated single feature imports to Who's On First #2004
 - Pakistan: Update 430+ locality, 1100+ neighbourhood records, and more names for same #1735
 - Saudi Arabia: Update 513 records to add polygon to largest localities and add neighbourhoods in major cities, with name localizations #1909
+- Taiwan: Update zho names in Taiwan macroregion and country records (Pull request [tw/#16](https://github.com/whosonfirst-data/whosonfirst-data-admin-tw/pull/16))
 - United States: Update ~ 260 neighbourhoods and microhoods (marking some as dprecated) in Salt Lake City, with centroid updates #1746
-- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-08-01..2022-08-31+is%3Aclosed+) made directly to the individual country repos as PRs...
+- Various: ~27 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-08-01..2022-08-31+is%3Aclosed+) made directly to the individual country repos as PRs...
 
 ### 2022 July
 
 - Japan: Fix invalid concordance source for Kansai International Airport campus record #2006
 - India: Update locality records to draw polygon geometries for 1,550 largest population localities (and all localities over 50k people, and all region and county capitals), including making new records (and deprecating some others), and adjusting neighbourhoods as appropriate, and unsetting any other Quattroshapes popcorn shaped default geoms to point geoms #2005, #1855, and #1838
-- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-07-01..2022-07-30+is%3Aclosed+) made directly to the individual country repos as PRs...
+- United States: Adjust 2 neighbourhood records in New York city (New York) to be on land instead of the water (Pull request [us/#132](https://github.com/whosonfirst-data/whosonfirst-data-admin-us/pull/132))
+- Various: ~1 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-07-01..2022-07-30+is%3Aclosed+) made directly to the individual country repos as PRs...
 
 ### 2022 June
 
 - Germany: Fix invalid lang tag formatting in for Balderschwang #2003
-- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-06-01..2022-06-30+is%3Aclosed+) made directly to the individual country repos as PRs...
+- Indian Ocean: Update Spanish names (Pull request [xy/#30](https://github.com/whosonfirst-data/whosonfirst-data-admin-xy/pull/30))
+- Various: ~2 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-06-01..2022-06-30+is%3Aclosed+) made directly to the individual country repos as PRs...
 
 ### 2022 May
 
-- A quite month
-- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-05-01..2022-05-31+is%3Aclosed+) made directly to the individual country repos as PRs...
+- Germany: Untangle Berlin localities (Pull request [de/#65](https://github.com/whosonfirst-data/whosonfirst-data-admin-de/pull/65))
+- United Kingdom: Update Falkland Islands names. (Pull request [gb/#63](https://github.com/whosonfirst-data/whosonfirst-data-admin-gb/pull/63))
+- Various: ~9 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-05-01..2022-05-31+is%3Aclosed+) made directly to the individual country repos as PRs...
 
 ### 2022 April
 
 - A quite month
-- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-04-01..2022-04-30+is%3Aclosed+) made directly to the individual country repos as PRs...
+- Various: ~8 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-04-01..2022-04-30+is%3Aclosed+) made directly to the individual country repos as PRs...
 
 ### 2022 March
 
 - India: Update 7 county records around Delhi with better names #1995
 - South Africa: Update features across county, localadmin, locality and neighbourhood placetypes, with conterminous as appropriate, from South Africa Municipal Demarcation Board. #1991
-- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-03-01..2022-03-31+is%3Aclosed+) made directly to the individual country repos as PRs...
+- Various: ~5 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-03-01..2022-03-31+is%3Aclosed+) made directly to the individual country repos as PRs...
 
 ### 2022 February
 
 - A quite month
-- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-02-01..2022-02-28+is%3Aclosed+) made directly to the individual country repos as PRs...
+- Various: ~20 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-02-01..2022-02-28+is%3Aclosed+) made directly to the individual country repos as PRs...
 
 ### 2022 January
 
 - Japan: Revise 5k+ neighbourhood zoom levels so they show up in later zooms only, and add borough records in Tokyo #1990
 - Russia: Add missing Ingushetia region, clips 2 neighboring regions of North Ossetia-Alania and Chechnya, correct some src:geom properties for other region and county records  #1398 and #1579
 - Various: Fix some adminrecords geoms that were still invalid when importing them into Elasticsearch geometry, including in including Finland, Ireland, Argentina, and United Arab Emirates #975
-- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-01-01..2022-01-31+is%3Aclosed+) made directly to the individual country repos as PRs...
+- Various: ~20 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-01-01..2022-01-31+is%3Aclosed+) made directly to the individual country repos as PRs...
 
 ## 2021
 
