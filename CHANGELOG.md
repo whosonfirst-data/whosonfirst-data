@@ -7,19 +7,35 @@ across all repos. More recent changes are at the top, oldest changes at the bott
 
 ### 2023 April
 
-- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-04-01..2022-04-30+is%3Aclosed+) made directly to the individual country repos as PRs...
+- In Progress: massive import of locality records in India #2027
+- Various: ~5 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-04-01..2022-04-30+is%3Aclosed+) made directly to the individual country repos as PRs...
 
 ### 2023 March
 
-- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-03-01..2022-03-31+is%3Aclosed+) made directly to the individual country repos as PRs...
+- Germany: Resolve funky duplicate Hamburg locality record #2030
+- Germany: Untangle Scharding and Vornbach records #2028
+- Turkey: Update and/or add ~1,760 neighbourhoods of Istanbul, with appropriate adjustments to impacted locality points, and coastline cleanup of country and locality features #1737
+- United States: Adjust Swedish preferred name #2037
+- United States: Correct top-level ids and property types in three airport campus records #2001 and #2002
+- TODO: Various: No up-to-date bundles available #1661
+- Various: ~14 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-03-01..2022-03-31+is%3Aclosed+) made directly to the individual country repos as PRs...
 
 ### 2023 February
 
-- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-02-01..2022-02-28+is%3Aclosed+) made directly to the individual country repos as PRs...
+- Austria: Encoding problem with umlaut (special vowls) #2022
+- Germany: Encoding problem with umlaut (special vowls) #2022
+- Germany: DE Wrong supersede for Forchheim #2023
+- Italy: Upgrade neighbourhood shapes for Rome neighbourhood #420
+- Oceans: Update French name properties on ocean records. (Pull request [xy/#31](https://github.com/whosonfirst-data/whosonfirst-data-admin-xy/pull/31))
+- Various: ~5 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-02-01..2022-02-28+is%3Aclosed+) made directly to the individual country repos as PRs...
 
 ### 2023 January
 
-- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-01-01..2022-01-31+is%3Aclosed+) made directly to the individual country repos as PRs...
+- Monaco: Adjust label point for country to be in the country #2020
+- Germany: Wenigumstadt property and hierarchy updates #1998
+- India: Update Jammu and Kashmir union territory and Ladakh regions and disputed records, per internal admin changes in India #1690
+- United Kingdom: Update postalcode records to November 2022 official release. (Pull request [postalcode-gb/#10](https://github.com/whosonfirst-data/whosonfirst-data-postalcode-gb/pull/10))
+- Various: ~6 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-01-01..2022-01-31+is%3Aclosed+) made directly to the individual country repos as PRs...
 
 ## 2022
 
