@@ -100,6 +100,7 @@ across all repos. More recent changes are at the top, oldest changes at the bott
 ### 2021 October
 
 - Portugal: Updates 56 neighbourhoods in Porto (Issue [#1949](https://github.com/whosonfirst-data/whosonfirst-data/issues/1949))
+- United Arab Emirates: Add new Expo locality (Pull request [ae/#24](https://github.com/whosonfirst-data/whosonfirst-data-admin-ae/pull/24)
 - Various: Move all disputed areas to XY repo and cleanup their names, including validating against Natural Earth, and setting controlled hierarchies (Issue [#6](https://github.com/whosonfirst-data/whosonfirst-data/issues/6))
 - Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2021-10-01..2021-10-31+is%3Aclosed+) made directly to the individual country repos as PRs...
 
@@ -125,6 +126,8 @@ across all repos. More recent changes are at the top, oldest changes at the bott
 ### 2021 July
 
 - Luxembourg: Admin updates across region, localadmin, locality, and neighbourhood placetypes, from Digital Lëtzebuerg (Issue [#1149 and #1948](https://github.com/whosonfirst-data/whosonfirst-data/issues/1149 and #1948))
+- Mexico: Update Spanish and English names (Pull request [mx/#18](https://github.com/whosonfirst-data/whosonfirst-data-admin-mx/pull/18))
+- Philippines: Backfill English and Tagalog names on regions and counties (Pull request [ph/#16](https://github.com/whosonfirst-data/whosonfirst-data-admin-ph/pull/16))
 - United States: Wrong population figure for Detroit (Illinois) versus the one in Michigan (Issue [#1951](https://github.com/whosonfirst-data/whosonfirst-data/issues/1951))
 - Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2021-07-01..2021-07-30+is%3Aclosed+) made directly to the individual country repos as PRs...
 
@@ -140,7 +143,7 @@ across all repos. More recent changes are at the top, oldest changes at the bott
 ### 2021 May
 
 - Palestine: Update around 1,102 localities records by resolving exploded multi-part features (Issue [#1627](https://github.com/whosonfirst-data/whosonfirst-data/issues/1627))
-- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2021-05-01..2021-05-31+is%3Aclosed+) made directly to the individual country repos as PRs...
+- Various other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2021-05-01..2021-05-31+is%3Aclosed+) made directly to the individual country repos as PRs (around 34)...
 
 ### 2021 April
 
