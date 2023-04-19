@@ -478,7 +478,7 @@ Jump to month: [January](#2019-January) • [February](#2019-February) • [Ma
 - **Various**: Addition of `src:alt_label` property to each alt file ([issue](https://github.com/whosonfirst-data/whosonfirst-data/issues/1714))
 - **Various**: For localization, add missing `wof:{lang}_x_*` property to macroregion, region, or macrocounty records ([issue. (Issue [#1718](https://github.com/whosonfirst-data/whosonfirst-data/issues/1718))](https://github.com/whosonfirst-data/whosonfirst-data/issues/1718](https://github.com/whosonfirst-data/whosonfirst-data/issues/1718))))
 - **Country rebuilds complete**: Saudi Arabia, United Kingdom (follow up), Australia, Israel (partial), Palestine (partial), United Arab Emirates, Hong Kong, Bahrain, Qatar, Germany, Denmark, Switzerland, Poland, Norway
-- Neighbourhoods: none
+- **Neighbourhoods**: none
 
 ### 2019 January
 
@@ -791,6 +791,7 @@ Jump to month: [January](#2020-January) • [February](#2020-February) • [Ma
 
 - [Write Field](https://writefield.nextzen.org/) launches as a basic web app for editing WOF records!
 - Generate licenses file from whosonfirst-sources, including large refactor and legal compliance audit (which we passed). ([Issue. (Issue [#1081](https://github.com/whosonfirst-data/whosonfirst-data/issues/1081))](https://github.com/whosonfirst-data/whosonfirst-data/issues/1081](https://github.com/whosonfirst-data/whosonfirst-data/issues/1081))))
+- SQLite distributions are kindly generated and hosted by [geocode.earth](https://geocode.earth/data/), from 2020 January
 - Import DigitalEnvoy concordances for `country`, `region`, `localadmin`, and `marketarea` records (eg `digitalenvoy:country_code`). ([Issue. (Issue [#1807](https://github.com/whosonfirst-data/whosonfirst-data/issues/1807))](https://github.com/whosonfirst-data/whosonfirst-data/issues/1807](https://github.com/whosonfirst-data/whosonfirst-data/issues/1807))))
 - Clean up records with a megacity tag ([issue. (Issue [#701](https://github.com/whosonfirst-data/whosonfirst-data/issues/701))](https://github.com/whosonfirst-data/whosonfirst-data/issues/701](https://github.com/whosonfirst-data/whosonfirst-data/issues/701))))
 - Run wiki names script on "high priority" places. ([Issue. (Issue [#1821](https://github.com/whosonfirst-data/whosonfirst-data/issues/1821))](https://github.com/whosonfirst-data/whosonfirst-data/issues/1821](https://github.com/whosonfirst-data/whosonfirst-data/issues/1821))))
@@ -847,6 +848,8 @@ Jump to month: [January](#2020-January) • [February](#2020-February) • [Ma
 
 - Clean up records with a megacity tag ([issue. (Issue [#701](https://github.com/whosonfirst-data/whosonfirst-data/issues/701))](https://github.com/whosonfirst-data/whosonfirst-data/issues/701](https://github.com/whosonfirst-data/whosonfirst-data/issues/701))))
 - Ensure megacities have `population` and `population_rank` ([issue. (Issue [#797](https://github.com/whosonfirst-data/whosonfirst-data/issues/797))](https://github.com/whosonfirst-data/whosonfirst-data/issues/797](https://github.com/whosonfirst-data/whosonfirst-data/issues/797))))
+- SQLite distributions are kindly generated and hosted by [geocode.earth](https://geocode.earth/data/)
+
 
 ### 2020 February
 
