@@ -7,6 +7,8 @@ Jump to year: [2015](#2015) • [2016](#2016) • [2017](#2017) • [2018](#2
 
 ## 2015
 
+### 2015 highlights
+
 - Project starts, see [blog post](https://www.whosonfirst.org/blog/2015/08/18/who-s-on-first/) with around 1M records from [Quattroshapes](https://web.archive.org/web/20220314041229/https://quattroshapes.com/), a compilation of authoritative national mapping agency data, as the basis for the first gazetteer records. While the data is authoritative, coverage is mostly limited to USA, Mexico, western Europe, portions of eastern Europe, Australia, New Zealand, Indonesia, South Africa, Brazil, and Chile. Locality data is more available and original work based on Flickr and Foursquare checkin data mashed up with Where on Earth metadata, which allows coverage to expand to Canada, all of Europe (with some additional European Union data added in), Russia, Japan, South Korea, Taiwan, China, Malaysia, Thailand, and India.
 - **United States**: [Zetashapes](https://web.archive.org/web/20160304022454/http://zetashapes.com/) neighbourhood polygons ingested.
 - **Global**: Import localadmin from Quattroshapes as `localadmin` placetype. (Issue [#112](https://github.com/whosonfirst-data/whosonfirst-data/issues/112))
@@ -25,7 +27,13 @@ Administrative level 0 (below) In gray. Mix of national mapping agency and US St
 
 Quattroshapes gazetteer (below) In light purple. Over 1 million administrative and populated places with around 800,000 having concordance between GeoNames.org and Yahoo! GeoPlanet WOE unique IDs.
 
+### 2015 January thru December omnibus
+
+- Individual updates are not cataloged for 2015
+
 ## 2016
+
+### 2016 highlights
 
 - **Global**: Added Wikidata concordances and over 2M localized names, and population values [blog post](https://www.whosonfirst.org/blog/2016/07/13/wikipedia-data/).
 - **Global**: Doubled global `county` placetype coverage via [Mesoshapes](https://www.whosonfirst.org/blog/2016/12/08/mesoshapes/), part 1, by adding newer open government data and creating shapes for the missing records.
@@ -51,7 +59,13 @@ Quattroshapes gazetteer (below) In light purple. Over 1 million administrative a
 - **Various**: Link up `country`, `dependency`, and `disputed` records to new `empire` placetype. (Issue [#4](https://github.com/whosonfirst-data/whosonfirst-data/issues/4))
 - And many more minor changes...
 
+### 2016 January thru December omnibus
+
+- Individual updates are not cataloged for 2016
+
 ## 2017
+
+### 2017 highlights
 
 - **Global**: Added sparse global records from Quattroshapes point gazetter for additional 227,594 `locality` records (large and medium sized global cities), 110,893 `localadmin`, and 67,620 `neighbourhoods` – see issue [#107](https://github.com/whosonfirst-data/whosonfirst-data/issues/107) and pull request [#824](https://github.com/whosonfirst-data/whosonfirst-data/pull/824).
 - **Global**: We added missing 1,542 global significant cities from Natural Earth, via pull request [#876](https://github.com/whosonfirst-data/whosonfirst-data/pull/876) – the other features were already in WOF and enriched with Natural Earth properties.
@@ -208,6 +222,10 @@ Quattroshapes gazetteer (below) In light purple. Over 1 million administrative a
 
 ## 2018
 
+Jump to month: [January](#2018-January) • [February](#2018-February) • [March](#2018-March) • [April](#2018-April) • [May](#2018-May) • [June](#2018-June) • [July](#2018-July) • [August](#2018-August) • [September](#2018-September) • [October](#2018-October) • [November](#2018-November) • [December](#2018-December)
+
+### 2018 highlights
+
 - While Mapzen shuts down in Dec 2017, [WOF continued on](https://www.whosonfirst.org/blog/2018/01/02/chapter-two/) in 2018 thru work at Snapchat and SFO Museum.
 - Gazetteer data updates resumed in May, 2018 once Stephen and Nathaniel settled at Snapchat.
 - A loosely affiliated `venue` scraper project launched, [alltheplaces.xyz](https://alltheplaces.xyz) – also seeded by Mapzen.
@@ -236,8 +254,6 @@ Quattroshapes gazetteer (below) In light purple. Over 1 million administrative a
 - **Various**: SQLite whosonfirst-data-latest.db has not been updated since 2018-01-25 (Issue [#1226](https://github.com/whosonfirst-data/whosonfirst-data/issues/1226))
 - **Country rebuilds**: Australia, Netherlands, Austria, Denmark, Finland, Ireland, Norway, Sweden, Hong Kong, Philippines (partial), Belgium (?), France, United Kingdom, Spain (partial)
 - **Neighbourhoods**: Park City (Utah, USA)
-
-Jump to month: [January](#2018-January) • [February](#2018-February) • [March](#2018-March) • [April](#2018-April) • [May](#2018-May) • [June](#2018-June) • [July](#2018-July) • [August](#2018-August) • [September](#2018-September) • [October](#2018-October) • [November](#2018-November) • [December](#2018-December)
 
 ### 2018 January
 
@@ -430,6 +446,10 @@ Jump to month: [January](#2018-January) • [February](#2018-February) • [Ma
 
 ## 2019
 
+Jump to month: [January](#2019-January) • [February](#2019-February) • [March](#2019-March) • [April](#2019-April) • [May](#2019-May) • [June](#2019-June) • [July](#2019-July) • [August](#2019-August) • [September](#2019-September) • [October](#2019-October) • [November](#2019-November) • [December](#2019-December)
+
+### 2018 highlights
+
 - **Global**: Achieve 99% global `locality` coverage via Geonames.org ingest of missing records, [blog post](https://www.whosonfirst.org/blog/2019/05/13/geonames/). This increased locality count from 345,000 to just over 4.4 million records (+12.7x increase), with a new total number of administrative records in the whosonfirst-data repositories to 4.8 million places.
 - **Global**: Rerun Wikidata name localization import on per-country repos. This yielded 11,765,604 new names added across 972,158 records. (Issue [#1656](https://github.com/whosonfirst-data/whosonfirst-data/issues/1656))
 - The big data mono-repo is split into per-country repos at Github's request because "so much datas", [blog post](https://www.whosonfirst.org/blog/2019/05/09/changes/).
@@ -452,9 +472,7 @@ Jump to month: [January](#2018-January) • [February](#2018-February) • [Ma
 - **India: Add detailed admin subdivisions for largest localities in India, including**: Ahmedabad, Bangalore, Chandigarh, Chennai, Delhi, Hyderabad, Jaipur, Kolkata, Mumbai, and Pune. ([issue. (Issue [#1593](https://github.com/whosonfirst-data/whosonfirst-data/issues/1593))](https://github.com/whosonfirst-data/whosonfirst-data/issues/1593](https://github.com/whosonfirst-data/whosonfirst-data/issues/1593))))
 - **India**: Upgrade neighbourhood records in Hyderabad, India ([issue. (Issue [#661](https://github.com/whosonfirst-data/whosonfirst-data/issues/661))](https://github.com/whosonfirst-data/whosonfirst-data/issues/661](https://github.com/whosonfirst-data/whosonfirst-data/issues/661))))
 - **Country rebuilds complete**: Saudi Arabia, United Kingdom (follow up), Australia, Israel (partial), Palestine (partial), United Arab Emirates, Hong Kong, Bahrain, Qatar, Germany, Denmark, Switzerland, Poland, Norway
-- Neighbourhoods:
-
-Jump to month: [January](#2019-January) • [February](#2019-February) • [March](#2019-March) • [April](#2019-April) • [May](#2019-May) • [June](#2019-June) • [July](#2019-July) • [August](#2019-August) • [September](#2019-September) • [October](#2019-October) • [November](#2019-November) • [December](#2019-December)
+- Neighbourhoods: none
 
 ### 2019 January
 
@@ -761,6 +779,10 @@ Jump to month: [January](#2019-January) • [February](#2019-February) • [Ma
 
 ## 2020
 
+Jump to month: [January](#2020-January) • [February](#2020-February) • [March](#2020-March) • [April](#2020-April) • [May](#2020-May) • [June](#2020-June) • [July](#2020-July) • [August](#2020-August) • [September](#2020-September) • [October](#2020-October) • [November](#2020-November) • [December](#2020-December)
+
+### 2020 highlights
+
 - [Write Field](https://writefield.nextzen.org/) launches as a basic web app for editing WOF records!
 - Generate licenses file from whosonfirst-sources, including large refactor and legal compliance audit (which we passed). ([Issue. (Issue [#1081](https://github.com/whosonfirst-data/whosonfirst-data/issues/1081))](https://github.com/whosonfirst-data/whosonfirst-data/issues/1081](https://github.com/whosonfirst-data/whosonfirst-data/issues/1081))))
 - Import DigitalEnvoy concordances for `country`, `region`, `localadmin`, and `marketarea` records (eg `digitalenvoy:country_code`). ([Issue. (Issue [#1807](https://github.com/whosonfirst-data/whosonfirst-data/issues/1807))](https://github.com/whosonfirst-data/whosonfirst-data/issues/1807](https://github.com/whosonfirst-data/whosonfirst-data/issues/1807))))
@@ -777,8 +799,6 @@ Jump to month: [January](#2019-January) • [February](#2019-February) • [Ma
 - Flag `capital_of` and `capital` for region <> locality records in Australia, Canada, Denmark, France, Germany, India, Netherlands, New Zealand, Norway, Saudi Arabia, Sweden, United Arab Emirates, United Kingdom, United States (Issue [#58](https://github.com/whosonfirst-data/whosonfirst-data/issues/58))
 - **Country rebuilds complete**: Portugal, Romania, Estonia, New Zealand
 - **Neighbourhoods**: Paris (France)
-
-Jump to month: [January](#2020-January) • [February](#2020-February) • [March](#2020-March) • [April](#2020-April) • [May](#2020-May) • [June](#2020-June) • [July](#2020-July) • [August](#2020-August) • [September](#2020-September) • [October](#2020-October) • [November](#2020-November) • [December](#2020-December)
 
 #### 2020 January
 
@@ -1115,6 +1135,10 @@ Jump to month: [January](#2020-January) • [February](#2020-February) • [Ma
 
 ## 2021
 
+Jump to month: [January](#2021-January) • [February](#2021-February) • [March](#2021-March) • [April](#2021-April) • [May](#2021-May) • [June](#2021-June) • [July](#2021-July) • [August](#2021-August) • [September](#2021-September) • [October](#2021-October) • [November](#2021-November) • [December](#2021-December)
+
+### 2021 highlights
+
 - **United States**: Add postal cities (add locality names on postalcode placetype features), with new `"mz:postal_locality"` (common), `"mz:postal_locality_alt"` (common), and `"mz:postal_locality_funky"` (limited to several examples) properties based on WOF venues data. (Issue [#202 and discussion in [us/#5](https://github.com/whosonfirst-data/whosonfirst-data-postalcode-us/pull/5).](https://github.com/whosonfirst-data/whosonfirst-data/issues/202 and discussion in [us/#5](https://github.com/whosonfirst-data/whosonfirst-data-postalcode-us/pull/5).))
 - **Various**: Give course polygon geometries to 590 "megacity" from Natural Earth's locality polygons. [blog post](https://www.whosonfirst.org/blog/2021/02/11/megacities/). (Issue [#1547](https://github.com/whosonfirst-data/whosonfirst-data/issues/1547))
 - **United States**: Resolve locality vis-a-vis localadmin conterminous places (Towns of Marthas Vineyard & etc), including updating to Census 2019 data, flag localadmin records in Indiana and Missouri as `mz:hierarchy_label = 0`, and create a few localadmin and locality `wof:statistical_gore = 1` features to ensure continuous fabric of features. (Issue [#538](https://github.com/whosonfirst-data/whosonfirst-data/issues/538) and in [us/#86](https://github.com/whosonfirst-data/whosonfirst-data-admin-us/pull/86) and updated [property descriptions](https://github.com/whosonfirst/whosonfirst-properties/issues/104))
@@ -1125,8 +1149,6 @@ Jump to month: [January](#2020-January) • [February](#2020-February) • [Ma
 - **Various**: Backfill airport campus name variant properties with IATA/ICAO codes (Issue [#1963](https://github.com/whosonfirst-data/whosonfirst-data/issues/1963))
 - **Country rebuilds complete**: Kuwait, Qatar, Indonesia (partial), Singapore, South Korea (partial), Palestine (partial), Luxembourg, Ireland (full)
 - **Neighbourhoods**: Saudi Arabia (Mecca and Riyadh)
-
-Jump to month: [January](#2021-January) • [February](#2021-February) • [March](#2021-March) • [April](#2021-April) • [May](#2021-May) • [June](#2021-June) • [July](#2021-July) • [August](#2021-August) • [September](#2021-September) • [October](#2021-October) • [November](#2021-November) • [December](#2021-December)
 
 ### 2021 January
 
@@ -1235,14 +1257,16 @@ Jump to month: [January](#2021-January) • [February](#2021-February) • [Ma
 
 ## 2022
 
+Jump to month: [January](#2022-January) • [February](#2022-February) • [March](#2022-March) • [April](#2022-April) • [May](#2022-May) • [June](#2022-June) • [July](#2022-July) • [August](#2022-August) • [September](#2022-September) • [October](#2022-October) • [November](#2022-November) • [December](#2022-December)
+
+### 2022 highlights
+
 - **Japan**: Revise 5k+ neighbourhood zoom levels so they show up in later zooms only, and add borough records in Tokyo (Issue [#1990](https://github.com/whosonfirst-data/whosonfirst-data/issues/1990))
 - **India**: Update locality records to draw polygon geometries for 1,550 largest population localities (and all localities over 50k people, and all region and county capitals), including making new records (and deprecating some others), and adjusting neighbourhoods as appropriate, and unsetting any other Quattroshapes popcorn shaped default geoms to point geoms (Issue [#2005, #1855, and #1838](https://github.com/whosonfirst-data/whosonfirst-data/issues/2005, #1855, and #1838))
 - **Various**: Fix some adminrecords geoms that were still invalid when importing them into Elasticsearch geometry, including in including Finland, Ireland, Argentina, and United Arab Emirates (Issue [#975](https://github.com/whosonfirst-data/whosonfirst-data/issues/975))
 - **United Kingdom**: Update postalcode records to August 2022 official release. (Pull request [postalcode-gb/#8](https://github.com/whosonfirst-data/whosonfirst-data-postalcode-gb/pull/8))
 - **Country rebuilds complete**: South Africa, Pakistan (partial), Saudi Arabia (partial), United Arab Emirates (partial), Iraq (partial), Morocco (partial), Nigeria (partial), Spain (partial in Catalonia)
 - **Neighbourhoods**: United States (Salt Lake City)
-
-Jump to month: [January](#2022-January) • [February](#2022-February) • [March](#2022-March) • [April](#2022-April) • [May](#2022-May) • [June](#2022-June) • [July](#2022-July) • [August](#2022-August) • [September](#2022-September) • [October](#2022-October) • [November](#2022-November) • [December](#2022-December)
 
 ### 2022 January
 
@@ -1327,13 +1351,15 @@ Jump to month: [January](#2022-January) • [February](#2022-February) • [Ma
 
 ## 2023
 
+Jump to month: [January](#2023-January) • [February](#2023-February) • [March](#2023-March) • [April](#2023-April) • [May](#2023-May) • [June](#2023-June) • [July](#2023-July) • [August](#2023-August) • [September](#2023-September) • [October](#2023-October) • [November](#2023-November) • [December](#2023-December)
+
+### 2023 highlights
+
 - **In Progress**: massive import of locality records in India (Issue [#2027](https://github.com/whosonfirst-data/whosonfirst-data/issues/2027))
 - **India**: Update Jammu and Kashmir union territory and Ladakh regions and disputed records, per internal admin changes in India (Issue [#1690](https://github.com/whosonfirst-data/whosonfirst-data/issues/1690))
 - **United Kingdom**: Update postalcode records to November 2022 official release. (Pull request [postalcode-gb/#10](https://github.com/whosonfirst-data/whosonfirst-data-postalcode-gb/pull/10))
 - **Country rebuilds complete**: India (partial, in-progress)
 - **Neighbourhoods**: Italy (Rome), Turkey (Istanbul)
-
-Jump to month: [January](#2023-January) • [February](#2023-February) • [March](#2023-March) • [April](#2023-April) • [May](#2023-May) • [June](#2023-June) • [July](#2023-July) • [August](#2023-August) • [September](#2023-September) • [October](#2023-October) • [November](#2023-November) • [December](#2023-December)
 
 ### 2023 January
 
