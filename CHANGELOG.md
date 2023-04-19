@@ -1454,4 +1454,4 @@ Jump to month: [January](#2023-January) • [February](#2023-February) • [Ma
 - **In Progress**: massive import of locality records in India (Issue [#2027](https://github.com/whosonfirst-data/whosonfirst-data/issues/2027))
 - **Various**: ~5 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-04-01..2022-04-30+is%3Aclosed+) made directly to the individual country repos as PRs...
 
-_NOTE: This document was created 2019 November. Earlier changes have been backfilled in 2023._
+_NOTE: This document was created 2019 November. Other hanges were backfilled in 2023 April._
