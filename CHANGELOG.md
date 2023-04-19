@@ -9,27 +9,26 @@ Jump to year: [2015](#2015) • [2016](#2016) • [2017](#2017) • [2018](#2
 
 ### 2015 highlights
 
-- Project starts, see [blog post](https://www.whosonfirst.org/blog/2015/08/18/who-s-on-first/) with around 1M records from [Quattroshapes](https://web.archive.org/web/20220314041229/https://quattroshapes.com/), a compilation of authoritative national mapping agency data, as the basis for the first gazetteer records. While the data is authoritative, coverage is mostly limited to USA, Mexico, western Europe, portions of eastern Europe, Australia, New Zealand, Indonesia, South Africa, Brazil, and Chile. Locality data is more available and original work based on Flickr and Foursquare checkin data mashed up with Where on Earth metadata, which allows coverage to expand to Canada, all of Europe (with some additional European Union data added in), Russia, Japan, South Korea, Taiwan, China, Malaysia, Thailand, and India.
-- **United States**: [Zetashapes](https://web.archive.org/web/20160304022454/http://zetashapes.com/) neighbourhood polygons ingested.
+- **Global**: Project starts, see [blog post](https://www.whosonfirst.org/blog/2015/08/18/who-s-on-first/), with around 1M records from [Quattroshapes](https://web.archive.org/web/20220314041229/https://quattroshapes.com/), a compilation of authoritative national mapping agency data, as the basis for the first gazetteer records. While the data is authoritative, coverage is mostly limited to USA, Mexico, western Europe, portions of eastern Europe, Australia, New Zealand, Indonesia, South Africa, Brazil, and Chile. Locality data is more available and original work based on Flickr and Foursquare checkin data mashed up with Where on Earth metadata, which allows coverage to expand to Canada, all of Europe (with some additional European Union data added in), Russia, Japan, South Korea, Taiwan, China, Malaysia, Thailand, and India.
+- **United States**: [Zetashapes](https://web.archive.org/web/20160304022454/http://zetashapes.com/) neighbourhood polygons are ingested (some large rural polygons later rolled back)
 - **Global**: Import localadmin from Quattroshapes as `localadmin` placetype. (Issue [#112](https://github.com/whosonfirst-data/whosonfirst-data/issues/112))
-
-    - **TODO**: QS images here
-
-Administrative level 1 (below) States and provinces in orange; regions shown in red. Mix of national mapping agency and Natural Earth.
-
-Administrative level 2 (below) Counties in bright blue; regions shown in dark blue. National mapping agency data.
-
-Local administrative level (below) In green. This level of government assumes municipal type control over the central town and surrounding countryside. National mapping agency data.
-
-Localities (below) In yellow. In the USA this is the smallest unit of government with legal boundaries. For most other countries the localities here are informal parts of local administrative areas. Mix of national mapping agency, quattroshapes enumeration using foursquare checkins & custom data.
-
-Administrative level 0 (below) In gray. Mix of national mapping agency and US State Department data.  Neighborhoods (below) In purple. Quattroshape enumeration from geo tagged photos in Flickr using GeoPlanet hierarchy.
-
-Quattroshapes gazetteer (below) In light purple. Over 1 million administrative and populated places with around 800,000 having concordance between GeoNames.org and Yahoo! GeoPlanet WOE unique IDs.
+- **Initial coverage** at launch, from Quattroshapes:
+  - Administrative level 1 (below) States and provinces in orange; regions shown in red (imported later in 2016). Mix of national mapping agency and Natural Earth.
+    ![Quattroshapes admin-1 regions](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/qs_adm1.png)
+  - Administrative level 2 (below) Counties in bright blue; regions shown in dark blue. National mapping agency data.
+    ![Quattroshapes admin-2 counties](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/qs_adm2.png)
+  - Localities (below) In yellow. In the USA this is the smallest unit of government with legal boundaries. For most other countries the localities here are informal parts of local administrative areas. Mix of national mapping agency, quattroshapes enumeration using foursquare checkins & custom data.
+    ![Quattroshapes localities](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/qs_localities.png)
+  - Local administrative level (below) In green. This level of government assumes municipal type control over the central town and surrounding countryside. National mapping agency data.
+    ![Quattroshapes localadmin](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/qs_localadmin.png)
+  - Neighbourhood level (below) In purple. Informal and calculated based on gridded enumeration of Flickr geocoded photos.
+    ![Quattroshapes neighborhoods](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/qs_neighborhoods.png)
+  - Administrative level 0 (below) In gray. Mix of national mapping agency and US State Department data.  Neighborhoods (below) In purple. Quattroshape enumeration from geo tagged photos in Flickr using GeoPlanet hierarchy.
+    ![Quattroshapes admin-0](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/qs_adm0.png)
 
 ### 2015 January thru December omnibus
 
-- Individual updates are not cataloged for 2015
+- Individual issues and pull requests are not cataloged for 2015 by month
 
 ## 2016
 
@@ -37,16 +36,17 @@ Quattroshapes gazetteer (below) In light purple. Over 1 million administrative a
 
 - **Global**: Added Wikidata concordances and over 2M localized names, and population values [blog post](https://www.whosonfirst.org/blog/2016/07/13/wikipedia-data/).
 - **Global**: Doubled global `county` placetype coverage via [Mesoshapes](https://www.whosonfirst.org/blog/2016/12/08/mesoshapes/), part 1, by adding newer open government data and creating shapes for the missing records.
-    - TODO, image here
+    ![Mesosahpes county coverage](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/mesohapes-import-1-timeseries.gif)
 - **Global**: Import population data from Geonames.org. (Issue [#351](https://github.com/whosonfirst-data/whosonfirst-data/issues/351))
 - **Australia**: Improve postcodes. (Issue [#472](https://github.com/whosonfirst-data/whosonfirst-data/issues/472))
-    - TODO, image here
+    ![Old Australia postalcodes](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/australia-postcodes-pre.png)
+    ![New Australia postalcodes](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/australia-postcodes-after.png)
 - **Finland**: Added official geometries for localities (Issue [#99](https://github.com/whosonfirst-data/whosonfirst-data/issues/99))
 - **France**: Update postalcode records to official govt source. (Issue [#505](https://github.com/whosonfirst-data/whosonfirst-data/issues/505))
 - **Japan**: Add sample custom label bounding boxes to Tokyo (Issue [#361](https://github.com/whosonfirst-data/whosonfirst-data/issues/361))
 - **United States**: Add sample custom label bounding boxes to SF (Issue [#361](https://github.com/whosonfirst-data/whosonfirst-data/issues/361))
 - **United States**: Clip default geometries for `region` features in the US, storing full geometries as reverse geocoding alt geoms. (Issue [#524](https://github.com/whosonfirst-data/whosonfirst-data/issues/524))
-    - TODO, image here
+    ![Clipped US Census region boundaries](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/us-regions-clipped.png)
 - **Various**: Added timezones and their geometries. (Issue [#553](https://github.com/whosonfirst-data/whosonfirst-data/issues/553))
 - **Various**: Add `new mz:hierarchy_label` property. (Issue [#320](https://github.com/whosonfirst-data/whosonfirst-data/issues/320))
 - **Various**: Set `mz:hierarchy_label` to false for neighbourhoods in small towns. (Issue [#342](https://github.com/whosonfirst-data/whosonfirst-data/issues/342))
@@ -56,20 +56,22 @@ Quattroshapes gazetteer (below) In light purple. Over 1 million administrative a
 - **Various**: Created a "minimal viable WOF record" document. (Issue [#195](https://github.com/whosonfirst-data/whosonfirst-data/issues/195))
 - **Various**: Fix quattroshapes encoding issues for localities (Issue [#69](https://github.com/whosonfirst-data/whosonfirst-data/issues/69))
 - **Various**: Import missing admin-1-regions from Quattroshapes as new `macroregion` placetype. (Issue [#34](https://github.com/whosonfirst-data/whosonfirst-data/issues/34), see Quattroshapes region and macroregion map below.)
+    ![Quattroshapes admin-1 regions](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/qs_adm1.png)
 - **Various**: Link up `country`, `dependency`, and `disputed` records to new `empire` placetype. (Issue [#4](https://github.com/whosonfirst-data/whosonfirst-data/issues/4))
 - And many more minor changes...
 
 ### 2016 January thru December omnibus
 
-- Individual updates are not cataloged for 2016
+- Individual issues and pull requests are not cataloged for 2016 by month
 
 ## 2017
 
 ### 2017 highlights
 
 - **Global**: Added sparse global records from Quattroshapes point gazetter for additional 227,594 `locality` records (large and medium sized global cities), 110,893 `localadmin`, and 67,620 `neighbourhoods` – see issue [#107](https://github.com/whosonfirst-data/whosonfirst-data/issues/107) and pull request [#824](https://github.com/whosonfirst-data/whosonfirst-data/pull/824).
+  - Quattroshapes gazetteer (below) In light purple (imported in 2017). Over 1 million administrative and populated places with around 800,000 having concordance between GeoNames.org and Yahoo! GeoPlanet WOE unique IDs.
 - **Global**: We added missing 1,542 global significant cities from Natural Earth, via pull request [#876](https://github.com/whosonfirst-data/whosonfirst-data/pull/876) – the other features were already in WOF and enriched with Natural Earth properties.
-    - TODO, image here
+    ![Natural Earth big localties](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/natural-earth-1542-big-cities.png)
 - **Global**: Achieved 99% coverage global for `county` placetype coverage via [Mesoshapes](https://www.whosonfirst.org/blog/2017/09/19/introducing-statoids/), part 2, including rebuilt `region` features for 110 countries and new national mapping agency data in countries like Canada. (Issue [#558](https://github.com/whosonfirst-data/whosonfirst-data/issues/#558) and others.)
 - **Global**: Added 255,000 name concordances from Geonames.org, [blog post](https://www.whosonfirst.org/blog/2017/08/22/summer-2017-wof/), with more holding hands with Natural Earth. (Issue [#806](https://github.com/whosonfirst-data/whosonfirst-data/issues/806))
 - **Global**: Added Statoids HASC code concordances and properties for countries, dependencies, regions, and counties – thanks to Gwillim Law and his daughter Shirley, [blog post](https://www.whosonfirst.org/blog/2017/09/19/introducing-statoids/). (Issue [#906](https://github.com/whosonfirst-data/whosonfirst-data/issues/906), [#581](https://github.com/whosonfirst-data/whosonfirst-data/issues/581) and other related issues.)
