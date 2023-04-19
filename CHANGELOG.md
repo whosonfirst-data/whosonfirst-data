@@ -725,18 +725,18 @@ Jump to month: [January](#2019-January) • [February](#2019-February) • [Ma
     - Adding Wikipedia and Wikidata-sourced name translations to any record without a name translation
     - Completing PIP work to updating or confirming all `wof:hierarchy` properties for all records in the Norway admin repository
 - **Poland**: Updated county, localadmin, locality, borough, and neighbourhood records in Poland (Issue [#1131](https://github.com/whosonfirst-data/whosonfirst-data/issues/1131))
- - This pull request includes various changes at five placetypes in Poland. In summary, each localadmin and locality record was updated with updated geometries, property flags, and name translations.
- - Specific work included:
-   - Adding new source geometries to each localadmin record
-   - Adding new source geometries to some locality records, storing some source geometries as "alt" files
-   - Adding source concordances to region, county, localadmin records
-   - Flagging localadmin and locality as coterminous using the `wof:coterminous` property, as necessary
-   - Demoting some locality records to the neighbourhood placetype, as needed
-   - Adding new borough records to two localities in Poland - Krakow and Warsaw
-   - Adding concordances to the `wof:concordances` propert
-   - Validating all geometries using osgeo, validating all records using Who's On First's `go-whosonfirst-validate` tool
-   - Adding Wikipedia and Wikidata-sourced name translations to any record without a name translation
-   - Completing PIP work to updating or confirming all `wof:hierarchy` properties for all records in the Poland admin repository
+  - This pull request includes various changes at five placetypes in Poland. In summary, each localadmin and locality record was updated with updated geometries, property flags, and name translations.
+  - Specific work included:
+    - Adding new source geometries to each localadmin record
+    - Adding new source geometries to some locality records, storing some source geometries as "alt" files
+    - Adding source concordances to region, county, localadmin records
+    - Flagging localadmin and locality as coterminous using the `wof:coterminous` property, as necessary
+    - Demoting some locality records to the neighbourhood placetype, as needed
+    - Adding new borough records to two localities in Poland - Krakow and Warsaw
+    - Adding concordances to the `wof:concordances` propert
+    - Validating all geometries using osgeo, validating all records using Who's On First's `go-whosonfirst-validate` tool
+    - Adding Wikipedia and Wikidata-sourced name translations to any record without a name translation
+    - Completing PIP work to updating or confirming all `wof:hierarchy` properties for all records in the Poland admin repository
 - **Various**: For alternate geometries, addition of `src:alt_label` property to each alt file (Issue [#1714](https://github.com/whosonfirst-data/whosonfirst-data/issues/1714))
   - **Fixed by**: multiple, for example [ro/#9](https://github.com/whosonfirst-data/whosonfirst-data-admin-ro/pull/9)
     - In order for Who's On First to property publish public SQLite distribution files, each "alt" file in Who's On First needed a `src:alt_label` property added.
