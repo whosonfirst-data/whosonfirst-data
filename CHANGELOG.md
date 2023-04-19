@@ -10,21 +10,21 @@ Jump to year: [2015](#2015) • [2016](#2016) • [2017](#2017) • [2018](#2
 ### 2015 highlights
 
 - **Global**: Project starts, see [blog post](https://www.whosonfirst.org/blog/2015/08/18/who-s-on-first/), with around 1M records from [Quattroshapes](https://web.archive.org/web/20220314041229/https://quattroshapes.com/), a compilation of authoritative national mapping agency data, as the basis for the first gazetteer records. While the data is authoritative, coverage is mostly limited to USA, Mexico, western Europe, portions of eastern Europe, Australia, New Zealand, Indonesia, South Africa, Brazil, and Chile. Locality data is more available and original work based on Flickr and Foursquare checkin data mashed up with Where on Earth metadata, which allows coverage to expand to Canada, all of Europe (with some additional European Union data added in), Russia, Japan, South Korea, Taiwan, China, Malaysia, Thailand, and India.
-- **United States**: [Zetashapes](https://web.archive.org/web/20160304022454/http://zetashapes.com/) neighbourhood polygons are ingested (some large rural polygons later rolled back)
-- **Global**: Import localadmin from Quattroshapes as `localadmin` placetype. (Issue [#112](https://github.com/whosonfirst-data/whosonfirst-data/issues/112))
-- **Initial coverage** at launch, from Quattroshapes:
   - Administrative level 1 (below) States and provinces in orange; regions shown in red (imported later in 2016). Mix of national mapping agency and Natural Earth.
     ![Quattroshapes admin-1 regions](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/qs_adm1.png)
   - Administrative level 2 (below) Counties in bright blue; regions shown in dark blue. National mapping agency data.
     ![Quattroshapes admin-2 counties](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/qs_adm2.png)
   - Localities (below) In yellow. In the USA this is the smallest unit of government with legal boundaries. For most other countries the localities here are informal parts of local administrative areas. Mix of national mapping agency, quattroshapes enumeration using foursquare checkins & custom data.
     ![Quattroshapes localities](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/qs_localities.png)
-  - Local administrative level (below) In green. This level of government assumes municipal type control over the central town and surrounding countryside. National mapping agency data.
-    ![Quattroshapes localadmin](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/qs_localadmin.png)
   - Neighbourhood level (below) In purple.  Informal (vernacular) usage sourced from original Quattroshape enumeration from geo tagged photos in Flickr using GeoPlanet hierarchy.
     ![Quattroshapes neighborhoods](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/qs_neighborhoods.png)
   - Administrative level 0 (below) In gray. Mix of national mapping agency and US State Department data.
     ![Quattroshapes admin-0](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/qs_adm0.png)
+- **United States**: [Zetashapes](https://web.archive.org/web/20160304022454/http://zetashapes.com/) neighbourhood polygons are ingested (some large rural polygons later rolled back), for areas not covered by Quattroshapes. Informal (vernacular) usage sourced from original Zetashapes enumeration from geo tagged photos in Flickr using US Census tract geographies.
+    ![Zetashapes neighborhoods](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/zetashapes-nyc.png)
+- **Global**: Import localadmin from Quattroshapes as `localadmin` placetype. (Issue [#112](https://github.com/whosonfirst-data/whosonfirst-data/issues/112))
+  - Local administrative level (below) In green. This level of government assumes municipal type control over the central town and surrounding countryside. National mapping agency data.
+    ![Quattroshapes localadmin](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/qs_localadmin.png)
 
 ### 2015 January thru December omnibus
 
