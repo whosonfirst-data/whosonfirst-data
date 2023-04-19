@@ -748,9 +748,6 @@ Jump to month: [January](#2019-January) • [February](#2019-February) • [Ma
 - **Germany**: Updated the properties of two county records (Issue [#1697](https://github.com/whosonfirst-data/whosonfirst-data/issues/1697))
 - **Honduras**: Updated the locality geometry of a locality in (Issue [#1736](https://github.com/whosonfirst-data/whosonfirst-data/issues/1736)):
 - **India**: Updated administrative records in select localities in India (Issue [#1593](https://github.com/whosonfirst-data/whosonfirst-data/issues/1593))
-  - Fixed by:
-    - [in/#12](https://github.com/whosonfirst-data/whosonfirst-data-admin-in/pull/12)
-    - [in/#11](https://github.com/whosonfirst-data/whosonfirst-data-admin-in/pull/11)
   - This work is ongoing and will update neighbourhood, borough, locality, county, and region geometries in and around ten of the most populous localities in India. Two of the ten localities were updated this month, the remaining eight will be completed in December.
   - Specific work included:
     - Updating geometries for neighbourhood, borough, locality, county, and region records in Chandigarh and Kolkata
@@ -761,8 +758,7 @@ Jump to month: [January](#2019-January) • [February](#2019-February) • [Ma
 - **Norway**: Fixed incorrect concordances and name translations in a locality record (Issue [#1730](https://github.com/whosonfirst-data/whosonfirst-data/issues/1730))
 - **Poland**: Minor updates to locality records (Issue [#1738](https://github.com/whosonfirst-data/whosonfirst-data/issues/1738))
 - **United Kingdom**: Updated neighbourhood geometries in Glasgow, Scotland. Clipping existing geometries to the Glasgow locality geometry. Flagging each updated record with a `mz:is_current` property value of `1`. Storing existing geometries in alt-geometry files. (Issue [#1724](https://github.com/whosonfirst-data/whosonfirst-data/issues/1724))
-- **Various**: Updated name translations in various locality records (Issue [#1743](https://github.com/whosonfirst-data/whosonfirst-data/issues/1743))
-  - Fixed locality records in the **Angola**, **Austria**, **Hungary**, **India**, **Lithuania**, **Poland**, **Spain**, and the **United States**.
+- **Various**: Updated name translations in various locality records in countries including: Angola, Austria, Hungary, India, Lithuania, Poland, Spain, and the United States. (Issue [#1743](https://github.com/whosonfirst-data/whosonfirst-data/issues/1743))
 
 ### 2019 December
 
