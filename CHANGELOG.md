@@ -38,7 +38,7 @@ Jump to year: [2015](#2015) • [2016](#2016) • [2017](#2017) • [2018](#2
 - **Global**: Doubled global `county` placetype coverage via [Mesoshapes](https://www.whosonfirst.org/blog/2016/12/08/mesoshapes/), part 1, by adding newer open government data and creating shapes for the missing records.
     ![Mesosahpes county coverage](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/mesohapes-import-1-timeseries.gif)
 - **Global**: Import population data from Geonames.org. (Issue [#351](https://github.com/whosonfirst-data/whosonfirst-data/issues/351))
-- **Australia**: Improve postcodes. (Issue [#472](https://github.com/whosonfirst-data/whosonfirst-data/issues/472))
+- **Australia**: Improve postcodes from earlier alphashapes from WOF venue properties to official data. (Issue [#472](https://github.com/whosonfirst-data/whosonfirst-data/issues/472))
     ![Old Australia postalcodes](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/australia-postcodes-pre.png)
     ![New Australia postalcodes](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/australia-postcodes-after.png)
 - **Finland**: Added official geometries for localities (Issue [#99](https://github.com/whosonfirst-data/whosonfirst-data/issues/99))
@@ -70,6 +70,7 @@ Jump to year: [2015](#2015) • [2016](#2016) • [2017](#2017) • [2018](#2
 
 - **Global**: Added sparse global records from Quattroshapes point gazetter for additional 227,594 `locality` records (large and medium sized global cities), 110,893 `localadmin`, and 67,620 `neighbourhoods` – see issue [#107](https://github.com/whosonfirst-data/whosonfirst-data/issues/107) and pull request [#824](https://github.com/whosonfirst-data/whosonfirst-data/pull/824).
   - Quattroshapes gazetteer (below) In light purple (imported in 2017). Over 1 million administrative and populated places with around 800,000 having concordance between GeoNames.org and Yahoo! GeoPlanet WOE unique IDs.
+    ![Quattroshapes point gazetteer](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/qs_gazetteer.png)
 - **Global**: We added missing 1,542 global significant cities from Natural Earth, via pull request [#876](https://github.com/whosonfirst-data/whosonfirst-data/pull/876) – the other features were already in WOF and enriched with Natural Earth properties.
     ![Natural Earth big localties](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/natural-earth-1542-big-cities.png)
 - **Global**: Achieved 99% coverage global for `county` placetype coverage via [Mesoshapes](https://www.whosonfirst.org/blog/2017/09/19/introducing-statoids/), part 2, including rebuilt `region` features for 110 countries and new national mapping agency data in countries like Canada. (Issue [#558](https://github.com/whosonfirst-data/whosonfirst-data/issues/#558) and others.)
