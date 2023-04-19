@@ -862,250 +862,108 @@ Jump to month: [January](#2020-January) • [February](#2020-February) • [Ma
 
 #### 2020 January
 
-#### BRAZIL
-
-- Add 5 macroregion records for statistical purposes (Issue [#1128](https://github.com/whosonfirst-data/whosonfirst-data/issues/1128))
-
-#### CANADA
-
-- Add missing Alberta "unitary" counties around Edmonton, Calgary, and Drumheller to ensure continuous fabric (Issue [#1765](https://github.com/whosonfirst-data/whosonfirst-data/issues/1765))
-
-#### EGYPT
-
-- Deprecate bunk "testing" locality (Issue [#1771](https://github.com/whosonfirst-data/whosonfirst-data/issues/1771))
-
-#### INDIA
-
-- Resolve duplicate New Delhi locality (Issue [#1785](https://github.com/whosonfirst-data/whosonfirst-data/issues/1785))
-- Fix Damunda and Laxmapur locality names (Issue [#1788](https://github.com/whosonfirst-data/whosonfirst-data/issues/1788))
-- Correct neighbourhood records in Mumbai to have `hierarchy_label=1` (Issue [#1783](https://github.com/whosonfirst-data/whosonfirst-data/issues/1783))
-
-#### LAOS
-
-- Add missing Nong district (Issue [#1782](https://github.com/whosonfirst-data/whosonfirst-data/issues/1782))
-
-#### PORTUGAL
-
-- Cleanup regions to ensure Azores and Madeira have features; dissolve 4 existing region geometries into 2 region geometries (Issue [#1173](https://github.com/whosonfirst-data/whosonfirst-data/issues/1173))
-- Add ~5,000 localadmin level features in Portugal (Issue [#1740](https://github.com/whosonfirst-data/whosonfirst-data/issues/1740))
-
-#### SERBIA
-
-- Fix Sabac locality name (Issue [#1781](https://github.com/whosonfirst-data/whosonfirst-data/issues/1781))
-
-#### VENEZUELA
-
-- Add missing Atures municipality (Issue [#1767](https://github.com/whosonfirst-data/whosonfirst-data/issues/1767))
-
-#### VARIOUS
-
-- Clean up records with a megacity tag (Issue [#701](https://github.com/whosonfirst-data/whosonfirst-data/issues/701))
-- Ensure megacities have `population` and `population_rank` (Issue [#797](https://github.com/whosonfirst-data/whosonfirst-data/issues/797))
-- SQLite distributions are kindly generated and hosted by [geocode.earth](https://geocode.earth/data/)
-
+- **Brazil**: Add 5 macroregion records for statistical purposes (Issue [#1128](https://github.com/whosonfirst-data/whosonfirst-data/issues/1128))
+- **Canada**: Add missing Alberta "unitary" counties around Edmonton, Calgary, and Drumheller to ensure continuous fabric (Issue [#1765](https://github.com/whosonfirst-data/whosonfirst-data/issues/1765))
+- **Egypt**: Deprecate bunk "testing" locality (Issue [#1771](https://github.com/whosonfirst-data/whosonfirst-data/issues/1771))
+- **India**: Resolve duplicate New Delhi locality (Issue [#1785](https://github.com/whosonfirst-data/whosonfirst-data/issues/1785))
+- **India**: Fix Damunda and Laxmapur locality names (Issue [#1788](https://github.com/whosonfirst-data/whosonfirst-data/issues/1788))
+- **India**: Correct neighbourhood records in Mumbai to have `hierarchy_label=1` (Issue [#1783](https://github.com/whosonfirst-data/whosonfirst-data/issues/1783))
+- **Laos**: Add missing Nong district (Issue [#1782](https://github.com/whosonfirst-data/whosonfirst-data/issues/1782))
+- **Portugal**: Cleanup regions to ensure Azores and Madeira have features; dissolve 4 existing region geometries into 2 region geometries (Issue [#1173](https://github.com/whosonfirst-data/whosonfirst-data/issues/1173))
+- **Portugal**: Add ~5,000 localadmin level features in Portugal (Issue [#1740](https://github.com/whosonfirst-data/whosonfirst-data/issues/1740))
+- **Serbia**: Fix Sabac locality name (Issue [#1781](https://github.com/whosonfirst-data/whosonfirst-data/issues/1781))
+- **Venezuela**: Add missing Atures municipality (Issue [#1767](https://github.com/whosonfirst-data/whosonfirst-data/issues/1767))
+- **Various**: Clean up records with a megacity tag (Issue [#701](https://github.com/whosonfirst-data/whosonfirst-data/issues/701))
+- **Various**: Ensure megacities have `population` and `population_rank` (Issue [#797](https://github.com/whosonfirst-data/whosonfirst-data/issues/797))
+- **Various**: SQLite distributions are kindly generated and hosted by [geocode.earth](https://geocode.earth/data/)
 
 ### 2020 February
 
-#### AFGHANISTAN
-
-- Remove 2 funk temporary files from repp. (Issue [#1800](https://github.com/whosonfirst-data/whosonfirst-data/issues/1800))
-
-#### INDIA
-
-- Update Place Zerakpur. (Pull request [in/#37](https://github.com/whosonfirst-data/whosonfirst-data-admin-in/pull/37))
-
-#### NORWAY
-
-- Update Norway regions and add new localadmin ("counties") to reflect 2020 boundary changes. (Issue [#1757](https://github.com/whosonfirst-data/whosonfirst-data/issues/1757))
-
-#### OMAN
-
-- Add 2 missing country records. (Issue [#1773](https://github.com/whosonfirst-data/whosonfirst-data/issues/1773))
-
-#### SWITZERLAND
-
-- Update Rothenburg. (Pull request [ch/#9](https://github.com/whosonfirst-data/whosonfirst-data-admin-ch/pull/9))
-
-#### VARIOUS
-
-- [Write Field](https://writefield.nextzen.org/) launches as a basic web app for editing WOF records! Hat tip to [@iandees](https://github.com/iandees), thanks!
-- Generate licenses file from whosonfirst-sources. (Issue [#1081](https://github.com/whosonfirst-data/whosonfirst-data/issues/1081))
-- Licensing information - link targets not available. (Issue [#1651](https://github.com/whosonfirst-data/whosonfirst-data/issues/1651))
-- Add back LICENSE file as pointer. (Issue [#1795](https://github.com/whosonfirst-data/whosonfirst-data/issues/1795))
+- **Afghanistan**: Remove 2 funk temporary files from repp. (Issue [#1800](https://github.com/whosonfirst-data/whosonfirst-data/issues/1800))
+- **India**: Update Place Zerakpur. (Pull request [in/#37](https://github.com/whosonfirst-data/whosonfirst-data-admin-in/pull/37))
+- **Norway**: Update Norway regions and add new localadmin ("counties") to reflect 2020 boundary changes. (Issue [#1757](https://github.com/whosonfirst-data/whosonfirst-data/issues/1757))
+- **Oman**: Add 2 missing country records. (Issue [#1773](https://github.com/whosonfirst-data/whosonfirst-data/issues/1773))
+- **Switzerland**: Update Rothenburg. (Pull request [ch/#9](https://github.com/whosonfirst-data/whosonfirst-data-admin-ch/pull/9))
+- **Various**: [Write Field](https://writefield.nextzen.org/) launches as a basic web app for editing WOF records! Hat tip to [@iandees](https://github.com/iandees), thanks!
+- **Various**: Generate licenses file from whosonfirst-sources. (Issue [#1081](https://github.com/whosonfirst-data/whosonfirst-data/issues/1081))
+- **Various**: Licensing information - link targets not available. (Issue [#1651](https://github.com/whosonfirst-data/whosonfirst-data/issues/1651))
+- **Various**: Add back LICENSE file as pointer. (Issue [#1795](https://github.com/whosonfirst-data/whosonfirst-data/issues/1795))
 
 ### 2020 March
 
-#### GAMBIA
-
-- Update names for Banjul. (Issue [#1802](https://github.com/whosonfirst-data/whosonfirst-data/issues/1802))
-
-#### INDIA
-
-- Resolve Devli duplicate of Delhi. (Issue [#1784](https://github.com/whosonfirst-data/whosonfirst-data/issues/1784))
-- Update Bajowali English and default names. (Pull request [in/#38](https://github.com/whosonfirst-data/whosonfirst-data-admin-in/pull/38))
-- Update Chirak English and default names. (Pull request [in/#39](https://github.com/whosonfirst-data/whosonfirst-data-admin-in/pull/39))
-
-#### IRELAND
-
-- Update Ballylusky English and default names. (Pull request [ie/#12](https://github.com/whosonfirst-data/whosonfirst-data-admin-ie/pull/12))
-
-#### ITALY
-
-- Updates English, Italian, and French label properties on `region` records, population and src properties, and concordances. (Pull request [it/#14](https://github.com/whosonfirst-data/whosonfirst-data-admin-it/pull/14))
-
-#### NORWAY
-
-- Adds/updates `label` properties to Norway `region` records. (Pull request [no/#13](https://github.com/whosonfirst-data/whosonfirst-data-admin-no/pull/13))
-    - Also updates `wof:lang*` properties in all `region` and `country` records
-    - Corrects `name` property values, storing variant names when applicable
-
-#### POLAND
-
-- Update Roznowo with English and Polish names. (Pull request [pl/#16](https://github.com/whosonfirst-data/whosonfirst-data-admin-pl/pull/16))
-
-#### UNITED KINGDOM
-
-- Update to ONS Feb 2020 data release for `postalcode` records. (Issue [#1685](https://github.com/whosonfirst-data/whosonfirst-data/issues/1685))
-
-#### UNITED STATES
-
-- Update East Side, Kansas City neighbourhood. (Issue [#1789](https://github.com/whosonfirst-data/whosonfirst-data/issues/1789))
-- Update Minnewawa, MN English and default names. (Issue [#1799](https://github.com/whosonfirst-data/whosonfirst-data/issues/1799))
-- Update Place Shawnee. (Pull request [us/#49](https://github.com/whosonfirst-data/whosonfirst-data-admin-us/pull/49))
-
-#### VARIOUS
-
-- Import DigitalEnvoy concordances for `country`, `region`, `localadmin`, and `marketarea` records (eg `digitalenvoy:country_code`). (Issue [#1807](https://github.com/whosonfirst-data/whosonfirst-data/issues/1807))
-- Add `README` and `ISSUE_TEMPLATE` to all the new admin repos. (Issue [#1667](https://github.com/whosonfirst-data/whosonfirst-data/issues/1667))
-- Add `wof:repo` property to all alt files. (Issue [#1729](https://github.com/whosonfirst-data/whosonfirst-data/issues/1729))
-- Add missing `src:alt_label` properties. (Issue [#1804](https://github.com/whosonfirst-data/whosonfirst-data/issues/1804))
-- Add new `wof:geom_alt` property. (Issue [#1793](https://github.com/whosonfirst-data/whosonfirst-data/issues/1793))
-- Remove whosonfirst-data-{country code} repos as we went with different naming convention. (Issue [#1806](https://github.com/whosonfirst-data/whosonfirst-data/issues/1806))
+- **Gambia**: Update names for Banjul. (Issue [#1802](https://github.com/whosonfirst-data/whosonfirst-data/issues/1802))
+- **India**: Resolve Devli duplicate of Delhi. (Issue [#1784](https://github.com/whosonfirst-data/whosonfirst-data/issues/1784))
+- **India**: Update Bajowali English and default names. (Pull request [in/#38](https://github.com/whosonfirst-data/whosonfirst-data-admin-in/pull/38))
+- **India**: Update Chirak English and default names. (Pull request [in/#39](https://github.com/whosonfirst-data/whosonfirst-data-admin-in/pull/39))
+- **Ireland**: Update Ballylusky English and default names. (Pull request [ie/#12](https://github.com/whosonfirst-data/whosonfirst-data-admin-ie/pull/12))
+- **Italy**: Updates English, Italian, and French label properties on `region` records, population and src properties, and concordances. (Pull request [it/#14](https://github.com/whosonfirst-data/whosonfirst-data-admin-it/pull/14))
+- **Norway**: Adds/updates `label` properties to Norway `region` records. Also updates `wof:lang*` properties in all `region` and `country` records. Corrects `name` property values, storing variant names when applicable. (Pull request [no/#13](https://github.com/whosonfirst-data/whosonfirst-data-admin-no/pull/13))
+- **Poland**: Update Roznowo with English and Polish names. (Pull request [pl/#16](https://github.com/whosonfirst-data/whosonfirst-data-admin-pl/pull/16))
+- **United Kingdom**: Update to ONS Feb 2020 data release for `postalcode` records. (Issue [#1685](https://github.com/whosonfirst-data/whosonfirst-data/issues/1685))
+- **United States**: Update East Side, Kansas City neighbourhood. (Issue [#1789](https://github.com/whosonfirst-data/whosonfirst-data/issues/1789))
+- **United States**: Update Minnewawa, MN English and default names. (Issue [#1799](https://github.com/whosonfirst-data/whosonfirst-data/issues/1799))
+- **United States**: Update Place Shawnee. (Pull request [us/#49](https://github.com/whosonfirst-data/whosonfirst-data-admin-us/pull/49))
+- **Various**: Import DigitalEnvoy concordances for `country`, `region`, `localadmin`, and `marketarea` records (eg `digitalenvoy:country_code`). (Issue [#1807](https://github.com/whosonfirst-data/whosonfirst-data/issues/1807))
+- **Various**: Add `README` and `ISSUE_TEMPLATE` to all the new admin repos. (Issue [#1667](https://github.com/whosonfirst-data/whosonfirst-data/issues/1667))
+- **Various**: Add `wof:repo` property to all alt files. (Issue [#1729](https://github.com/whosonfirst-data/whosonfirst-data/issues/1729))
+- **Various**: Add missing `src:alt_label` properties. (Issue [#1804](https://github.com/whosonfirst-data/whosonfirst-data/issues/1804))
+- **Various**: Add new `wof:geom_alt` property. (Issue [#1793](https://github.com/whosonfirst-data/whosonfirst-data/issues/1793))
+- **Various**: Remove whosonfirst-data-{country code} repos as we went with different naming convention. (Issue [#1806](https://github.com/whosonfirst-data/whosonfirst-data/issues/1806))
 
 ### 2020 April
 
-#### AFGHANISTAN
-
-- Update Fatah record to remove funky name translation. (Pull request [af/#11](https://github.com/whosonfirst-data/whosonfirst-data-admin-af/pull/11))
-
-#### CZECHIA
-
-- Add name and label localizations for 14 region records, in Czech and English. (Pull request [cz/#10](https://github.com/whosonfirst-data/whosonfirst-data-admin-cz/pull/10) related to issue [#1640](https://github.com/whosonfirst-data/whosonfirst-data/issues/1640))
-
-#### DENMARK
-
-- Update Denmark region name translations and `wof:name` values. (Issue [#1453](https://github.com/whosonfirst-data/whosonfirst-data/issues/1453))
-
-#### GERMANY
-
-- Update Korzendorf record's German and English names. (Pull request [de/#24](https://github.com/whosonfirst-data/whosonfirst-data-admin-de/pull/24))
-
-#### INDIA
-
-- Update Gandhuan record's default and English names. (Pull request [in/#42](https://github.com/whosonfirst-data/whosonfirst-data-admin-in/pull/42))
-- Update Jhanbke record's default and English names. (Pull request [in/#43](https://github.com/whosonfirst-data/whosonfirst-data-admin-in/pull/43))
-
-#### ITALY
-
-- Update Fie allo Sciliar to resolve funky `�` character in names. (Pull request [it/#18](https://github.com/whosonfirst-data/whosonfirst-data-admin-it/pull/18) related to issue  [#1830](https://github.com/whosonfirst-data/whosonfirst-data/issues/1830))
-
-#### NORWAY
-
-- Update Norway region name translations and `wof:name` values. (Issue [#1445](https://github.com/whosonfirst-data/whosonfirst-data/issues/1445))
-
-#### PORTUGAL
-
-- Add name and label localizations for 18 region records, in Portuguese and English. (Pull request [pt/#11](https://github.com/whosonfirst-data/whosonfirst-data-admin-pt/pull/11) related to issue  [#1640](https://github.com/whosonfirst-data/whosonfirst-data/issues/1640))
-
-#### ROMANIA
-
-- Add name and label localizations for 42 region records, in Romanian and English. (Pull request [ro/#13](https://github.com/whosonfirst-data/whosonfirst-data-admin-ro/pull/13) related to issue  [#1640](https://github.com/whosonfirst-data/whosonfirst-data/issues/1640))
-
-#### SWITZERLAND
-
-- Update Schaffhausen record's English names. (Pull request [ch/#16](https://github.com/whosonfirst-data/whosonfirst-data-admin-ch/pull/16))
-
-#### UKRAINE
-
-- Update Polyakhova reocrd to remove bad name variant. (Pull request [ua/#10](https://github.com/whosonfirst-data/whosonfirst-data-admin-ua/pull/10))
-
-#### UNITED STATES
-
-- Resolve duplicate Kansas City, MO records. (Issue [#1791](https://github.com/whosonfirst-data/whosonfirst-data/issues/1791))
-- Update Cheektowasa record's default and English names. (Pull request [us/#55](https://github.com/whosonfirst-data/whosonfirst-data-admin-us/pull/55))
-
-#### VARIOUS
-
-- Run wiki names script on "high priority" places. (Issue [#1821](https://github.com/whosonfirst-data/whosonfirst-data/issues/1821))
-- Fix `ST_GeogFromGeoJSON` fails on a handful of country geometries. (Issue [#1819](https://github.com/whosonfirst-data/whosonfirst-data/issues/1819))
-- Add name translations to continent records. (Issue [#1818](https://github.com/whosonfirst-data/whosonfirst-data/issues/1818))
-- Fix Spratley Islands names and concordances. (Issue [#1459](https://github.com/whosonfirst-data/whosonfirst-data/issues/1459))
-- Update locality names for Schaffhausen, Bachowali, Charik, and Ballyhisky. (Issue [#1805](https://github.com/whosonfirst-data/whosonfirst-data/issues/1805))
-- Fix 2,031 cases of bunk new lines/whitespaces newline in wof:name values (this makes it easier to import into Postgres). (Issue [#1796](https://github.com/whosonfirst-data/whosonfirst-data/issues/1796))
-- Goodbye old Tempelhof Central Airport. (Pull request [xy/#18](https://github.com/whosonfirst-data/whosonfirst-data-admin-xy/pull/18))
+- **Afghanistan**: Update Fatah record to remove funky name translation. (Pull request [af/#11](https://github.com/whosonfirst-data/whosonfirst-data-admin-af/pull/11))
+- **Czechia**: Add name and label localizations for 14 region records, in Czech and English. (Pull request [cz/#10](https://github.com/whosonfirst-data/whosonfirst-data-admin-cz/pull/10) related to issue [#1640](https://github.com/whosonfirst-data/whosonfirst-data/issues/1640))
+- **Denmark**: Update Denmark region name translations and `wof:name` values. (Issue [#1453](https://github.com/whosonfirst-data/whosonfirst-data/issues/1453))
+- **Germany**: Update Korzendorf record's German and English names. (Pull request [de/#24](https://github.com/whosonfirst-data/whosonfirst-data-admin-de/pull/24))
+- **India**: Update Gandhuan record's default and English names. (Pull request [in/#42](https://github.com/whosonfirst-data/whosonfirst-data-admin-in/pull/42))
+- **India**: Update Jhanbke record's default and English names. (Pull request [in/#43](https://github.com/whosonfirst-data/whosonfirst-data-admin-in/pull/43))
+- **Italy**: Update Fie allo Sciliar to resolve funky `�` character in names. (Pull request [it/#18](https://github.com/whosonfirst-data/whosonfirst-data-admin-it/pull/18) related to issue  [#1830](https://github.com/whosonfirst-data/whosonfirst-data/issues/1830))
+- **Norway**: Update Norway region name translations and `wof:name` values. (Issue [#1445](https://github.com/whosonfirst-data/whosonfirst-data/issues/1445))
+- **Portugal**: Add name and label localizations for 18 region records, in Portuguese and English. (Pull request [pt/#11](https://github.com/whosonfirst-data/whosonfirst-data-admin-pt/pull/11) related to issue  [#1640](https://github.com/whosonfirst-data/whosonfirst-data/issues/1640))
+- **Romania**: Add name and label localizations for 42 region records, in Romanian and English. (Pull request [ro/#13](https://github.com/whosonfirst-data/whosonfirst-data-admin-ro/pull/13) related to issue  [#1640](https://github.com/whosonfirst-data/whosonfirst-data/issues/1640))
+- **Switzerland**: Update Schaffhausen record's English names. (Pull request [ch/#16](https://github.com/whosonfirst-data/whosonfirst-data-admin-ch/pull/16))
+- **Ukraine**: Update Polyakhova reocrd to remove bad name variant. (Pull request [ua/#10](https://github.com/whosonfirst-data/whosonfirst-data-admin-ua/pull/10))
+- **United States**: Resolve duplicate Kansas City, MO records. (Issue [#1791](https://github.com/whosonfirst-data/whosonfirst-data/issues/1791))
+- **United States**: Update Cheektowasa record's default and English names. (Pull request [us/#55](https://github.com/whosonfirst-data/whosonfirst-data-admin-us/pull/55))
+- **Various**: Run wiki names script on "high priority" places. (Issue [#1821](https://github.com/whosonfirst-data/whosonfirst-data/issues/1821))
+- **Various**: Fix `ST_GeogFromGeoJSON` fails on a handful of country geometries. (Issue [#1819](https://github.com/whosonfirst-data/whosonfirst-data/issues/1819))
+- **Various**: Add name translations to continent records. (Issue [#1818](https://github.com/whosonfirst-data/whosonfirst-data/issues/1818))
+- **Various**: Fix Spratley Islands names and concordances. (Issue [#1459](https://github.com/whosonfirst-data/whosonfirst-data/issues/1459))
+- **Various**: Update locality names for Schaffhausen, Bachowali, Charik, and Ballyhisky. (Issue [#1805](https://github.com/whosonfirst-data/whosonfirst-data/issues/1805))
+- **Various**: Fix 2,031 cases of bunk new lines/whitespaces newline in wof:name values (this makes it easier to import into Postgres). (Issue [#1796](https://github.com/whosonfirst-data/whosonfirst-data/issues/1796))
+- **Various**: Goodbye old Tempelhof Central Airport. (Pull request [xy/#18](https://github.com/whosonfirst-data/whosonfirst-data-admin-xy/pull/18))
 
 ### 2020 May
 
-#### AUSTRALIA
-
-- Update Ulimambri. (Pull request [au/#23](https://github.com/whosonfirst-data/whosonfirst-data-admin-au/pull/23))
-
-#### CANADA
-
-- Update Mayland Heights. (Pull request [ca/#21](https://github.com/whosonfirst-data/whosonfirst-data-admin-ca/pull/21))
-
-#### GERMANY
-
-- Update Kossenblatt. (Pull request [de/#26](https://github.com/whosonfirst-data/whosonfirst-data-admin-de/pull/26))
-
-#### FRANCE
-
-- Update name of Val d'Oise département (Issue [#1833](https://github.com/whosonfirst-data/whosonfirst-data/issues/1833))
-- Update France region labels. (Pull request [fr/#32](https://github.com/whosonfirst-data/whosonfirst-data-admin-fr/pull/32))
-- Update Baden. (Pull request [fr/#31](https://github.com/whosonfirst-data/whosonfirst-data-admin-fr/pull/31))
-- Update Gilles. (Pull request [fr/#30](https://github.com/whosonfirst-data/whosonfirst-data-admin-fr/pull/30))
-- Update Senones county name. (Pull request [fr/#28](https://github.com/whosonfirst-data/whosonfirst-data-admin-fr/pull/28))
-- Update Senones locality name. (Pull request [fr/#29](https://github.com/whosonfirst-data/whosonfirst-data-admin-fr/pull/29))
-
-#### INDIA
-
-- Update Korba geometry. (Pull request [in/#47](https://github.com/whosonfirst-data/whosonfirst-data-admin-in/pull/47))
-- Update Bholapur. (Pull request [in/#52](https://github.com/whosonfirst-data/whosonfirst-data-admin-in/pull/52))
-- Update Bilaur. (Pull request [in/#49](https://github.com/whosonfirst-data/whosonfirst-data-admin-in/pull/49))
-- Update Bisrakh. (Pull request [in/#46](https://github.com/whosonfirst-data/whosonfirst-data-admin-in/pull/46))
-- Update Mataura. (Pull request [in/#51](https://github.com/whosonfirst-data/whosonfirst-data-admin-in/pull/51))
-- Update Pagrapalli. (Pull request [in/#50](https://github.com/whosonfirst-data/whosonfirst-data-admin-in/pull/50))
-- Update Warli. (Pull request [in/#48](https://github.com/whosonfirst-data/whosonfirst-data-admin-in/pull/48))
-- Update Yigavaripalem. (Pull request [in/#53](https://github.com/whosonfirst-data/whosonfirst-data-admin-in/pull/53))
-
-#### IRELAND
-
-- Update Barinoney Cross Roads. (Pull request [ie/#16](https://github.com/whosonfirst-data/whosonfirst-data-admin-ie/pull/16))
-
-#### NORWAY
-
-- Update Grefsen. (Pull request [no/#16](https://github.com/whosonfirst-data/whosonfirst-data-admin-no/pull/16))
-
-#### TURKEY
-
-- Update Savulca. (Pull request [tr/#13](https://github.com/whosonfirst-data/whosonfirst-data-admin-tr/pull/13))
-
-#### UNITED KINGDOM
-
-- Update Helston. (Pull request [gb/#27](https://github.com/whosonfirst-data/whosonfirst-data-admin-gb/pull/27))
-
-#### UNITED STATES
-
-- Unincorporated community of Wayne, PA is missing. (Issue [#1831](https://github.com/whosonfirst-data/whosonfirst-data/issues/1831))
-- Move locality points to campus for "Mobile Estate" features. (Pull request [us/#60](https://github.com/whosonfirst-data/whosonfirst-data-admin-us/pull/60))
-- Update Champion. (Pull request [us/#58](https://github.com/whosonfirst-data/whosonfirst-data-admin-us/pull/58))
-- Update Tamega. (Pull request [us/#59](https://github.com/whosonfirst-data/whosonfirst-data-admin-us/pull/59))
-
-#### VARIOUS
-
-- In SQLite distributions, alternate geometries are now included with a flag of `is_alt`, so filter by `is_alt` = `0` to confirm to UNIQUE constrains. (Issue [#1834](https://github.com/whosonfirst-data/whosonfirst-data/issues/1834) and [#1837](https://github.com/whosonfirst-data/whosonfirst-data/issues/1837))
-- Publish updated properties list JSON Issue. (Issue [#1836](https://github.com/whosonfirst-data/whosonfirst-data/issues/1836))
-- Standardize on unknown source in various countries. (E.G. pull request [#62](https://github.com/whosonfirst-data/whosonfirst-data-admin-us/pull/62))
+- **Australia**: Update Ulimambri. (Pull request [au/#23](https://github.com/whosonfirst-data/whosonfirst-data-admin-au/pull/23))
+- **Canada**: Update Mayland Heights. (Pull request [ca/#21](https://github.com/whosonfirst-data/whosonfirst-data-admin-ca/pull/21))
+- **Germany**: Update Kossenblatt. (Pull request [de/#26](https://github.com/whosonfirst-data/whosonfirst-data-admin-de/pull/26))
+- **France**: Update name of Val d'Oise département (Issue [#1833](https://github.com/whosonfirst-data/whosonfirst-data/issues/1833))
+- **France**: Update France region labels. (Pull request [fr/#32](https://github.com/whosonfirst-data/whosonfirst-data-admin-fr/pull/32))
+- **France**: Update Baden. (Pull request [fr/#31](https://github.com/whosonfirst-data/whosonfirst-data-admin-fr/pull/31))
+- **France**: Update Gilles. (Pull request [fr/#30](https://github.com/whosonfirst-data/whosonfirst-data-admin-fr/pull/30))
+- **France**: Update Senones county name. (Pull request [fr/#28](https://github.com/whosonfirst-data/whosonfirst-data-admin-fr/pull/28))
+- **France**: Update Senones locality name. (Pull request [fr/#29](https://github.com/whosonfirst-data/whosonfirst-data-admin-fr/pull/29))
+- **India**: Update Korba geometry. (Pull request [in/#47](https://github.com/whosonfirst-data/whosonfirst-data-admin-in/pull/47))
+- **India**: Update Bholapur. (Pull request [in/#52](https://github.com/whosonfirst-data/whosonfirst-data-admin-in/pull/52))
+- **India**: Update Bilaur. (Pull request [in/#49](https://github.com/whosonfirst-data/whosonfirst-data-admin-in/pull/49))
+- **India**: Update Bisrakh. (Pull request [in/#46](https://github.com/whosonfirst-data/whosonfirst-data-admin-in/pull/46))
+- **India**: Update Mataura. (Pull request [in/#51](https://github.com/whosonfirst-data/whosonfirst-data-admin-in/pull/51))
+- **India**: Update Pagrapalli. (Pull request [in/#50](https://github.com/whosonfirst-data/whosonfirst-data-admin-in/pull/50))
+- **India**: Update Warli. (Pull request [in/#48](https://github.com/whosonfirst-data/whosonfirst-data-admin-in/pull/48))
+- **India**: Update Yigavaripalem. (Pull request [in/#53](https://github.com/whosonfirst-data/whosonfirst-data-admin-in/pull/53))
+- **Ireland**: Update Barinoney Cross Roads. (Pull request [ie/#16](https://github.com/whosonfirst-data/whosonfirst-data-admin-ie/pull/16))
+- **Norway**: Update Grefsen. (Pull request [no/#16](https://github.com/whosonfirst-data/whosonfirst-data-admin-no/pull/16))
+- **Turkey**: Update Savulca. (Pull request [tr/#13](https://github.com/whosonfirst-data/whosonfirst-data-admin-tr/pull/13))
+- **United Kingdom**: Update Helston. (Pull request [gb/#27](https://github.com/whosonfirst-data/whosonfirst-data-admin-gb/pull/27))
+- **United States**: Unincorporated community of Wayne, PA is missing. (Issue [#1831](https://github.com/whosonfirst-data/whosonfirst-data/issues/1831))
+- **United States**: Move locality points to campus for "Mobile Estate" features. (Pull request [us/#60](https://github.com/whosonfirst-data/whosonfirst-data-admin-us/pull/60))
+- **United States**: Update Champion. (Pull request [us/#58](https://github.com/whosonfirst-data/whosonfirst-data-admin-us/pull/58))
+- **United States**: Update Tamega. (Pull request [us/#59](https://github.com/whosonfirst-data/whosonfirst-data-admin-us/pull/59))
+- **Various**: In SQLite distributions, alternate geometries are now included with a flag of `is_alt`, so filter by `is_alt` = `0` to confirm to UNIQUE constrains. (Issue [#1834](https://github.com/whosonfirst-data/whosonfirst-data/issues/1834) and [#1837](https://github.com/whosonfirst-data/whosonfirst-data/issues/1837))
+- **Various**: Publish updated properties list JSON Issue. (Issue [#1836](https://github.com/whosonfirst-data/whosonfirst-data/issues/1836))
+- **Various**: Standardize on unknown source in various countries. (E.G. pull request [#62](https://github.com/whosonfirst-data/whosonfirst-data-admin-us/pull/62))
 
 ### 2020 June
 
