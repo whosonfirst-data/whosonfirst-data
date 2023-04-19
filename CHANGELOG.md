@@ -454,6 +454,7 @@ Jump to month: [January](#2019-January) • [February](#2019-February) • [Ma
 ### 2019 highlights
 
 - **Global**: Achieve 99% global `locality` coverage via Geonames.org ingest of missing records, [blog post](https://www.whosonfirst.org/blog/2019/05/13/geonames/). This increased locality count from 345,000 to just over 4.4 million records (+12.7x increase), with a new total number of administrative records in the whosonfirst-data repositories to 4.8 million places.
+  - Before / after Geonames import maps:
     ![WOF before Geonames locality import](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/pre-gn.gif)
     ![WOF after Geonames locality import](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/post-gn.gif)
 - **Global**: Rerun Wikidata name localization import on per-country repos. This yielded 11,765,604 new names added across 972,158 records. (Issue [#1656](https://github.com/whosonfirst-data/whosonfirst-data/issues/1656))
