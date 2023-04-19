@@ -711,130 +711,74 @@ Jump to month: [January](#2019-January) • [February](#2019-February) • [Ma
 
 ### 2019 October
 
-#### FRANCE
-
-- Corrected postalcode hierarchies in France (Issue [#1713](https://github.com/whosonfirst-data/whosonfirst-data/issues/1713))
-- **Fixed by**: [fr/#2](https://github.com/whosonfirst-data/whosonfirst-data-admin-fr/pull/2)
+- **France**: Corrected postalcode hierarchies in France (Issue [#1713](https://github.com/whosonfirst-data/whosonfirst-data/issues/1713))
   - Updating "county_id" and "localadmin_id" values in dozens of postalcode records' `wof:hierarchy` properties, also updating `wof:belongsto` and `wof:parent_id` values
   - New postalcode hierarchies in France now maintain the appropriate, current parent administrative records
-
-#### NORWAY
-
-- Updated locality and neighbourhood records in Norway (Issue [#298](https://github.com/whosonfirst-data/whosonfirst-data/issues/298))
-- **Fixed by**: [no/#6](https://github.com/whosonfirst-data/whosonfirst-data-admin-no/pull/6)
-- This pull request includes changes at the locality and neighbourhood placetypes in Norway. In summary, each locality record was updated with new geometries, property flags, and name translations. In addition, other administrative placetypes were updated as needed.
-- Specific work included:
-  - Updating geometries for two records at the region placetype, ensuring Who's On First has the most recent admin1 boundaries in Norway
-  - Updating geometries for many records at the locality placetype, clipping geometries along parent boundaries
-  - Updating neighbourhood records, converting some existing locality records to neighbourhood records, and curating new neighbouhrood geometries in a handful of cases
-  - Resetting all `lbl:bbox` values for records that received new Polygon or MultiPolygon geometries
-  - Validating all geometries using osgeo, validating all records using Who's On First's `go-whosonfirst-validate` tool
-  - Adding Wikipedia and Wikidata-sourced name translations to any record without a name translation
-  - Completing PIP work to updating or confirming all `wof:hierarchy` properties for all records in the Norway admin repository
-
-#### POLAND
-
-- Updated county, localadmin, locality, borough, and neighbourhood records in Poland (Issue [#1131](https://github.com/whosonfirst-data/whosonfirst-data/issues/1131))
-- **Fixed by**: [pl/#11](https://github.com/whosonfirst-data/whosonfirst-data-admin-pl/pull/11)
-- This pull request includes various changes at five placetypes in Poland. In summary, each localadmin and locality record was updated with updated geometries, property flags, and name translations.
-- Specific work included:
-  - Adding new source geometries to each localadmin record
-  - Adding new source geometries to some locality records, storing some source geometries as "alt" files
-  - Adding source concordances to region, county, localadmin records
-  - Flagging localadmin and locality as coterminous using the `wof:coterminous` property, as necessary
-  - Demoting some locality records to the neighbourhood placetype, as needed
-  - Adding new borough records to two localities in Poland - Krakow and Warsaw
-  - Adding concordances to the `wof:concordances` propert
-  - Validating all geometries using osgeo, validating all records using Who's On First's `go-whosonfirst-validate` tool
-  - Adding Wikipedia and Wikidata-sourced name translations to any record without a name translation
-  - Completing PIP work to updating or confirming all `wof:hierarchy` properties for all records in the Poland admin repository
-
-#### ALTERNATE GEOMETRIES
-
-- Addition of `src:alt_label` property to each alt file (Issue [#1714](https://github.com/whosonfirst-data/whosonfirst-data/issues/1714))
-- **Fixed by**: multiple, for example [ro/#9](https://github.com/whosonfirst-data/whosonfirst-data-admin-ro/pull/9)
-  - In order for Who's On First to property publish public SQLite distribution files, each "alt" file in Who's On First needed a `src:alt_label` property added.
-  - Alt files in each of the 260 per-country Who's On First repositories were given this property in a series of pull requests.
+- **Norway**: Updated locality and neighbourhood records in Norway (Issue [#298](https://github.com/whosonfirst-data/whosonfirst-data/issues/298))
+  - This pull request includes changes at the locality and neighbourhood placetypes in Norway. In summary, each locality record was updated with new geometries, property flags, and name translations. In addition, other administrative placetypes were updated as needed.
+  - Specific work included:
+    - Updating geometries for two records at the region placetype, ensuring Who's On First has the most recent admin1 boundaries in Norway
+    - Updating geometries for many records at the locality placetype, clipping geometries along parent boundaries
+    - Updating neighbourhood records, converting some existing locality records to neighbourhood records, and curating new neighbouhrood geometries in a handful of cases
+    - Resetting all `lbl:bbox` values for records that received new Polygon or MultiPolygon geometries
+    - Validating all geometries using osgeo, validating all records using Who's On First's `go-whosonfirst-validate` tool
+    - Adding Wikipedia and Wikidata-sourced name translations to any record without a name translation
+    - Completing PIP work to updating or confirming all `wof:hierarchy` properties for all records in the Norway admin repository
+- **Poland**: Updated county, localadmin, locality, borough, and neighbourhood records in Poland (Issue [#1131](https://github.com/whosonfirst-data/whosonfirst-data/issues/1131))
+ - This pull request includes various changes at five placetypes in Poland. In summary, each localadmin and locality record was updated with updated geometries, property flags, and name translations.
+ - Specific work included:
+   - Adding new source geometries to each localadmin record
+   - Adding new source geometries to some locality records, storing some source geometries as "alt" files
+   - Adding source concordances to region, county, localadmin records
+   - Flagging localadmin and locality as coterminous using the `wof:coterminous` property, as necessary
+   - Demoting some locality records to the neighbourhood placetype, as needed
+   - Adding new borough records to two localities in Poland - Krakow and Warsaw
+   - Adding concordances to the `wof:concordances` propert
+   - Validating all geometries using osgeo, validating all records using Who's On First's `go-whosonfirst-validate` tool
+   - Adding Wikipedia and Wikidata-sourced name translations to any record without a name translation
+   - Completing PIP work to updating or confirming all `wof:hierarchy` properties for all records in the Poland admin repository
+- **Various**: For alternate geometries, addition of `src:alt_label` property to each alt file (Issue [#1714](https://github.com/whosonfirst-data/whosonfirst-data/issues/1714))
+  - **Fixed by**: multiple, for example [ro/#9](https://github.com/whosonfirst-data/whosonfirst-data-admin-ro/pull/9)
+    - In order for Who's On First to property publish public SQLite distribution files, each "alt" file in Who's On First needed a `src:alt_label` property added.
+    - Alt files in each of the 260 per-country Who's On First repositories were given this property in a series of pull requests.
 
 ### 2019 November
 
-#### FRANCE
-
-- Updated French `label:` properties in region records (Issue [#1734](https://github.com/whosonfirst-data/whosonfirst-data/issues/1734))
-- **Fixed by**: [fr/#18](https://github.com/whosonfirst-data/whosonfirst-data-admin-fr/pull/18)
-  - Verifying and fixing each unique `"label:fra_x_preferred_longname"` property values for each of the 101 region records
-
-#### INDIA
-
-- Updated administrative records in select localities in India (Issue [#1593](https://github.com/whosonfirst-data/whosonfirst-data/issues/1593))
-- Fixed by:
-  - [in/#12](https://github.com/whosonfirst-data/whosonfirst-data-admin-in/pull/12)
-  - [in/#11](https://github.com/whosonfirst-data/whosonfirst-data-admin-in/pull/11)
-- This work is ongoing and will update neighbourhood, borough, locality, county, and region geometries in and around ten of the most populous localities in India. Two of the ten localities were updated this month, the remaining eight will be completed in December.
-- Specific work included:
-  - Updating geometries for neighbourhood, borough, locality, county, and region records in Chandigarh and Kolkata
-  - Updating properties for these records, including name translations, `mz:` property flags, and `wof:` properties
-  - PIP work to update `wof:hierarchy` and `wof:parent_id` properties for all records
-  - Validating all geometries using osgeo, validating all records using Who's On First's `go-whosonfirst-validate` tool
-  - Completing PIP work to updating or confirming all `wof:hierarchy` properties for all records in the India admin repository
-
-#### UNITED KINGDOM
-
-- Updated neighbourhood geometries in Glasgow, Scotland (Issue [#1724](https://github.com/whosonfirst-data/whosonfirst-data/issues/1724))
-- **Fixed by**: [gb/#18](https://github.com/whosonfirst-data/whosonfirst-data-admin-gb/pull/18)
-  - Clipping existing geometries to the Glasgow locality geometry
-  - Flagging each updated record with a `mz:is_current` property value of `1`
-  - Storing existing geometries in alt-geometry files
-
-#### VARIOUS
-
-- Fixed incorrect concordances and name translations in a locality record in **Norway** (Issue [#1730](https://github.com/whosonfirst-data/whosonfirst-data/issues/1730))
-  - **Fixed by**: [no/#7](https://github.com/whosonfirst-data/whosonfirst-data-admin-no/pull/7)
-- Updated the locality geometry of a locality in **Honduras** (Issue [#1736](https://github.com/whosonfirst-data/whosonfirst-data/issues/1736)):
-  - **Fixed by**: [hn/#6](https://github.com/whosonfirst-data/whosonfirst-data-admin-hn/pull/6)
-- Minor updates to locality records in **Poland** (Issue [#1738](https://github.com/whosonfirst-data/whosonfirst-data/issues/1738))
-  - **Fixed by**: [pl/#14](https://github.com/whosonfirst-data/whosonfirst-data-admin-pl/pull/14)
-- Updated the properties of two county records in **Germany** (Issue [#1697](https://github.com/whosonfirst-data/whosonfirst-data/issues/1697))
-  - **Fixed by**: [de/#17](https://github.com/whosonfirst-data/whosonfirst-data-admin-de/pull/17)
-- Updated name translations in various locality records (Issue [#1743](https://github.com/whosonfirst-data/whosonfirst-data/issues/1743))
+- **France**: Updated French `label:` properties in region records. Verifying and fixing each unique `"label:fra_x_preferred_longname"` property values for each of the 101 region records. (Issue [#1734](https://github.com/whosonfirst-data/whosonfirst-data/issues/1734))
+- **Germany**: Updated the properties of two county records (Issue [#1697](https://github.com/whosonfirst-data/whosonfirst-data/issues/1697))
+- **Honduras**: Updated the locality geometry of a locality in (Issue [#1736](https://github.com/whosonfirst-data/whosonfirst-data/issues/1736)):
+- **India**: Updated administrative records in select localities in India (Issue [#1593](https://github.com/whosonfirst-data/whosonfirst-data/issues/1593))
+  - Fixed by:
+    - [in/#12](https://github.com/whosonfirst-data/whosonfirst-data-admin-in/pull/12)
+    - [in/#11](https://github.com/whosonfirst-data/whosonfirst-data-admin-in/pull/11)
+  - This work is ongoing and will update neighbourhood, borough, locality, county, and region geometries in and around ten of the most populous localities in India. Two of the ten localities were updated this month, the remaining eight will be completed in December.
+  - Specific work included:
+    - Updating geometries for neighbourhood, borough, locality, county, and region records in Chandigarh and Kolkata
+    - Updating properties for these records, including name translations, `mz:` property flags, and `wof:` properties
+    - PIP work to update `wof:hierarchy` and `wof:parent_id` properties for all records
+    - Validating all geometries using osgeo, validating all records using Who's On First's `go-whosonfirst-validate` tool
+    - Completing PIP work to updating or confirming all `wof:hierarchy` properties for all records in the India admin repository
+- **Norway**: Fixed incorrect concordances and name translations in a locality record (Issue [#1730](https://github.com/whosonfirst-data/whosonfirst-data/issues/1730))
+- **Poland**: Minor updates to locality records (Issue [#1738](https://github.com/whosonfirst-data/whosonfirst-data/issues/1738))
+- **United Kingdom**: Updated neighbourhood geometries in Glasgow, Scotland. Clipping existing geometries to the Glasgow locality geometry. Flagging each updated record with a `mz:is_current` property value of `1`. Storing existing geometries in alt-geometry files. (Issue [#1724](https://github.com/whosonfirst-data/whosonfirst-data/issues/1724))
+- **Various**: Updated name translations in various locality records (Issue [#1743](https://github.com/whosonfirst-data/whosonfirst-data/issues/1743))
   - Fixed locality records in the **Angola**, **Austria**, **Hungary**, **India**, **Lithuania**, **Poland**, **Spain**, and the **United States**.
-  - See issue for PR fixes
 
 ### 2019 December
 
-#### BRAZIL
-
-- Update Portugese localized names of around 4,500 counties, and correct names of 3 (Issue [#1756](https://github.com/whosonfirst-data/whosonfirst-data/issues/1756))
-
-#### CANADA
-
-- Update geometry of Quebec to high precision (Issue [#1719](https://github.com/whosonfirst-data/whosonfirst-data/issues/1719))
-
-#### COSTA RICA
-
-- Correct Liverpool population and Wikidata concordance (Issue [#1759](https://github.com/whosonfirst-data/whosonfirst-data/issues/1759))
-
-#### FRANCE
-
-- Fix name translations of Barbas locality (Issue [#1747](https://github.com/whosonfirst-data/whosonfirst-data/issues/1747))
-
-#### INDIA
-
-- Add additional 242,827 name localizations to 18,679 admin places across the following languages: English, Arabic, Bengali (IN), Bengali (BN), Gujarati, Hindi, Kannada, Malayalam, Marathi, Punjabi, Tamil, Telugu, Urdu (Issue [#1763](https://github.com/whosonfirst-data/whosonfirst-data/issues/1763)),
-- Add polygons for "100" largest cities in India (Issue [#1592](https://github.com/whosonfirst-data/whosonfirst-data/issues/1592))
-- **Add detailed admin subdivisions for largest localities in India, including**: Ahmedabad, Bangalore, Chandigarh, Chennai, Delhi, Hyderabad, Jaipur, Kolkata, Mumbai, and Pune. (Issue [#1593](https://github.com/whosonfirst-data/whosonfirst-data/issues/1593))
-- Upgrade neighbourhood records in Hyderabad, India (Issue [#661](https://github.com/whosonfirst-data/whosonfirst-data/issues/661))
-- Correct name of wof:name is "Nekowal" (from "Dadra and Nagar Haveli") (Issue [#1722](https://github.com/whosonfirst-data/whosonfirst-data/issues/1722))
-
-#### UNITED STATES
-
-- Deprecate duplicate Washington DC record (Issue [#1758](https://github.com/whosonfirst-data/whosonfirst-data/issues/1758))
-- Fix names in South Park neighbourhood to Dogtown (Pull request  [#31](https://github.com/whosonfirst-data/whosonfirst-data-admin-us/pull/31))
-
-#### VARIOUS
-
-- For localization, add missing `wof:{lang}_x_*` property to macroregion, region, or macrocounty records (Issue [#1718](https://github.com/whosonfirst-data/whosonfirst-data/issues/1718))
-- Fix invalid JSON in single alt file (Issue [#1764](https://github.com/whosonfirst-data/whosonfirst-data/issues/1764))
+- **Brazil**: Update Portugese localized names of around 4,500 counties, and correct names of 3 (Issue [#1756](https://github.com/whosonfirst-data/whosonfirst-data/issues/1756))
+- **Canada**: Update geometry of Quebec to high precision (Issue [#1719](https://github.com/whosonfirst-data/whosonfirst-data/issues/1719))
+- **Costa Rica**: Correct Liverpool population and Wikidata concordance (Issue [#1759](https://github.com/whosonfirst-data/whosonfirst-data/issues/1759))
+- **France**: Fix name translations of Barbas locality (Issue [#1747](https://github.com/whosonfirst-data/whosonfirst-data/issues/1747))
+- **India**: Add additional 242,827 name localizations to 18,679 admin places across the following languages: English, Arabic, Bengali (IN), Bengali (BN), Gujarati, Hindi, Kannada, Malayalam, Marathi, Punjabi, Tamil, Telugu, Urdu (Issue [#1763](https://github.com/whosonfirst-data/whosonfirst-data/issues/1763)),
+- **India**: Add polygons for "100" largest cities in India (Issue [#1592](https://github.com/whosonfirst-data/whosonfirst-data/issues/1592))
+- **India**: Add detailed admin subdivisions for largest localities in India, including: Ahmedabad, Bangalore, Chandigarh, Chennai, Delhi, Hyderabad, Jaipur, Kolkata, Mumbai, and Pune. (Issue [#1593](https://github.com/whosonfirst-data/whosonfirst-data/issues/1593))
+- **India**: Upgrade neighbourhood records in Hyderabad, India (Issue [#661](https://github.com/whosonfirst-data/whosonfirst-data/issues/661))
+- **India**: Correct name of wof:name is "Nekowal" (from "Dadra and Nagar Haveli") (Issue [#1722](https://github.com/whosonfirst-data/whosonfirst-data/issues/1722))
+- **United States**: Deprecate duplicate Washington DC record (Issue [#1758](https://github.com/whosonfirst-data/whosonfirst-data/issues/1758))
+- **United States**: Fix names in South Park neighbourhood to Dogtown (Pull request  [#31](https://github.com/whosonfirst-data/whosonfirst-data-admin-us/pull/31))
+- **Various**: For localization, add missing `wof:{lang}_x_*` property to macroregion, region, or macrocounty records (Issue [#1718](https://github.com/whosonfirst-data/whosonfirst-data/issues/1718))
+- **Various**: Fix invalid JSON in single alt file (Issue [#1764](https://github.com/whosonfirst-data/whosonfirst-data/issues/1764))
 
 ## 2020
 
