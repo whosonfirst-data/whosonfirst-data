@@ -21,9 +21,9 @@ Jump to year: [2015](#2015) • [2016](#2016) • [2017](#2017) • [2018](#2
     ![Quattroshapes localities](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/qs_localities.png)
   - Local administrative level (below) In green. This level of government assumes municipal type control over the central town and surrounding countryside. National mapping agency data.
     ![Quattroshapes localadmin](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/qs_localadmin.png)
-  - Neighbourhood level (below) In purple. Informal and calculated based on gridded enumeration of Flickr geocoded photos.
+  - Neighbourhood level (below) In purple.  Informal (vernacular) usage sourced from original Quattroshape enumeration from geo tagged photos in Flickr using GeoPlanet hierarchy.
     ![Quattroshapes neighborhoods](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/qs_neighborhoods.png)
-  - Administrative level 0 (below) In gray. Mix of national mapping agency and US State Department data.  Neighborhoods (below) In purple. Quattroshape enumeration from geo tagged photos in Flickr using GeoPlanet hierarchy.
+  - Administrative level 0 (below) In gray. Mix of national mapping agency and US State Department data.
     ![Quattroshapes admin-0](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/qs_adm0.png)
 
 ### 2015 January thru December omnibus
