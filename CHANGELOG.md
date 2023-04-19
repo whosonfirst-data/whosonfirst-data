@@ -451,7 +451,7 @@ Jump to month: [January](#2018-January) • [February](#2018-February) • [Ma
 
 Jump to month: [January](#2019-January) • [February](#2019-February) • [March](#2019-March) • [April](#2019-April) • [May](#2019-May) • [June](#2019-June) • [July](#2019-July) • [August](#2019-August) • [September](#2019-September) • [October](#2019-October) • [November](#2019-November) • [December](#2019-December)
 
-### 2018 highlights
+### 2019 highlights
 
 - **Global**: Achieve 99% global `locality` coverage via Geonames.org ingest of missing records, [blog post](https://www.whosonfirst.org/blog/2019/05/13/geonames/). This increased locality count from 345,000 to just over 4.4 million records (+12.7x increase), with a new total number of administrative records in the whosonfirst-data repositories to 4.8 million places.
     ![Who's On First before Geonames.org locality import](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/pre-gn.gif)
