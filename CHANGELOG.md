@@ -58,7 +58,7 @@ Jump to year: [2015](#2015) • [2016](#2016) • [2017](#2017) • [2018](#2
 - **Various**: Import missing admin-1-regions from Quattroshapes as new `macroregion` placetype. (Issue [#34](https://github.com/whosonfirst-data/whosonfirst-data/issues/34), see Quattroshapes region and macroregion map below.)
     ![Quattroshapes admin-1 regions](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/qs_adm1.png)
 - **Various**: Link up `country`, `dependency`, and `disputed` records to new `empire` placetype. (Issue [#4](https://github.com/whosonfirst-data/whosonfirst-data/issues/4))
-- And many more minor changes...
+- _And many more minor changes..._
 
 ### 2016 January thru December omnibus
 
@@ -101,7 +101,7 @@ Jump to month: [January](#2017-January) • [February](#2017-February) • [Ma
 - **South Korea**: Fix duplicate county records (Issue [#578](https://github.com/whosonfirst-data/whosonfirst-data/issues/578))
 - **United States**: Upgrade neighbourhood shapes for Oakland (East Bay, California) (Issue [#423](https://github.com/whosonfirst-data/whosonfirst-data/issues/423))
 - **Various:** Set default min zooms on neighbourhoods when missing (Issue [#585](https://github.com/whosonfirst-data/whosonfirst-data/issues/585))
-- And many more minor changes...
+- _And many more minor changes..._
 
 ### 2017 February
 
@@ -113,7 +113,7 @@ Jump to month: [January](#2017-January) • [February](#2017-February) • [Ma
 - **United States**: Upgrade neighbourhood shapes for San Diego. (Issue [#399](https://github.com/whosonfirst-data/whosonfirst-data/issues/399))
 - **United States**: Upgrade neighbourhood shapes for San Jose (California) (Issue [#424](https://github.com/whosonfirst-data/whosonfirst-data/issues/424))
 - **Various**: Make airport campus records consistent with their neighbourhood records. (Issue [#673](https://github.com/whosonfirst-data/whosonfirst-data/issues/673))
-- And many more minor changes...
+- _And many more minor changes..._
 
 ### 2017 March
 
@@ -121,7 +121,7 @@ Jump to month: [January](#2017-January) • [February](#2017-February) • [Ma
 - **Germany**: Upgrade neighbourhood shapes for Berlin neighbourhood. (Issue [#161](https://github.com/whosonfirst-data/whosonfirst-data/issues/161))
 - **United States**: Upgrade neighbourhood shapes for Los Angeles (city). (Issue [#387](https://github.com/whosonfirst-data/whosonfirst-data/issues/387))
 - **United States**: Upgrade neighbourhood shapes for Philly. (Issue [#386](https://github.com/whosonfirst-data/whosonfirst-data/issues/386))
-- And many more minor changes...
+- _And many more minor changes..._
 
 ### 2017 April
 
@@ -140,16 +140,16 @@ Jump to month: [January](#2017-January) • [February](#2017-February) • [Ma
 - **United States**: Upgrade neighbourhood shapes for Washington DC, Arlington, Alexandria (Issue [#388](https://github.com/whosonfirst-data/whosonfirst-data/issues/388))
 - **Various**: Create new country alt-geometries by dissolving child mesoshape counties (Issue [#611](https://github.com/whosonfirst-data/whosonfirst-data/issues/611))
 - **Various**: Warn on [] in names, prefer (). (Issue [#89](https://github.com/whosonfirst-data/whosonfirst-data/issues/89))
-- And many more minor changes...
+- _And many more minor changes..._
 
 ### 2017 May
 
 - **Global**: Indicate if a locality is a megacity. (Issue [#790](https://github.com/whosonfirst-data/whosonfirst-data/issues/790))
-- **Canada**: Upgrade neighbourhood shapes for Victoria (BC), Canada. (Issue [#422](https://github.com/whosonfirst-data/whosonfirst-data/issues/422) and [#782](https://github.com/whosonfirst-data/whosonfirst-data/issues/782))
+- **Canada**: Upgrade neighbourhood shapes for Victoria (BC), Canada. (Issues [#422](https://github.com/whosonfirst-data/whosonfirst-data/issues/422) and [#782](https://github.com/whosonfirst-data/whosonfirst-data/issues/782))
 - **United States**: Upgrade neighbourhood shapes for Minneapolis-St Paul. (Issue [#390](https://github.com/whosonfirst-data/whosonfirst-data/issues/390))
 - **United States**: Introduce `placetype_alt` concept with Piedmont (California) (Issue [#776](https://github.com/whosonfirst-data/whosonfirst-data/issues/776))
 - **United States**: Create venue records from The List. (Issue [#805](https://github.com/whosonfirst-data/whosonfirst-data/issues/805))
-- And many more minor changes...
+- _And many more minor changes..._
 
 ### 2017 June
 
@@ -170,7 +170,7 @@ Jump to month: [January](#2017-January) • [February](#2017-February) • [Ma
 - **Yugoslavia**: Add historical Yugoslavia records to demonstrate `supersedes` and `superseded_by` relationships with time indicators. (Issue [#45](https://github.com/whosonfirst-data/whosonfirst-data/issues/45))
 - **Various**: Fix country records missing `name:eng_x_preferred` property. (Issue [#767](https://github.com/whosonfirst-data/whosonfirst-data/issues/767))
 - **Various**: Update wof:name for ~900 Mesoshapes-sourced features with a null or blank wof:name. (Issue [#53](https://github.com/whosonfirst-data/whosonfirst-data/issues/53))
-- And many more minor changes...
+- _And many more minor changes..._
 
 ### 2017 July
 
@@ -193,7 +193,7 @@ Jump to month: [January](#2017-January) • [February](#2017-February) • [Ma
 - **Various**: Cleanup ALL CAPS admin-2-counties names. (Issue [#70](https://github.com/whosonfirst-data/whosonfirst-data/issues/70))
 - **Various**: Update ISO-639-3 code concordances. (Issue [#291](https://github.com/whosonfirst-data/whosonfirst-data/issues/291))
 - **Various**: Indicate which geometry alt should be used for reverse geocoding. (Issue [#367](https://github.com/whosonfirst-data/whosonfirst-data/issues/367))
-- And many more minor changes...
+- _And many more minor changes..._
 
 ### 2017 August
 
@@ -206,7 +206,7 @@ Jump to month: [January](#2017-January) • [February](#2017-February) • [Ma
 - **Russia**: Add reversegeo properties to region records because of complex geometries. (Issue [#635](https://github.com/whosonfirst-data/whosonfirst-data/issues/635))
 - **Various**: Add two smaller capital cities for Saint Peters Port, Guernsey and Plymouth, Montserrat (Issue [#738](https://github.com/whosonfirst-data/whosonfirst-data/issues/738))
 - **Various**: Add concordance with Natural Earth admin-0 countries (Issue [#103](https://github.com/whosonfirst-data/whosonfirst-data/issues/103))
-- And many more minor changes...
+- _And many more minor changes..._
 
 ### 2017 September
 
@@ -225,7 +225,7 @@ Jump to month: [January](#2017-January) • [February](#2017-February) • [Ma
 - **United States**: Clean up dependency hierarchies for United States and France. (Issue [#750](https://github.com/whosonfirst-data/whosonfirst-data/issues/750))
 - **Venezuela**: Update HASC codes for admin2 features, especially in the following regions: Anzoategui, Dependencias Federales, Miranda, Monagas, Nueva Esparta, Sucre. (Issue [#584](https://github.com/whosonfirst-data/whosonfirst-data/issues/584))
 - **Various**: Add geometries to empires. (Issue [#335](https://github.com/whosonfirst-data/whosonfirst-data/issues/335))
-- And many more minor changes...
+- _And many more minor changes..._
 
 ### 2017 October
 
@@ -237,7 +237,7 @@ Jump to month: [January](#2017-January) • [February](#2017-February) • [Ma
 - **United States**: Upgrade neighbourhood shapes in Santa Barbara (California) (Issue [#1005](https://github.com/whosonfirst-data/whosonfirst-data/issues/1005))
 - **United States**: "Super Bowl City" in San Francisco is an obsolete neighbourhood (Issue [#873](https://github.com/whosonfirst-data/whosonfirst-data/issues/873))
 - **Various**: Add concordance with Quattroshapes gazetteer IDs to QS geoms concordances. (Issue [#105](https://github.com/whosonfirst-data/whosonfirst-data/issues/105))
-- And many more minor changes...
+- _And many more minor changes..._
 
 ### 2017 November
 
@@ -259,7 +259,7 @@ Jump to month: [January](#2017-January) • [February](#2017-February) • [Ma
 - **Various**: Fix silly bugs in Quattroshapes, like Chilean localities and Chinese neigbourhoods having incorrect Swiss country codes and places in Ireland being listed in Iran instead. (Issue [#992](https://github.com/whosonfirst-data/whosonfirst-data/issues/992) and [#77](https://github.com/whosonfirst-data/whosonfirst-data/issues/77) and [#853](https://github.com/whosonfirst-data/whosonfirst-data/issues/853))
 - **Various**: Cleanup admin-2-county names so they are human readable. (Issue [#71](https://github.com/whosonfirst-data/whosonfirst-data/issues/71))
 - **Various**: Cleanup records without admin hierarchies. (Issue [#922](https://github.com/whosonfirst-data/whosonfirst-data/issues/922))
-- And many more minor changes...
+- _And many more minor changes..._
 
 ### 2017 December
 
@@ -273,7 +273,7 @@ Jump to month: [January](#2017-January) • [February](#2017-February) • [Ma
 - **United Kingdom**: Upgrade neighbourhood shapes for London. (Issue [#411](https://github.com/whosonfirst-data/whosonfirst-data/issues/411))
 - **United Kingdom**: Is London a locality that entirely contains the much smaller City of Westminster region?. (Issue [#225](https://github.com/whosonfirst-data/whosonfirst-data/issues/225))
 - **Various**: Consider updating wof:concordance to handle multiple valid concordances per source (Issue [#796](https://github.com/whosonfirst-data/whosonfirst-data/issues/796))
-- And many more minor changes...
+- _And many more minor changes..._
 
 ## 2018
 
@@ -312,19 +312,19 @@ Jump to month: [January](#2018-January) • [February](#2018-February) • [Ma
 
 ### 2018 January
 
-- Gazetteer data updates still paused because of Mapzen shutdown in 2017 December
+- _Gazetteer data updates still paused because of Mapzen shutdown in 2017 December_
 
 ### 2018 February
 
-- Gazetteer data updates still paused...
+- _Gazetteer data updates still paused..._
 
 ### 2018 March
 
-- Gazetteer data updates still paused...
+- _Gazetteer data updates still paused..._
 
 ### 2018 April
 
-- Gazetteer data updates still paused...
+- _Gazetteer data updates still paused..._
 
 ### 2018 May
 
@@ -399,7 +399,7 @@ Jump to month: [January](#2018-January) • [February](#2018-February) • [Ma
 
 - **Global**: Concordance work with Wikidata (discussion) (Issue [#1284](https://github.com/whosonfirst-data/whosonfirst-data/issues/1284))
 - **Canada**: Add county and locality records in Alberta (Issue [#1044](https://github.com/whosonfirst-data/whosonfirst-data/issues/1044))
-- **Canada**: Clean up county records (from 231 to 291 features), including marking some statistical gore = 1 (Issue [#926](https://github.com/whosonfirst-data/whosonfirst-data/issues/926) and [#666](https://github.com/whosonfirst-data/whosonfirst-data/issues/666))
+- **Canada**: Clean up county records (from 231 to 291 features), including marking some statistical gore = 1 (Issues [#926](https://github.com/whosonfirst-data/whosonfirst-data/issues/926) and [#666](https://github.com/whosonfirst-data/whosonfirst-data/issues/666))
 - **France**: Promote overseas collectivities of France to dependency (from region of France) – St Martin, Saint Pierre, and Miquelon (Issue [#13](https://github.com/whosonfirst-data/whosonfirst-data/issues/13))
 - **Hong Kong**: Update country, macroregion, region & more records, from Hong Kong Open Data portal. (Issue [#1106](https://github.com/whosonfirst-data/whosonfirst-data/issues/1106))
 - **Mauritius**: Remove outmoded Île de France name variant in French for Mauritius (Issue [#1286](https://github.com/whosonfirst-data/whosonfirst-data/issues/1286))
@@ -541,11 +541,11 @@ Jump to month: [January](#2019-January) • [February](#2019-February) • [Ma
 - **United States**: Make Coonville in Ohio search only (not for map display) (Pull request [#1444](https://github.com/whosonfirst-data/whosonfirst-data/pull/1444))
 - **Various**: Cleanup and add Arabic name translation in Arabic speaking countries (Pull request [#1465](https://github.com/whosonfirst-data/whosonfirst-data/pull/1465))
 - **Various**: Fix more airport campus records (Pull request [#1470](https://github.com/whosonfirst-data/whosonfirst-data/pull/1470))
-- Various other edits made directly to the individual country repos as PRs...
+- _Various other edits made directly to the individual country repos as PRs..._
 
 ### 2019 February
 
-- **Australia**: add new macrocounty places for "significant urban areas", flag county records with mz:hierarchy_label of 0 so they don't show up in labeled reverse geocoding hierarchies, flag any locality and localadmin that are coterminous, deprecated any locality point (GeoNames or Quattroshapes) if it falls within an existing locality polygon, Updates neighbourhoods, deprecating records that share names with their parent locality or – if names are unique – moving the neighbourhood to a point geometry. From Australian Government Open Data Portal (PMSA). (Issue [#218](https://github.com/whosonfirst-data/whosonfirst-data/issues/218))
+- **Australia**: add new macrocounty places for "significant urban areas", flag county records with `mz:hierarchy_label` of 0 so they don't show up in labeled reverse geocoding hierarchies, flag any locality and localadmin that are coterminous, deprecated any locality point (GeoNames or Quattroshapes) if it falls within an existing locality polygon, Updates neighbourhoods, deprecating records that share names with their parent locality or – if names are unique – moving the neighbourhood to a point geometry. From Australian Government Open Data Portal (PMSA). (Issue [#218](https://github.com/whosonfirst-data/whosonfirst-data/issues/218))
 - **France**: the Spanish exclave of Llívia needed to be removed from the France country geometry (Issue [#1433](https://github.com/whosonfirst-data/whosonfirst-data/issues/1433))
 - **France**: Untangle Annecy and Pringy names (cleanup from 2018 work in France) (Issue [#1491](https://github.com/whosonfirst-data/whosonfirst-data/issues/1491))
 - **Israel & Palestine**: Improve coverage and polygon detail of disputed records (including adding controlled hierarchies); more consistently align country, region, and county polygons; add polygons for largest cities in Israel; cleanup of localities and neighbourhoods in and around Jerusalem. (Issue [#1473](https://github.com/whosonfirst-data/whosonfirst-data/issues/1473))
@@ -554,7 +554,7 @@ Jump to month: [January](#2019-January) • [February](#2019-February) • [Ma
 - **United Arab Emirates**: updated country (and for Oman), region, and county records (Issue [#1421](https://github.com/whosonfirst-data/whosonfirst-data/issues/1421))
 - **United Kingdom**: Deprecate Drumhirk locality (Issue [#1481](https://github.com/whosonfirst-data/whosonfirst-data/issues/1481))
 - **United States**: Some new GeoNames locality records for mobile home parks should be campuses instead (Issue [#1431](https://github.com/whosonfirst-data/whosonfirst-data/issues/1431))
-- Various other edits made directly to the individual country repos as PRs...
+- _Various other edits made directly to the individual country repos as PRs..._
 
 ### 2019 March
 
@@ -584,12 +584,12 @@ Jump to month: [January](#2019-January) • [February](#2019-February) • [Ma
 - **United States**: Update Bakersfield name (from Kern) (Issue [#1505](https://github.com/whosonfirst-data/whosonfirst-data/issues/1505))
 - **United States**: Update English preferred name for Mckinleyville, California (Issue [#1529](https://github.com/whosonfirst-data/whosonfirst-data/issues/1529))
 - **Various**: Update capital city geometries to harvest polygons from unitary parent features, followup to [#57](https://github.com/whosonfirst-data/whosonfirst-data/issues/57). (Issue [#1496](https://github.com/whosonfirst-data/whosonfirst-data/issues/1496))
-    - Including: Abidjan (Ivory Coast), Abuja (Nigeria), Accra (Ghana), Addis Ababa (Ethiopia), Aden (Yemen), Algiers (Algeria), Amman (Jordan), Ankara (Turkey), Antananarivo (Madagascar), Apia (Samoa), Ashgabat (Turkmenistan), Asmara (Eritrea), Astana (Kazakhstan), Asunción (Paraguay), Baku (Azerbaijan), Bamako (Mali), Bandar Seri Begawan (Brunei), Bangui (Central African Republic), Banjul (Gambia), Basseterre (Saint Kitts and Nevis), Belgrade (Serbia), Belmopan (Belize), Bishkek (Kyrgyzstan), Bissau (Guinea Bissau), Bogotá (Colombia), Brazzaville (Republic of Congo), Bridgetown (Barbados), Bujumbura (Burundi), Camp Justice (Australian Indian Ocean Territories), Canberra (Australia), Caracas (Venezuela), Castries (Saint Lucia), Cetinje (Montenegro), Ciudad de Guatemala (Guatemala), Colombo (Sri Lanka), Conakry (Guinea), Cotonou (Benin), Dakar (Senegal), Damascus (Syria), Dhaka (Bangladesh), Dili (East Timor), Dodoma (Tanzania), Douglas (Isle of Man), Dushanbe (Tajikistan), East Jerusalem (Palestine), Freetown (Sierra Leone), Funafuti Island (Tuvalu), Georgetown (Guyana), Hanoi (Vietnam), Harare (Zimbabwe), Hargeysa (Somaliland), Havana (Cuba), Hong Kong (Hong Kong S.A.R.), Honiara (Solomon Islands), Islamabad (Pakistan), Juba (South Sudan), K'ut'aisi (Georgia), Kabul (Afghanistan), Kampala (Uganda), Kathmandu (Nepal), Khartoum (Sudan), Kigali (Rwanda), Kingston (Jamaica), Kingstown (Saint Vincent and the Grenadines), Kinshasa (Democratic Republic of the Congo), Kuwait City (Kuwait), La Paz (Bolivia), Laâyoune / El Aaiún (Western Sahara), Libreville (Gabon), Lilongwe (Malawi), Lima (Peru), Lobamba (eSwatini), Lomé (Togo), Luanda (Angola), Lusaka (Zambia), Majuro (Marshall Islands), Malabo (Equatorial Guinea), Male (Maldives), Managua (Nicaragua), Maputo (Mozambique), Maseru (Lesotho), Mbabane (eSwatini), Minsk (Belarus), Mogadishu (Somalia), Monrovia (Liberia), Montevideo (Uruguay), Moroni (Comoros), Muscat (Oman), N'Djamena (Chad), Nairobi (Kenya), Nassau (The Bahamas), Nay Pyi Taw (Myanmar), Ngerulmud (Palau), Niamey (Niger), Nouakchott (Mauritania), Nukualofa Village (Tonga), Nuuk (Greenland), Oranjestad (Aruba), Ouagadougou (Burkina Faso), Palikir (Federated States of Micronesia), Panamá (Panama), Paramaribo (Suriname), Philipsburg (Sint Maarten), Phnom Penh (Cambodia), Podgorica (Montenegro), Port Moresby (Papua New Guinea), Port-au-Prince (Haiti), Port-of-Spain (Trinidad and Tobago), Port-Vila (Vanuatu), Porto-Novo (Benin), Praia (Cape Verde), Pristina (Kosovo), Pyongyang (North Korea), Quito (Ecuador), Rabat (Morocco), Roseau (Dominica), Saint George's (Grenada), Saint Helier (Jersey), Saint Peter Port (Guernsey), San Jose (Costa Rica), San Salvador (El Salvador), Sana'a (Yemen), Santo Domingo (Dominican Republic), Sao Tome (Sao Tome and Principe), Sarajevo (Bosnia and Herzegovina), Skopje (Macedonia), Sri Jayewardenepura-Kotte (Sri Lanka), St. John's (Antigua and Barbuda), Sucre (Bolivia), Suva (Fiji), Tarawa (Kiribati), Tashkent (Uzbekistan), Tbilisi (Georgia), Tegucigalpa (Honduras), Tehran (Iran), Thimphu (Bhutan), Tirana (Albania), Tripoli (Libya), Tunis (Tunisia), Ulan Bator (Mongolia), Victoria (Seychelles), Vientiane (Laos), Willemstad (Curacao), Windhoek (Namibia), Yamoussoukro (Ivory Coast), Yaounde (Cameroon), Yerevan (Armenia), القاهرة (Egypt), بغداد (Iraq).
+    - _Including: Abidjan (Ivory Coast), Abuja (Nigeria), Accra (Ghana), Addis Ababa (Ethiopia), Aden (Yemen), Algiers (Algeria), Amman (Jordan), Ankara (Turkey), Antananarivo (Madagascar), Apia (Samoa), Ashgabat (Turkmenistan), Asmara (Eritrea), Astana (Kazakhstan), Asunción (Paraguay), Baku (Azerbaijan), Bamako (Mali), Bandar Seri Begawan (Brunei), Bangui (Central African Republic), Banjul (Gambia), Basseterre (Saint Kitts and Nevis), Belgrade (Serbia), Belmopan (Belize), Bishkek (Kyrgyzstan), Bissau (Guinea Bissau), Bogotá (Colombia), Brazzaville (Republic of Congo), Bridgetown (Barbados), Bujumbura (Burundi), Camp Justice (Australian Indian Ocean Territories), Canberra (Australia), Caracas (Venezuela), Castries (Saint Lucia), Cetinje (Montenegro), Ciudad de Guatemala (Guatemala), Colombo (Sri Lanka), Conakry (Guinea), Cotonou (Benin), Dakar (Senegal), Damascus (Syria), Dhaka (Bangladesh), Dili (East Timor), Dodoma (Tanzania), Douglas (Isle of Man), Dushanbe (Tajikistan), East Jerusalem (Palestine), Freetown (Sierra Leone), Funafuti Island (Tuvalu), Georgetown (Guyana), Hanoi (Vietnam), Harare (Zimbabwe), Hargeysa (Somaliland), Havana (Cuba), Hong Kong (Hong Kong S.A.R.), Honiara (Solomon Islands), Islamabad (Pakistan), Juba (South Sudan), K'ut'aisi (Georgia), Kabul (Afghanistan), Kampala (Uganda), Kathmandu (Nepal), Khartoum (Sudan), Kigali (Rwanda), Kingston (Jamaica), Kingstown (Saint Vincent and the Grenadines), Kinshasa (Democratic Republic of the Congo), Kuwait City (Kuwait), La Paz (Bolivia), Laâyoune / El Aaiún (Western Sahara), Libreville (Gabon), Lilongwe (Malawi), Lima (Peru), Lobamba (eSwatini), Lomé (Togo), Luanda (Angola), Lusaka (Zambia), Majuro (Marshall Islands), Malabo (Equatorial Guinea), Male (Maldives), Managua (Nicaragua), Maputo (Mozambique), Maseru (Lesotho), Mbabane (eSwatini), Minsk (Belarus), Mogadishu (Somalia), Monrovia (Liberia), Montevideo (Uruguay), Moroni (Comoros), Muscat (Oman), N'Djamena (Chad), Nairobi (Kenya), Nassau (The Bahamas), Nay Pyi Taw (Myanmar), Ngerulmud (Palau), Niamey (Niger), Nouakchott (Mauritania), Nukualofa Village (Tonga), Nuuk (Greenland), Oranjestad (Aruba), Ouagadougou (Burkina Faso), Palikir (Federated States of Micronesia), Panamá (Panama), Paramaribo (Suriname), Philipsburg (Sint Maarten), Phnom Penh (Cambodia), Podgorica (Montenegro), Port Moresby (Papua New Guinea), Port-au-Prince (Haiti), Port-of-Spain (Trinidad and Tobago), Port-Vila (Vanuatu), Porto-Novo (Benin), Praia (Cape Verde), Pristina (Kosovo), Pyongyang (North Korea), Quito (Ecuador), Rabat (Morocco), Roseau (Dominica), Saint George's (Grenada), Saint Helier (Jersey), Saint Peter Port (Guernsey), San Jose (Costa Rica), San Salvador (El Salvador), Sana'a (Yemen), Santo Domingo (Dominican Republic), Sao Tome (Sao Tome and Principe), Sarajevo (Bosnia and Herzegovina), Skopje (Macedonia), Sri Jayewardenepura-Kotte (Sri Lanka), St. John's (Antigua and Barbuda), Sucre (Bolivia), Suva (Fiji), Tarawa (Kiribati), Tashkent (Uzbekistan), Tbilisi (Georgia), Tegucigalpa (Honduras), Tehran (Iran), Thimphu (Bhutan), Tirana (Albania), Tripoli (Libya), Tunis (Tunisia), Ulan Bator (Mongolia), Victoria (Seychelles), Vientiane (Laos), Willemstad (Curacao), Windhoek (Namibia), Yamoussoukro (Ivory Coast), Yaounde (Cameroon), Yerevan (Armenia), القاهرة (Egypt), بغداد (Iraq)_
 - **Various**: Trim name properties to remove trailing spaces (Issue [#1087](https://github.com/whosonfirst-data/whosonfirst-data/issues/1087))
 - **Various**: Move all wof:label values into label:* properties (Issue [#1540](https://github.com/whosonfirst-data/whosonfirst-data/issues/1540))
 - **Various**: fix a handful of invalid alt geometry GeoJSON files (Issue [#1543](https://github.com/whosonfirst-data/whosonfirst-data/issues/1543))
 - **Various**: New label properties for all regions records to add `label:eng_x_preferred_longname`, add `label:eng_us_x_preferred_longname` for USA records, add `label:eng_x_preferred_placetype` properties to many regions, cleaned up Brazil region names, guard against situations like `Moscow Oblast Oblast`.(Pull request [#1551](https://github.com/whosonfirst-data/whosonfirst-data/pull/1551))
-- Various other edits made directly to the individual country repos as PRs...
+- _Various other edits made directly to the individual country repos as PRs..._
 
 ### 2019 April
 
@@ -604,14 +604,14 @@ Jump to month: [January](#2019-January) • [February](#2019-February) • [Ma
 - **United States**: Update region labels (Issue [#1590](https://github.com/whosonfirst-data/whosonfirst-data/issues/1590))
 - **United States**: Updates the region, locality, and county records in Washington, DC, tagging records as coterminous and updating hierarchy label properties (Issue [#1576](https://github.com/whosonfirst-data/whosonfirst-data/issues/1576))
 - **Various**: Adjust and add `label:*` properties to 41k macroregion, region, macrocounty, county, and localadmin placetypes for name, placetype, longname & etc in mutliple languages (Issue [#1534](https://github.com/whosonfirst-data/whosonfirst-data/issues/1534))
-- Various other edits made directly to the individual country repos as PRs...
+- _Various other edits made directly to the individual country repos as PRs..._
 
 ### 2019 May
 
 - **Global**: We published [blog post](https://www.whosonfirst.org/blog/2019/05/13/geonames/) for the GeoNames locality import completed 4th quarter of 2018.
 - **Global**: The big data mono-repo is split into per-country repos at Github's request because "so much datas", [blog post](https://www.whosonfirst.org/blog/2019/05/09/changes/). (Issue [#1594](https://github.com/whosonfirst-data/whosonfirst-data/issues/1594) and [#1507](https://github.com/whosonfirst-data/whosonfirst-data/issues/1507))
 - **France**: Flag macrocounties with `hierarchy_label = 0` (Issue [#1599](https://github.com/whosonfirst-data/whosonfirst-data/issues/1599))
-- **Germany**: Extensive rebuild of administrative geometries at country, region, macrocounty, county, localadmin, locality, and neighbourhood placetypes. (Issues [#1596](https://github.com/whosonfirst-data/whosonfirst-data/issues/1596), [#1490](https://github.com/whosonfirst-data/whosonfirst-data/issues/1490), [#962](https://github.com/whosonfirst-data/whosonfirst-data/issues/962), [#1051](https://github.com/whosonfirst-data/whosonfirst-data/issues/1051), [#1129](https://github.com/whosonfirst-data/whosonfirst-data/issues/1129),  [#1606](https://github.com/whosonfirst-data/whosonfirst-data/issues/1606))
+- **Germany**: Extensive rebuild of administrative geometries at country, region, macrocounty, county, localadmin, locality, and neighbourhood placetypes. (Issues [#1596](https://github.com/whosonfirst-data/whosonfirst-data/issues/1596), [#1490](https://github.com/whosonfirst-data/whosonfirst-data/issues/1490), [#962](https://github.com/whosonfirst-data/whosonfirst-data/issues/962), [#1051](https://github.com/whosonfirst-data/whosonfirst-data/issues/1051), [#1129](https://github.com/whosonfirst-data/whosonfirst-data/issues/1129), and [#1606](https://github.com/whosonfirst-data/whosonfirst-data/issues/1606))
 - **Germany**: Update German region name translations and wof:name values (Issue [#1446](https://github.com/whosonfirst-data/whosonfirst-data/issues/1446))
 - **Poland**: Neighbourhood in Krakow missing characters in name (Issue [#1611](https://github.com/whosonfirst-data/whosonfirst-data/issues/1611))
 - **Sint Maarten**: Update geometries (Issue [#1629](https://github.com/whosonfirst-data/whosonfirst-data/issues/1629))
@@ -627,7 +627,7 @@ Jump to month: [January](#2019-January) • [February](#2019-February) • [Ma
 - **United States**: Update Manufactured Home points, followup to https://github.com/whosonfirst-data/whosonfirst-data/pull/1477. (Issue [#1625](https://github.com/whosonfirst-data/whosonfirst-data/issues/1625))
 - **United States**: Update University of Texas (Texas) neighbourhood name (Issue [#1626](https://github.com/whosonfirst-data/whosonfirst-data/issues/1626))
 - **United States**: Verify `mz:is_funky` property values in handful of curated neighbourhood records (Issue [#1605](https://github.com/whosonfirst-data/whosonfirst-data/issues/1605))
-- Various other edits made directly to the individual country repos as PRs...
+- _Various other edits made directly to the individual country repos as PRs..._
 
 ### 2019 June
 
@@ -648,7 +648,7 @@ Jump to month: [January](#2019-January) • [February](#2019-February) • [Ma
 - **United States**: Overlapping geometries on Ellis Island at various placetypes (New Jersey and New York) (Issue [#1628](https://github.com/whosonfirst-data/whosonfirst-data/issues/1628))
 - **Various**: Add updated README and issue template files to per-country repos (Issue [#1612](https://github.com/whosonfirst-data/whosonfirst-data/issues/1612))
 - **Various**: Update ocean placetype translations for North Atlantic Ocean, South Atlantic Ocean, North Pacific Ocean, and South Pacific Ocean (Issue [#1650](https://github.com/whosonfirst-data/whosonfirst-data/issues/1650))
-- Various other edits made directly to the individual country repos as PRs...
+- _Various other edits made directly to the individual country repos as PRs..._
 
 ### 2019 July
 
@@ -683,7 +683,7 @@ Jump to month: [January](#2019-January) • [February](#2019-February) • [Ma
 - **Switzerland**: major rebuild of region, county, localadmin, locality, neighbourhood and includes coterminious, `mz:hiearchy_label`, and `mz:is_funky` work as appropriate, with new wiki names, from SwissTopo. (Issue [#1334](https://github.com/whosonfirst-data/whosonfirst-data/issues/1334))
 - **United Arab Emirates**: Remove several dangling `.DS_Store` files (Issue [#1698](https://github.com/whosonfirst-data/whosonfirst-data/issues/1698))
 - **Various**: Update label shortcodes for country and region with new `label:{lang}_x_preferred_shortcode` property (Issue [#1689](https://github.com/whosonfirst-data/whosonfirst-data/issues/1689))
-- Various other edits made directly to the individual country repos as PRs...
+- _Various other edits made directly to the individual country repos as PRs..._
 
 ### 2019 September
 
@@ -707,7 +707,7 @@ Jump to month: [January](#2019-January) • [February](#2019-February) • [Ma
 - **Various**: Reclassify `name:unk_x_*` properties properties (Issue [#880](https://github.com/whosonfirst-data/whosonfirst-data/issues/880))
 - **Various**: Disambiguate `qs:id` from `qs_pg:id` in concordances (Issue [#376](https://github.com/whosonfirst-data/whosonfirst-data/issues/376))
 - **Various: Various**: Nested lists in name properties in handful of countries (Issue [#1701](https://github.com/whosonfirst-data/whosonfirst-data/issues/1701))
-- Various other edits made directly to the individual country repos as PRs...
+- _Various other edits made directly to the individual country repos as PRs..._
 
 ### 2019 October
 
@@ -842,7 +842,7 @@ Jump to month: [January](#2020-January) • [February](#2020-February) • [Ma
 
 ### 2020 highlights
 
-- [Write Field](https://writefield.nextzen.org/) launches as a basic web app for editing WOF records!
+- [Write Field](https://writefield.nextzen.org/) launches as a basic web app for editing WOF records! Hat tip to [@iandees](https://github.com/iandees), thanks!
 - Generate licenses file from whosonfirst-sources, including large refactor and legal compliance audit (which we passed). (Issue [#1081](https://github.com/whosonfirst-data/whosonfirst-data/issues/1081))
 - SQLite distributions are kindly generated and hosted by [geocode.earth](https://geocode.earth/data/), from 2020 January
 - Import DigitalEnvoy concordances for `country`, `region`, `localadmin`, and `marketarea` records (eg `digitalenvoy:country_code`). (Issue [#1807](https://github.com/whosonfirst-data/whosonfirst-data/issues/1807))
@@ -928,7 +928,7 @@ Jump to month: [January](#2020-January) • [February](#2020-February) • [Ma
 
 #### VARIOUS
 
-- [Write Field](https://writefield.nextzen.org/) launches as a basic web app for editing WOF records!
+- [Write Field](https://writefield.nextzen.org/) launches as a basic web app for editing WOF records! Hat tip to [@iandees](https://github.com/iandees), thanks!
 - Generate licenses file from whosonfirst-sources. (Issue [#1081](https://github.com/whosonfirst-data/whosonfirst-data/issues/1081))
 - Licensing information - link targets not available. (Issue [#1651](https://github.com/whosonfirst-data/whosonfirst-data/issues/1651))
 - Add back LICENSE file as pointer. (Issue [#1795](https://github.com/whosonfirst-data/whosonfirst-data/issues/1795))
@@ -1201,10 +1201,9 @@ Jump to month: [January](#2021-January) • [February](#2021-February) • [Ma
 
 ### 2021 highlights
 
-- **United States**: Add postal cities (add locality names on postalcode placetype features), with new `"mz:postal_locality"` (common), `"mz:postal_locality_alt"` (common), and `"mz:postal_locality_funky"` (limited to several examples) properties based on WOF venues data. (Issue [#202 and discussion in [us/#5](https://github.com/whosonfirst-data/whosonfirst-data-postalcode-us/pull/5).](https://github.com/whosonfirst-data/whosonfirst-data/issues/202 and discussion in [us/#5](https://github.com/whosonfirst-data/whosonfirst-data-postalcode-us/pull/5).))
 - **Various**: Give course polygon geometries to 590 "megacity" from Natural Earth's locality polygons. [blog post](https://www.whosonfirst.org/blog/2021/02/11/megacities/). (Issue [#1547](https://github.com/whosonfirst-data/whosonfirst-data/issues/1547))
-- **United States**: Resolve locality vis-a-vis localadmin conterminous places (Towns of Marthas Vineyard & etc), including updating to Census 2019 data, flag localadmin records in Indiana and Missouri as `mz:hierarchy_label = 0`, and create a few localadmin and locality `wof:statistical_gore = 1` features to ensure continuous fabric of features. (Issue [#538](https://github.com/whosonfirst-data/whosonfirst-data/issues/538) and in [us/#86](https://github.com/whosonfirst-data/whosonfirst-data-admin-us/pull/86) and updated [property descriptions](https://github.com/whosonfirst/whosonfirst-properties/issues/104))
 - **United States**: Add postal cities (add locality names on postalcode placetype features), with new `"mz:postal_locality"` (common), `"mz:postal_locality_alt"` (common), and `"mz:postal_locality_funky"` (limited to several examples) properties based on WOF venues data. (Issue [#202](https://github.com/whosonfirst-data/whosonfirst-data/issues/202) and discussion in [us/#5](https://github.com/whosonfirst-data/whosonfirst-data-postalcode-us/pull/5))
+- **United States**: Resolve locality vis-a-vis localadmin conterminous places (Towns of Marthas Vineyard & etc), including updating to Census 2019 data, flag localadmin records in Indiana and Missouri as `mz:hierarchy_label = 0`, and create a few localadmin and locality `wof:statistical_gore = 1` features to ensure continuous fabric of features. (Issue [#538](https://github.com/whosonfirst-data/whosonfirst-data/issues/538) and in [us/#86](https://github.com/whosonfirst-data/whosonfirst-data-admin-us/pull/86) and updated [property descriptions](https://github.com/whosonfirst/whosonfirst-properties/issues/104))
 - **North Macedonia**: Rename country from Macedonia (related to European Union's accession deal with Greece)  (Issue [#1653](https://github.com/whosonfirst-data/whosonfirst-data/issues/1653))
 - **Various**: Add ITU phone dialing calling codes to country records (`itu:country_code` and `itu:region`) (Issue [#1929](https://github.com/whosonfirst-data/whosonfirst-data/issues/1929))
 - **Various**: Ensure basic worldview / point-of-view features and geom consistency of country, dependency, and disputed features (needs more work to set the alt geoms with POV tags) (Issues [#1930](https://github.com/whosonfirst-data/whosonfirst-data/issues/1930), [#170](https://github.com/whosonfirst-data/whosonfirst-data/issues/170), [#1580](https://github.com/whosonfirst-data/whosonfirst-data/issues/1580), and [#1218](https://github.com/whosonfirst-data/whosonfirst-data/issues/1218))
@@ -1296,7 +1295,7 @@ Jump to month: [January](#2021-January) • [February](#2021-February) • [Ma
 
 ### 2021 November
 
-- **Greece**: Merge multi-part polygon records for Athens (Issue [#733 #711](https://github.com/whosonfirst-data/whosonfirst-data/issues/733 #711))
+- **Greece**: Merge multi-part polygon records for Athens (Issue [#733](https://github.com/whosonfirst-data/whosonfirst-data/issues/733) and [#711](https://github.com/whosonfirst-data/whosonfirst-data/issues/711))
 - **Indonesia**: Update region name translations and wof:name values (Issue [#1448](https://github.com/whosonfirst-data/whosonfirst-data/issues/1448))
 - **St. Pierre and Miquelon**: Untangle records for dependency, region, and locality placetypes (Issue [#1843](https://github.com/whosonfirst-data/whosonfirst-data/issues/1843))
 - **United States**: Charlotte (North Carolina) was missing population rank (Issue [#1633](https://github.com/whosonfirst-data/whosonfirst-data/issues/1633))
@@ -1310,7 +1309,7 @@ Jump to month: [January](#2021-January) • [February](#2021-February) • [Ma
 - **Albania**: Add missing locality of Divjakë (Issue [#1822](https://github.com/whosonfirst-data/whosonfirst-data/issues/1822))
 - **Finland**: Update region geometries for Northern Ostrobothnia and Kainuu (Issue [#1499](https://github.com/whosonfirst-data/whosonfirst-data/issues/1499))
 - **France**: Resolve duplicate features between France and Guadalupe (Issue [#726](https://github.com/whosonfirst-data/whosonfirst-data/issues/726))
-- **Ireland**: Admin updates across region, county, localadmin, and locality records, with particular care around Dublin, Galway, and Cork, from Ordnance Survey Ireland. (Issue [#1443 and #1238 and #1134](https://github.com/whosonfirst-data/whosonfirst-data/issues/1443 and #1238 and #1134) and [#1849](https://github.com/whosonfirst-data/whosonfirst-data/issues/1849))
+- **Ireland**: Admin updates across region, county, localadmin, and locality records, with particular care around Dublin, Galway, and Cork, from Ordnance Survey Ireland. (Issue [#1443](https://github.com/whosonfirst-data/whosonfirst-data/issues/1443), [#1238](https://github.com/whosonfirst-data/whosonfirst-data/issues/1238), [#1134](https://github.com/whosonfirst-data/whosonfirst-data/issues/1443) and [#1849](https://github.com/whosonfirst-data/whosonfirst-data/issues/1849))
 - **Ireland**: Fix invalid json (with initial discussion of adding GitHub actions to ensure future validations) (Issue [#1989](https://github.com/whosonfirst-data/whosonfirst-data/issues/1989))
 - **Puerto Rico**: Update dependency geometry (Issue [#1780](https://github.com/whosonfirst-data/whosonfirst-data/issues/1780))
 - **United States**: Add cessation date and mark San Francisco (Minnesota) ghost town as non-current (Issue [#1987](https://github.com/whosonfirst-data/whosonfirst-data/issues/1987))
@@ -1456,4 +1455,4 @@ Jump to month: [January](#2023-January) • [February](#2023-February) • [Ma
 - **In Progress**: massive import of locality records in India (Issue [#2027](https://github.com/whosonfirst-data/whosonfirst-data/issues/2027))
 - **Various**: ~5 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-04-01..2022-04-30+is%3Aclosed+) made directly to the individual country repos as PRs...
 
-_NOTE: This document was created 2019 November. Other hanges were backfilled in 2023 April._
+_NOTE: This document was created 2019 November. Other changes backfilled in 2023 April._
