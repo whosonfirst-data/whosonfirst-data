@@ -560,7 +560,7 @@ Jump to month: [January](#2019-January) • [February](#2019-February) • [Ma
 
 ### 2019 March
 
-- Aruba and Curacao updates to mark regions `wof:coterminous` with the country, flag `mz:hierarchy_label` = 0, and updates names (Issue [#1500](https://github.com/whosonfirst-data/whosonfirst-data/issues/1500))
+- **Aruba and Curacao**: updates to mark regions `wof:coterminous` with the country, flag `mz:hierarchy_label` = 0, and updates names (Issue [#1500](https://github.com/whosonfirst-data/whosonfirst-data/issues/1500))
 - **Australia**: Clean up neighbourhood records by setting `mz:hierarchy_label` = 0 flag and Polygon or MultiPolygon geometries to alts (keeping default geoms a point). (Issue [#1521](https://github.com/whosonfirst-data/whosonfirst-data/issues/1521))
 - **Bahrain**: Update regions and country geometries (Issue [#1512](https://github.com/whosonfirst-data/whosonfirst-data/issues/1512))
 - **Canada**: Fix Northern Vancouver District names (Issue [#1556](https://github.com/whosonfirst-data/whosonfirst-data/issues/1556))
@@ -739,6 +739,7 @@ Jump to month: [January](#2019-January) • [February](#2019-February) • [Ma
     - Validating all geometries using osgeo, validating all records using Who's On First's `go-whosonfirst-validate` tool
     - Adding Wikipedia and Wikidata-sourced name translations to any record without a name translation
     - Completing PIP work to updating or confirming all `wof:hierarchy` properties for all records in the Poland admin repository
+    ![Poland import](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/poland.png)
 - **Various**: For alternate geometries, addition of `src:alt_label` property to each alt file (Issue [#1714](https://github.com/whosonfirst-data/whosonfirst-data/issues/1714))
   - **Fixed by**: multiple, for example [ro/#9](https://github.com/whosonfirst-data/whosonfirst-data-admin-ro/pull/9)
     - In order for Who's On First to property publish public SQLite distribution files, each "alt" file in Who's On First needed a `src:alt_label` property added.
@@ -821,7 +822,7 @@ Jump to month: [January](#2020-January) • [February](#2020-February) • [Ma
 
 ### 2020 February
 
-- **Afghanistan**: Remove 2 funk temporary files from repp. (Issue [#1800](https://github.com/whosonfirst-data/whosonfirst-data/issues/1800))
+- **Afghanistan**: Remove 2 funk temporary files from repo. (Issue [#1800](https://github.com/whosonfirst-data/whosonfirst-data/issues/1800))
 - **India**: Update Place Zerakpur. (Pull request [in/#37](https://github.com/whosonfirst-data/whosonfirst-data-admin-in/pull/37))
 - **Norway**: Update Norway regions and add new localadmin ("counties") to reflect 2020 boundary changes. (Issue [#1757](https://github.com/whosonfirst-data/whosonfirst-data/issues/1757))
 - **Oman**: Add 2 missing country records. (Issue [#1773](https://github.com/whosonfirst-data/whosonfirst-data/issues/1773))
@@ -829,7 +830,7 @@ Jump to month: [January](#2020-January) • [February](#2020-February) • [Ma
 - **Various**: [Write Field](https://writefield.nextzen.org/) launches as a basic web app for editing WOF records! Hat tip to [@iandees](https://github.com/iandees), thanks!
 - **Various**: Generate licenses file from whosonfirst-sources. (Issue [#1081](https://github.com/whosonfirst-data/whosonfirst-data/issues/1081))
 - **Various**: Licensing information - link targets not available. (Issue [#1651](https://github.com/whosonfirst-data/whosonfirst-data/issues/1651))
-- **Various**: Add back LICENSE file as pointer. (Issue [#1795](https://github.com/whosonfirst-data/whosonfirst-data/issues/1795))
+- **Various**: Add back [LICENSE](https://github.com/whosonfirst-data/whosonfirst-data/blob/master/LICENSE.md) file as pointer. (Issue [#1795](https://github.com/whosonfirst-data/whosonfirst-data/issues/1795))
 
 ### 2020 March
 
@@ -917,7 +918,7 @@ Jump to month: [January](#2020-January) • [February](#2020-February) • [Ma
 - **Romania**: Add official data for localities, from Romanian National Agency for Cadastre and Land Registration (ANCPI) (Issue [#1741](https://github.com/whosonfirst-data/whosonfirst-data/issues/1741))
 - **United States**: Paso Robles English name is 'El Paso de Robles', which is very formal (Issue [#1858](https://github.com/whosonfirst-data/whosonfirst-data/issues/1858))
 - **United States**: Untangle multiple Liverpool records with mixed up properties (Issue [#1860](https://github.com/whosonfirst-data/whosonfirst-data/issues/1860))
-- **Various**: Add back README.KNOWN.KNOWNS.md to main repo (casualty of big repo refactor) (Issue [#1853](https://github.com/whosonfirst-data/whosonfirst-data/issues/1853))
+- **Various**: Add back [README.KNOWN.KNOWNS.md](https://github.com/whosonfirst-data/whosonfirst-data/blob/master/README.KNOWN.KNOWNS.md) to main repo (casualty of big repo refactor) (Issue [#1853](https://github.com/whosonfirst-data/whosonfirst-data/issues/1853))
 - **Various** other [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2020-06-01..2020-06-30+is%3Aclosed+) made directly to the individual country repos as PRs...
 
 ### 2020 July
@@ -936,6 +937,7 @@ Jump to month: [January](#2020-January) • [February](#2020-February) • [Ma
 ### 2020 August
 
 - **Estonia**: Update admin records for county, localadmin, locality, borough, and neighbourhood placetypes (with coterminous as appropriate), from Estonian Land Board (Issue [#1825](https://github.com/whosonfirst-data/whosonfirst-data/issues/1825))
+  ![Estonia import](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/estonia.png)
 - **Greece**: Update Greek and English names in the Athens locality record, using to "script" and "region" variants property name options (Issue [#1877](https://github.com/whosonfirst-data/whosonfirst-data/issues/1877))
 - **India**: Add missing locality record for Siddipet City (Issue [#1874](https://github.com/whosonfirst-data/whosonfirst-data/issues/1874))
 - **Netherlands**: untangle Hoek van Holland and Rotterdam records (related to `wof:superseded_by`) (Issue [#1863](https://github.com/whosonfirst-data/whosonfirst-data/issues/1863))
@@ -1007,6 +1009,7 @@ Jump to month: [January](#2021-January) • [February](#2021-February) • [Ma
 - **United States**: Resolve locality vis-a-vis localadmin conterminous places (Towns of Marthas Vineyard & etc), including updating to Census 2019 data, flag localadmin records in Indiana and Missouri as `mz:hierarchy_label` = 0, and create a few localadmin and locality `wof:statistical_gore` = 1 features to ensure continuous fabric of features. (Issue [#538](https://github.com/whosonfirst-data/whosonfirst-data/issues/538) and in [us/#86](https://github.com/whosonfirst-data/whosonfirst-data-admin-us/pull/86) and updated [property descriptions](https://github.com/whosonfirst/whosonfirst-properties/issues/104))
 - **Various**: Add ITU phone dialing calling codes to country records (`itu:country_code` and `itu:region`) (Issue [#1929](https://github.com/whosonfirst-data/whosonfirst-data/issues/1929))
 - **Various**: Ensure basic worldview / point-of-view features and geom consistency of country, dependency, and disputed features (needs more work to set the alt geoms with POV tags) (Issues [#1930](https://github.com/whosonfirst-data/whosonfirst-data/issues/1930), [#170](https://github.com/whosonfirst-data/whosonfirst-data/issues/170), [#1580](https://github.com/whosonfirst-data/whosonfirst-data/issues/1580), and [#1218](https://github.com/whosonfirst-data/whosonfirst-data/issues/1218))
+  ![Worldviews](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/tilezen-v1.8.0-disputed-boundaries.gif)
 - **Various**: Add localized label properties to admin1/admin2 (Issue [#1640](https://github.com/whosonfirst-data/whosonfirst-data/issues/1640))
 - **Various**: Backfill airport campus name variant properties with IATA/ICAO codes (Issue [#1963](https://github.com/whosonfirst-data/whosonfirst-data/issues/1963))
 - **Country rebuilds complete**: Kuwait, Qatar, Indonesia (partial), Singapore, South Korea (partial), Palestine (partial), Luxembourg, Ireland (full)
@@ -1126,7 +1129,7 @@ Jump to month: [January](#2022-January) • [February](#2022-February) • [Ma
 - **India**: Update locality records to draw polygon geometries for 1,550 largest population localities (and all localities over 50k people, and all region and county capitals), including making new records (and deprecating some others), and adjusting neighbourhoods as appropriate, and unsetting any other Quattroshapes popcorn shaped default geoms to point geoms (Issue [#2005](https://github.com/whosonfirst-data/whosonfirst-data/issues/2005), [#1855](https://github.com/whosonfirst-data/whosonfirst-data/issues/1855), and [#1838](https://github.com/whosonfirst-data/whosonfirst-data/issues/1838))
 - **Japan**: Revise 5k+ neighbourhood zoom levels so they show up in later zooms only, and add borough records in Tokyo (Issue [#1990](https://github.com/whosonfirst-data/whosonfirst-data/issues/1990))
 - **United Kingdom**: Update postalcode records to August 2022 official release. (Pull request [postalcode-gb/#8](https://github.com/whosonfirst-data/whosonfirst-data-postalcode-gb/pull/8))
-- **Various**: Fix some adminrecords geoms that were still invalid when importing them into Elasticsearch geometry, including in including Finland, Ireland, Argentina, and United Arab Emirates (Issue [#975](https://github.com/whosonfirst-data/whosonfirst-data/issues/975))
+- **Various**: Fix some admin records geoms that were still invalid when importing them into Elasticsearch geometry, including in including Finland, Ireland, Argentina, and United Arab Emirates (Issue [#975](https://github.com/whosonfirst-data/whosonfirst-data/issues/975))
 - **Country rebuilds complete**: South Africa, Pakistan (partial), Saudi Arabia (partial), United Arab Emirates (partial), Iraq (partial), Morocco (partial), Nigeria (partial), Spain (partial in Catalonia)
 - **Neighbourhoods**: United States (Salt Lake City)
 
@@ -1139,7 +1142,7 @@ Jump to month: [January](#2022-January) • [February](#2022-February) • [Ma
 
 ### 2022 February
 
-- A quite month
+- A quiet month
 - **Various**: ~20 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-02-01..2022-02-28+is%3Aclosed+) made directly to the individual country repos as PRs...
 
 ### 2022 March
@@ -1150,7 +1153,7 @@ Jump to month: [January](#2022-January) • [February](#2022-February) • [Ma
 
 ### 2022 April
 
-- A quite month
+- A quiet month
 - **Various**: ~8 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-04-01..2022-04-30+is%3Aclosed+) made directly to the individual country repos as PRs...
 
 ### 2022 May
