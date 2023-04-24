@@ -46,7 +46,7 @@ Jump to year: [2015](#2015) • [2016](#2016) • [2017](#2017) • [2018](#2
 - **Global**: Doubled global `county` placetype coverage via [Mesoshapes](https://www.whosonfirst.org/blog/2016/12/08/mesoshapes/), part 1, by adding newer open government data and creating shapes for the missing records.
     ![Mesoshapes county coverage](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/mesohapes-import-1-2016.gif)
 - **Global**: Added timezones and their geometries. (Issue [#553](https://github.com/whosonfirst-data/whosonfirst-data/issues/553))
-- **GLobal**: Import missing admin-1-regions from Quattroshapes as new `macroregion` placetype. (Issue [#34](https://github.com/whosonfirst-data/whosonfirst-data/issues/34), see Quattroshapes region and macroregion map below.)
+- **Global**: Import missing admin-1-regions from Quattroshapes as new `macroregion` placetype. (Issue [#34](https://github.com/whosonfirst-data/whosonfirst-data/issues/34), see Quattroshapes region and macroregion map below.)
     ![Quattroshapes admin-1 regions](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/qs_adm1.png)
 - **Global**: Add new `empire` placetype and link up with existing `country`, `dependency`, and `disputed` records. (Issue [#4](https://github.com/whosonfirst-data/whosonfirst-data/issues/4))
 - **Australia**: Improve postcodes from earlier alphashapes from WOF venue properties to official data. (Issue [#472](https://github.com/whosonfirst-data/whosonfirst-data/issues/472))
