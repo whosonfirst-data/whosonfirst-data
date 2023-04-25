@@ -82,7 +82,7 @@ Jump to month: [January](#2017-January) • [February](#2017-February) • [Ma
     ![Quattroshapes point gazetteer](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/qs_gazetteer.png)
 - **Global**: We added missing 1,542 global significant cities from Natural Earth, via pull request [#876](https://github.com/whosonfirst-data/whosonfirst-data/pull/876) – the other features were already in WOF and enriched with Natural Earth properties.
     ![Natural Earth big localties](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/natural-earth-1542-big-cities.png)
-- **Global**: Achieved 99% coverage global for `county` placetype coverage via [Mesoshapes](https://www.whosonfirst.org/blog/2017/09/19/introducing-statoids/), part 2, including rebuilt `region` features for 110 countries and new national mapping agency data in countries like Canada. (Issue [#558](https://github.com/whosonfirst-data/whosonfirst-data/issues/#558) and others.)
+- **Global**: Achieved 99% coverage global for `county` placetype coverage via [Mesoshapes](https://www.whosonfirst.org/blog/2017/09/19/introducing-statoids/), part 2, including rebuilt `region` features for 110 countries and new national mapping agency data in countries like Canada. (Issue [#558](https://github.com/whosonfirst-data/whosonfirst-data/issues/558) and others.)
     ![Mesosahpes county coverage](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/mesohapes-import-1-timeseries.gif)
 - **Globally**: Neighbourhood shapes improvement projects, [blog post](https://www.whosonfirst.org/blog/2017/04/20/neighbourhood-updates-two/) and [here](https://www.whosonfirst.org/blog/2017/12/14/updating-whosonfirst/) to shrink overly big Zetashapes neighbourhood polygons, and [globally](https://www.whosonfirst.org/blog/2017/12/22/neighbourhood-updates-three/). (Issue [#149](https://github.com/whosonfirst-data/whosonfirst-data/issues/149))
 - **Globally**: Added 21M `venue` features from SimpleGeo, [blog post](https://www.whosonfirst.org/blog/2017/10/24/whosonfirst-sotmus-2017/).
@@ -182,7 +182,7 @@ Jump to month: [January](#2017-January) • [February](#2017-February) • [Ma
 
 ### 2017 July
 
-- **Global**: Round 1 Mesoshapes import: Achieved 99% coverage global for `county` placetype coverage via [Mesoshapes](https://www.whosonfirst.org/blog/2017/09/19/introducing-statoids/), part 2, including rebuilt `region` features for 110 countries and new national mapping agency data in countries like Canada. (Issue [#558](https://github.com/whosonfirst-data/whosonfirst-data/issues/#558) and others.)
+- **Global**: Round 1 Mesoshapes import: Achieved 99% coverage global for `county` placetype coverage via [Mesoshapes](https://www.whosonfirst.org/blog/2017/09/19/introducing-statoids/), part 2, including rebuilt `region` features for 110 countries and new national mapping agency data in countries like Canada. (Issue [#558](https://github.com/whosonfirst-data/whosonfirst-data/issues/558) and others.)
 - **Globally**: Neighbourhood shapes improvement projects, [blog post](https://www.whosonfirst.org/blog/2017/04/20/neighbourhood-updates-two/) and [here](https://www.whosonfirst.org/blog/2017/12/14/updating-whosonfirst/) to shrink overly big Zetashapes neighbourhood polygons, and [globally](https://www.whosonfirst.org/blog/2017/12/22/neighbourhood-updates-three/). (Issue [#149](https://github.com/whosonfirst-data/whosonfirst-data/issues/149))
 - **Global**: Added 255,000 name concordances from Geonames.org, [blog post](https://www.whosonfirst.org/blog/2017/08/22/summer-2017-wof/), with more holding hands with Natural Earth. (Issue [#806](https://github.com/whosonfirst-data/whosonfirst-data/issues/806))
 - **Azerbaijan**: Untangle admin1 and admin2 duplicate features. (Issue [#628](https://github.com/whosonfirst-data/whosonfirst-data/issues/628))
@@ -641,7 +641,7 @@ Jump to month: [January](#2019-January) • [February](#2019-February) • [Ma
 
 - **Australia**: Deprecate erroneous Sydney neighbourhood record, which was confusing search (Issue [#1251](https://github.com/whosonfirst-data/whosonfirst-data/issues/1251))
 - **Australia**: Update region abbreviations for Queensland, Tasmania, and Victoria (Issue [#1393](https://github.com/whosonfirst-data/whosonfirst-data/issues/1393))
-- **Bulgaria**: Deprecate single bad qs_pg locality (Issue [#1645](https://github.com/whosonfirst-data/whosonfirst-data/issues/1645))
+- **Bulgaria**: Deprecate single bad `qs_pg` locality (Issue [#1645](https://github.com/whosonfirst-data/whosonfirst-data/issues/1645))
 - **Canada**: Quebec needs more St. Lawrence river (Issue [#1487](https://github.com/whosonfirst-data/whosonfirst-data/issues/1487))
 - **Germany**: Updae Hofolding neighbourhood name from Hölding (Issue [#1648](https://github.com/whosonfirst-data/whosonfirst-data/issues/1648))
 - **India**: Fix Bhupalpally area (Issue [#1635](https://github.com/whosonfirst-data/whosonfirst-data/issues/1635))
