@@ -1193,7 +1193,8 @@ Jump to month: [January](#2022-January) • [February](#2022-February) • [Ma
 ### 2022 September
 
 - **India**: Add 5 missing localities (Issue [#1855](https://github.com/whosonfirst-data/whosonfirst-data/issues/1855))
-- **United Arab Emirates**: Add and update 1,018 features across locality and neighbourhood placetypes, including geometry cleanup along coastline and Arabic and English name localizaitons and review of "leftover" point geometries. Good example of screenshots in PR. (Issue [#2010](https://github.com/whosonfirst-data/whosonfirst-data/issues/2010))
+- **United Arab Emirates**: Add and update 1,018 features across locality and neighbourhood placetypes, including geometry cleanup along coastline and Arabic and English name localizaitons and review of "leftover" point geometries. (Issue [#2010](https://github.com/whosonfirst-data/whosonfirst-data/issues/2010))
+  ![UAE import](https://raw.githubusercontent.com/whosonfirst-data/whosonfirst-data/nvkelso/changelog-2019-plus/images/uae.png)
 - **United Kingdom**: Update postalcode records to May 2020 official release. (Pull request [postalcode-gb/#6](https://github.com/whosonfirst-data/whosonfirst-data-postalcode-gb/pull/6))
 - **United Kingdom**: Update postalcode records to August 2021 official release. (Pull request [postalcode-gb/#7](https://github.com/whosonfirst-data/whosonfirst-data-postalcode-gb/pull/7))
 - **United Kingdom**: Update postalcode records to August 2022 official release. (Pull request [postalcode-gb/#8](https://github.com/whosonfirst-data/whosonfirst-data-postalcode-gb/pull/8))
@@ -1211,7 +1212,7 @@ Jump to month: [January](#2022-January) • [February](#2022-February) • [Ma
 
 - **Morocco**: Updates regions to match 2015 redistricting, adds polygon geoms to ~200 locality, ensures any former locality points in new locality polygons are marked as neighbourhoods instead (Issue [#1164](https://github.com/whosonfirst-data/whosonfirst-data/issues/1164) and [#302](https://github.com/whosonfirst-data/whosonfirst-data/issues/302))
 - **Nigeria**: Update and/or add 4,073 localities country-wide and neighbourhoods in Lagos, including demoting some GeoNames.org sourced localities to neighbourhoods. (Issue [#2015](https://github.com/whosonfirst-data/whosonfirst-data/issues/2015))
-- **Poland**: Updates 300 locality records adding polygons and adding 10 missing localities. however additional work should be done via [#2011](https://github.com/whosonfirst-data/whosonfirst-data/issues/2011). (Issue [#1934](https://github.com/whosonfirst-data/whosonfirst-data/issues/1934))
+- **Poland**: Updates 300 locality records adding polygons and adding 10 missing localities, however additional work should be done via [#2011](https://github.com/whosonfirst-data/whosonfirst-data/issues/2011). (Issue [#1934](https://github.com/whosonfirst-data/whosonfirst-data/issues/1934))
 - **Various**: ~3 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-11-01..2022-11-30+is%3Aclosed+) made directly to the individual country repos as PRs...
 
 ### 2022 December
