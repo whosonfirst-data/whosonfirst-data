@@ -1262,7 +1262,21 @@ Jump to month: [January](#2023-January) • [February](#2023-February) • [Ma
 
 ### 2023 April
 
-- **In Progress**: Massive import of locality records in India (Issue [#2027](https://github.com/whosonfirst-data/whosonfirst-data/issues/2027))
-- **Various**: ~5 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-04-01..2022-04-30+is%3Aclosed+) made directly to the individual country repos as PRs...
+- A quiet month
+- **Various**: 8 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-04-01..2022-04-30+is%3Aclosed+) made directly to the individual country repos as PRs...
 
-_NOTE: This document was created 2019 November. Other changes backfilled in 2023 April._
+### 2023 May
+
+- **Germany**: Superseding fix for Berlin (Pull request [de/#65](https://github.com/whosonfirst-data/whosonfirst-data-admin-de/pull/65))
+- **United Kingdom**: Update neighbourhood names and translations (Pull request [gb/#64](https://github.com/whosonfirst-data/whosonfirst-data-admin-gb/pull/64))
+- **Various**: 9 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-05-01..2022-05-31+is%3Aclosed+) made directly to the individual country repos as PRs...
+
+### 2023 June
+
+- **India**: Massive import of neighbourhood and locality records via Karmashapes (Issue [#2027](https://github.com/whosonfirst-data/whosonfirst-data/issues/2027))
+  ![Karmashapes coverage](images/karmashapes.png)
+- **Germany**: Updates to locality, borough, and neighbourhood records in Hamburg (Issue [#1816](https://github.com/whosonfirst-data/whosonfirst-data/issues/1816))
+  ![Hamburg neighborhoods](images/hamburg-neighbourhoods.png)
+- **Various**: 4 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-06-01..2022-06-30+is%3Aclosed+) made directly to the individual country repos as PRs...
+
+_NOTE: This document was created 2019 November._
