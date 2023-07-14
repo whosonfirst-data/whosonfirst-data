@@ -1257,7 +1257,7 @@ Jump to month: [January](#2023-January) • [February](#2023-February) • [Ma
 - **Turkey**: Update and/or add ~1,760 neighbourhoods of Istanbul, with appropriate adjustments to impacted locality points, and coastline cleanup of country and locality features (Issue [#1737](https://github.com/whosonfirst-data/whosonfirst-data/issues/1737))
 - **United States**: Adjust Swedish preferred name (Issue [#2037](https://github.com/whosonfirst-data/whosonfirst-data/issues/2037))
 - **United States**: Correct top-level ids and property types in three airport campus records (Issue [#2001](https://github.com/whosonfirst-data/whosonfirst-data/issues/2001) and [#2002](https://github.com/whosonfirst-data/whosonfirst-data/issues/2002))
-- **TODO: Various**: No up-to-date bundles available (Issue [#1661](https://github.com/whosonfirst-data/whosonfirst-data/issues/1661))
+- **Various**: Release up-to-date data distributions (Issue [#1661](https://github.com/whosonfirst-data/whosonfirst-data/issues/1661))
 - **Various**: ~14 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-03-01..2022-03-31+is%3Aclosed+) made directly to the individual country repos as PRs...
 
 ### 2023 April
@@ -1270,13 +1270,16 @@ Jump to month: [January](#2023-January) • [February](#2023-February) • [Ma
 - **Germany**: Superseding fix for Berlin (Pull request [de/#65](https://github.com/whosonfirst-data/whosonfirst-data-admin-de/pull/65))
 - **United Kingdom**: Update neighbourhood names and translations (Pull request [gb/#64](https://github.com/whosonfirst-data/whosonfirst-data-admin-gb/pull/64))
 - **Various**: 9 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-05-01..2022-05-31+is%3Aclosed+) made directly to the individual country repos as PRs...
+- **Blog post**: [Making Who’s On First more accessible](https://whosonfirst.org/blog/2023/05/31/shapefiles/) – Shapefiles improve accessibility to the Who’s On First gazetteer for GIS users for a core set of standard place response properties, and discussion of making simple edits, bulk imports, and knowledge sharing in our community.
 
 ### 2023 June
 
-- **India**: Massive import of neighbourhood and locality records via Karmashapes (Issue [#2027](https://github.com/whosonfirst-data/whosonfirst-data/issues/2027))
+- **India**: Massive import of locality and neighbourhood records via Karmashapes (Issue [#2027](https://github.com/whosonfirst-data/whosonfirst-data/issues/2027))
   ![Karmashapes coverage](images/karmashapes.png)
 - **Germany**: Updates to locality, borough, and neighbourhood records in Hamburg (Issue [#1816](https://github.com/whosonfirst-data/whosonfirst-data/issues/1816))
   ![Hamburg neighborhoods](images/hamburg-neighbourhoods.png)
 - **Various**: 4 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2022-06-01..2022-06-30+is%3Aclosed+) made directly to the individual country repos as PRs...
+- **Blog post**: [State of the Gazetteer in 2023](https://whosonfirst.org/blog/2023/06/07/state-of-the-gazetteer/) - Since we launched in 2015, the Who’s On First places gazetteer project has grown in coverage, complexity, and supported applications. In this this post I will summarize Who’s On First’s key advantages, offer a comparative analysis of WOF and other open gazetteers, quantify our global coverage by placetype, offer score cards by country, dive into name localization, look at internationalization through the lens of disputed territories, and quantify geometry types and sources of those polygon and points, hold hands with and thank our sources, and invite collaboration.
+- **Blog post**: [Introducing Karmashapes](https://whosonfirst.org/blog/2023/06/19/introducting-karmashapes/) - Thanks to the Karmashapes initiative, Who’s On First now provides the best open data for towns and villages in India.
 
 _NOTE: This document was created 2019 November._
