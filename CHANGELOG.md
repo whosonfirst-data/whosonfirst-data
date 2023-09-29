@@ -1282,4 +1282,20 @@ Jump to month: [January](#2023-January) • [February](#2023-February) • [Ma
 - **Blog post**: [State of the Gazetteer in 2023](https://whosonfirst.org/blog/2023/06/07/state-of-the-gazetteer/) - Since we launched in 2015, the Who’s On First places gazetteer project has grown in coverage, complexity, and supported applications. In this this post I will summarize Who’s On First’s key advantages, offer a comparative analysis of WOF and other open gazetteers, quantify our global coverage by placetype, offer score cards by country, dive into name localization, look at internationalization through the lens of disputed territories, and quantify geometry types and sources of those polygon and points, hold hands with and thank our sources, and invite collaboration.
 - **Blog post**: [Introducing Karmashapes](https://whosonfirst.org/blog/2023/06/19/introducting-karmashapes/) - Thanks to the Karmashapes initiative, Who’s On First now provides the best open data for towns and villages in India.
 
+### 2023 July
+
+- **United Kingdom**: Update postalcode records, syncing them with the newest ONS dataset (Pull request [gb/#11](https://github.com/whosonfirst-data/whosonfirst-data-postalcode-gb/pull/11))
+- **United Kingdom**: Migrated admin records from the `whosonfirst-data-admin-xy` repo to the appropriate `admin-gb` repo (Pull request [xy/#33](https://github.com/whosonfirst-data/whosonfirst-data-admin-xy/pull/33))
+- **Norway**: Fixed bogus superseding in the Bergen locality record `whosonfirst-data-admin-xy` repo to the appropriate `admin-gb` repo (Pull request [gb/#41](https://github.com/whosonfirst-data/whosonfirst-data-admin-no/pull/41))
+- **Various**: 7 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2023-07-01..2023-07-31+is%3Aclosed+) made directly to the individual country repos as PRs...
+
+### 2023 August
+
+- **Global**: Rerun Wikidata name localization import on per-country repos. This yielded new name properties across 269,088 records. (Issue [#1656](https://github.com/whosonfirst-data/whosonfirst-data/issues/2151))
+- **Various**: 7 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2023-08-01..2023-08-31+is%3Aclosed+) made directly to the individual country repos as PRs...
+
+### 2023 September
+
+- **Various**: 5 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2023-09-01..2023-09-31+is%3Aclosed+) made directly to the individual country repos as PRs...
+
 _NOTE: This document was created 2019 November._
