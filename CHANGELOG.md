@@ -1306,13 +1306,13 @@ Jump to month: [January](#2023-January) • [February](#2023-February) • [Ma
 
 - **Global**: Crawl each admin repository to add concordances to "official" government sources, call out which sources are designated as "official" with a new `wof:concordances_official` property. Commonly available on coarse admin placetype features and limited coverage for `locality` and `localadmin` features. Issue [#2164](https://github.com/whosonfirst-data/whosonfirst-data/issues/2164))
 - **Global**: Geocode.Earth's Who's On First distributions now support the new official concordance keys and values, and removed the name contraint. (Issue [pelias/wof#49](https://github.com/pelias/wof/pull/49) and [pelias/wof#52](https://github.com/pelias/wof/pull/52))
-- **Spain**: Using data from the Centro de Descargas, update administrative records in Spain including Ceuta and Melilla. Issue [#706](https://github.com/whosonfirst-data/whosonfirst-data/issues/706))
+- **Spain**: Using data from Organismo Autonomo Centro Nacional de Information Geografica (CNIG), update administrative records in Spain – including Ceuta and Melilla. Issue [#706](https://github.com/whosonfirst-data/whosonfirst-data/issues/706))
 - **United Kingdom**: Wrangle UK records, moving them from the `admin-xy` repository to the `admin-gb` repository. Issue [#2024](https://github.com/whosonfirst-data/whosonfirst-data/issues/2024))
 - **Various**: 21 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2023-10-01..2023-10-31+is%3Aclosed+) made directly to the individual country repos as PRs...
 
 ### 2023 November
 
-- **United Kingdom**: Using United Kingdom and Northern Ireland Ordnance Survey data, update records and geometries at various placetypes. This includes updates to `localadmin`, `county`, `macrocounty`, `region`, `macroregion`, and `country` records. Additional work is contemplated at the `locality` level but not included here. Pull request [#92](https://github.com/whosonfirst-data/whosonfirst-data-admin-gb/pull/92))
+- **United Kingdom**: Using United Kingdom and Northern Ireland Ordnance Survey data, update records and geometries at various placetypes, including `localadmin`, `county`, `macrocounty`, `region`, `macroregion`, and `country` records. Additional work is contemplated at the `locality` level but not included here. Pull request [#92](https://github.com/whosonfirst-data/whosonfirst-data-admin-gb/pull/92) as a downpayment on issue [#1871](https://github.com/whosonfirst-data/whosonfirst-data/issues/1871)
 - **Various**: A quiet month
 
 ### 2023 Decemmber
