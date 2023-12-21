@@ -1287,20 +1287,20 @@ Jump to month: [January](#2023-January) • [February](#2023-February) • [Ma
 - **United Kingdom**: Update postalcode records, syncing them with the newest ONS dataset (Pull request [gb/#11](https://github.com/whosonfirst-data/whosonfirst-data-postalcode-gb/pull/11))
 - **United Kingdom**: Migrated admin records from the `whosonfirst-data-admin-xy` repo to the appropriate `admin-gb` repo (Pull request [xy/#33](https://github.com/whosonfirst-data/whosonfirst-data-admin-xy/pull/33))
 - **Norway**: Fixed bogus superseding in the Bergen locality record `whosonfirst-data-admin-xy` repo to the appropriate `admin-gb` repo (Issue [#2148](https://github.com/whosonfirst-data/whosonfirst-data/issues/2148))
-- **Various**: 7 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2023-07-01..2023-07-31+is%3Aclosed+WOF+Editor+) made directly to the individual country repos as PRs...
+- **Various**: 4 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2023-07-01..2023-07-31+is%3Aclosed+WOF+Editor+) made directly to the individual country repos as PRs...
 
 ### 2023 August
 
 - **Global**: Rerun Wikidata name localization import on per-country repos. This yielded new name properties across 269,088 records. (Issue [#1656](https://github.com/whosonfirst-data/whosonfirst-data/issues/2151))
 - **Global**: Ensure placetype_alt listed features are exported at both levels in Geocode.Earth's Who's On First shapefile distributions. (Issue [pelias/wof#43](https://github.com/pelias/wof/pull/43))
 - **Global**: The `modified` fields in Geocode.Earth's Who's On First distributions have been updated (from `date`) to match SPR conventions. (Issue [#2160](https://github.com/whosonfirst-data/whosonfirst-data/issues/2160))
-- **Various**: 2 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2023-08-01..2023-08-31+is%3Aclosed+WOF+Editor+) made directly to the individual country repos as PRs...
+- **Various**: 7 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2023-08-01..2023-08-31+is%3Aclosed+WOF+Editor+) made directly to the individual country repos as PRs...
 
 ### 2023 September
 
 - **Global**: Substantially increase name and label property coverage across various placetypes. (Issue [#2154](https://github.com/whosonfirst-data/whosonfirst-data/issues/2154))
 - **Global**: Add support for new placelocal property in Geocode.Earth's Who's On First shapefile distributions. (Issue [#2153](https://github.com/whosonfirst-data/whosonfirst-data/issues/2153))
-- **Various**: 5 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2023-09-01..2023-09-30+is%3Aclosed+WOF+Editor+) made directly to the individual country repos as PRs...
+- **Various**: 4 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2023-09-01..2023-09-30+is%3Aclosed+WOF+Editor+) made directly to the individual country repos as PRs...
 
 ### 2023 October
 
@@ -1308,7 +1308,7 @@ Jump to month: [January](#2023-January) • [February](#2023-February) • [Ma
 - **Global**: Geocode.Earth's Who's On First distributions now support the new official concordance keys and values, and removed the name contraint. (Issue [pelias/wof#49](https://github.com/pelias/wof/pull/49) and [pelias/wof#52](https://github.com/pelias/wof/pull/52))
 - **Spain**: Using data from Organismo Autonomo Centro Nacional de Information Geografica (CNIG), update administrative records in Spain – including Ceuta and Melilla. Issue [#706](https://github.com/whosonfirst-data/whosonfirst-data/issues/706))
 - **United Kingdom**: Wrangle UK records, moving them from the `admin-xy` repository to the `admin-gb` repository. Issue [#2024](https://github.com/whosonfirst-data/whosonfirst-data/issues/2024))
-- **Various**: 21 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2023-10-01..2023-10-31+is%3Aclosed+WOF+Editor+) made directly to the individual country repos as PRs...
+- **Various**: 22 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2023-10-01..2023-10-31+is%3Aclosed+WOF+Editor+) made directly to the individual country repos as PRs...
 
 ### 2023 November
 
@@ -1317,6 +1317,6 @@ Jump to month: [January](#2023-January) • [February](#2023-February) • [Ma
 
 ### 2023 Decemmber
 
-- **Various**: 15 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2023-12-01..2023-12-31+is%3Aclosed+WOF+Editor+) made directly to the individual country repos as PRs...
+- **Various**: 16 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2023-12-01..2023-12-31+is%3Aclosed+WOF+Editor+) made directly to the individual country repos as PRs...
 
 _NOTE: This document was created 2019 November._
