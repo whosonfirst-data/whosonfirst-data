@@ -1286,7 +1286,7 @@ Jump to month: [January](#2023-January) • [February](#2023-February) • [Ma
 
 - **United Kingdom**: Update postalcode records, syncing them with the newest ONS dataset (Pull request [gb/#11](https://github.com/whosonfirst-data/whosonfirst-data-postalcode-gb/pull/11))
 - **United Kingdom**: Migrated admin records from the `whosonfirst-data-admin-xy` repo to the appropriate `admin-gb` repo (Pull request [xy/#33](https://github.com/whosonfirst-data/whosonfirst-data-admin-xy/pull/33))
-- **Norway**: Fixed bogus superseding in the Bergen locality record `whosonfirst-data-admin-xy` repo to the appropriate `admin-gb` repo (Pull request [gb/#41](https://github.com/whosonfirst-data/whosonfirst-data-admin-no/pull/41))
+- **Norway**: Fixed bogus superseding in the Bergen locality record `whosonfirst-data-admin-xy` repo to the appropriate `admin-gb` repo (Issue [#2148](https://github.com/whosonfirst-data/whosonfirst-data/issues/2148))
 - **Various**: 7 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2023-07-01..2023-07-31+is%3Aclosed+) made directly to the individual country repos as PRs...
 
 ### 2023 August
