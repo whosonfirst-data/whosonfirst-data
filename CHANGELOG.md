@@ -1304,7 +1304,7 @@ Jump to month: [January](#2023-January) • [February](#2023-February) • [Ma
 
 ### 2023 October
 
-- **Global**: Crawl each admin repository to add concordances to "official" government sources, call out which sources are designated as "official" with a new `wof:concordances_official` property. Commonly available on coarse admin placetype features and limited coverage for `locality` and `localadmin` features. Issue [#2164](https://github.com/whosonfirst-data/whosonfirst-data/issues/2164))
+- **Global**: Crawl each admin repository to add additional concordance keys and values for "official" government sources, and additionally indicate which of the many concordances should be considered as "official" with a new `wof:concordances_official` property. Commonly available on coarse admin placetype features and limited coverage for `locality` and `localadmin` features. Issue [#2164](https://github.com/whosonfirst-data/whosonfirst-data/issues/2164))
 - **Global**: Geocode.Earth's Who's On First distributions now support the new official concordance keys and values, and removed the name contraint. (Issue [pelias/wof#49](https://github.com/pelias/wof/pull/49) and [pelias/wof#52](https://github.com/pelias/wof/pull/52))
 - **Spain**: Using data from Organismo Autonomo Centro Nacional de Information Geografica (CNIG), update administrative records in Spain – including Ceuta and Melilla. Issue [#706](https://github.com/whosonfirst-data/whosonfirst-data/issues/706))
 - **United Kingdom**: Wrangle UK records, moving them from the `admin-xy` repository to the `admin-gb` repository. Issue [#2024](https://github.com/whosonfirst-data/whosonfirst-data/issues/2024))
