@@ -1293,7 +1293,7 @@ Jump to month: [January](#2023-January) • [February](#2023-February) • [Ma
 
 - **Global**: Rerun Wikidata name localization import on per-country repos. This yielded new name properties across 269,088 records. (Issue [#1656](https://github.com/whosonfirst-data/whosonfirst-data/issues/2151))
 - **Global**: Ensure placetype_alt listed features are exported at both levels in Geocode.Earth's Who's On First shapefile distributions. (Issue [pelias/wof#43](https://github.com/pelias/wof/pull/43))
-- **Global**: The `modified` fields in Geocode.Earth's Who's On First distributions have been updated (from `date`) to match SPR conventions. (Issue [#1737](https://github.com/whosonfirst-data/whosonfirst-data/issues/1737))
+- **Global**: The `modified` fields in Geocode.Earth's Who's On First distributions have been updated (from `date`) to match SPR conventions. (Issue [#2160](https://github.com/whosonfirst-data/whosonfirst-data/issues/2160))
 - **Various**: 2 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2023-08-01..2023-08-31+is%3Aclosed+) made directly to the individual country repos as PRs...
 
 ### 2023 September
