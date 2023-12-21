@@ -1299,7 +1299,7 @@ Jump to month: [January](#2023-January) • [February](#2023-February) • [Ma
 ### 2023 September
 
 - **Global**: Substantially increase name and label property coverage across various placetypes. (Issue [#2154](https://github.com/whosonfirst-data/whosonfirst-data/issues/2154))
-- **Global**: Geocode.Earth's Who's On First distributions now support the placelocal property. (Issue [#2160](https://github.com/whosonfirst-data/whosonfirst-data/issues/2160))
+- **Global**: Add support for new placelocal property in Geocode.Earth's Who's On First shapefile distributions. (Issue [#2153](https://github.com/whosonfirst-data/whosonfirst-data/issues/2153))
 - **Various**: 5 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2023-09-01..2023-09-31+is%3Aclosed+) made directly to the individual country repos as PRs...
 
 ### 2023 October
