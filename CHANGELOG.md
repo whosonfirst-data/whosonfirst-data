@@ -1282,4 +1282,41 @@ Jump to month: [January](#2023-January) • [February](#2023-February) • [Ma
 - **Blog post**: [State of the Gazetteer in 2023](https://whosonfirst.org/blog/2023/06/07/state-of-the-gazetteer/) - Since we launched in 2015, the Who’s On First places gazetteer project has grown in coverage, complexity, and supported applications. In this this post I will summarize Who’s On First’s key advantages, offer a comparative analysis of WOF and other open gazetteers, quantify our global coverage by placetype, offer score cards by country, dive into name localization, look at internationalization through the lens of disputed territories, and quantify geometry types and sources of those polygon and points, hold hands with and thank our sources, and invite collaboration.
 - **Blog post**: [Introducing Karmashapes](https://whosonfirst.org/blog/2023/06/19/introducting-karmashapes/) - Thanks to the Karmashapes initiative, Who’s On First now provides the best open data for towns and villages in India.
 
+### 2023 July
+
+- **United Kingdom**: Update postalcode records, syncing them with the newest ONS dataset (Pull request [gb/#11](https://github.com/whosonfirst-data/whosonfirst-data-postalcode-gb/pull/11))
+- **United Kingdom**: Migrated admin records from the `whosonfirst-data-admin-xy` repo to the appropriate `admin-gb` repo (Pull request [xy/#33](https://github.com/whosonfirst-data/whosonfirst-data-admin-xy/pull/33))
+- **Norway**: Fixed bogus superseding in the Bergen locality record `whosonfirst-data-admin-xy` repo to the appropriate `admin-gb` repo (Issue [#2148](https://github.com/whosonfirst-data/whosonfirst-data/issues/2148))
+- **Various**: 4 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2023-07-01..2023-07-31+is%3Aclosed+WOF+Editor+) made directly to the individual country repos as PRs...
+
+### 2023 August
+
+- **Global**: Rerun Wikidata name localization import on per-country repos. This yielded new name properties across 269,088 records. (Issue [#1656](https://github.com/whosonfirst-data/whosonfirst-data/issues/2151))
+- **Global**: Ensure placetype_alt listed features are exported at both levels in Geocode.Earth's Who's On First shapefile distributions. (Issue [pelias/wof#43](https://github.com/pelias/wof/pull/43))
+- **Global**: The `modified` fields in Geocode.Earth's Who's On First distributions have been updated (from `date`) to match SPR conventions. (Issue [#2160](https://github.com/whosonfirst-data/whosonfirst-data/issues/2160))
+- **Various**: 7 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2023-08-01..2023-08-31+is%3Aclosed+WOF+Editor+) made directly to the individual country repos as PRs...
+
+### 2023 September
+
+- **Global**: Substantially increase name and label property coverage across various placetypes. (Issue [#2154](https://github.com/whosonfirst-data/whosonfirst-data/issues/2154))
+- **Global**: Add support for new placelocal property in Geocode.Earth's Who's On First shapefile distributions. (Issue [#2153](https://github.com/whosonfirst-data/whosonfirst-data/issues/2153))
+- **Various**: 4 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2023-09-01..2023-09-30+is%3Aclosed+WOF+Editor+) made directly to the individual country repos as PRs...
+
+### 2023 October
+
+- **Global**: Crawl each admin repository to add additional concordance keys and values for "official" government sources, and additionally indicate which of the many concordances should be considered as "official" with a new `wof:concordances_official` property. Commonly available on coarse admin placetype features and limited coverage for `locality` and `localadmin` features. Issue [#2164](https://github.com/whosonfirst-data/whosonfirst-data/issues/2164))
+- **Global**: Geocode.Earth's Who's On First distributions now support the new official concordance keys and values, and removed the name contraint. (Issue [pelias/wof#49](https://github.com/pelias/wof/pull/49) and [pelias/wof#52](https://github.com/pelias/wof/pull/52))
+- **Spain**: Using data from Organismo Autonomo Centro Nacional de Information Geografica (CNIG), update administrative records in Spain – including Ceuta and Melilla. Issue [#706](https://github.com/whosonfirst-data/whosonfirst-data/issues/706))
+- **United Kingdom**: Wrangle UK records, moving them from the `admin-xy` repository to the `admin-gb` repository. Issue [#2024](https://github.com/whosonfirst-data/whosonfirst-data/issues/2024))
+- **Various**: 22 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2023-10-01..2023-10-31+is%3Aclosed+WOF+Editor+) made directly to the individual country repos as PRs...
+
+### 2023 November
+
+- **United Kingdom**: Using United Kingdom and Northern Ireland Ordnance Survey data, update records and geometries at various placetypes, including `localadmin`, `county`, `macrocounty`, `region`, `macroregion`, and `country` records. Additional work is contemplated at the `locality` level but not included here. Pull request [#92](https://github.com/whosonfirst-data/whosonfirst-data-admin-gb/pull/92) as a downpayment on issue [#1871](https://github.com/whosonfirst-data/whosonfirst-data/issues/1871)
+- **Various**: A quiet month
+
+### 2023 Decemmber
+
+- **Various**: 16 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2023-12-01..2023-12-31+is%3Aclosed+WOF+Editor+) made directly to the individual country repos as PRs...
+
 _NOTE: This document was created 2019 November._
