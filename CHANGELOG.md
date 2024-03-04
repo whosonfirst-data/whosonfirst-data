@@ -1319,4 +1319,16 @@ Jump to month: [January](#2023-January) • [February](#2023-February) • [Ma
 
 - **Various**: 16 [edits](https://github.com/pulls?q=is%3Apr+user%3Awhosonfirst-data+archived%3Afalse+merged%3A2023-12-01..2023-12-31+is%3Aclosed+WOF+Editor+) made directly to the individual country repos as PRs...
 
+## 2024
+
+Jump to month: [January](#2024-January) • [February](#2024-February) • [March](#2024-March) • [April](#2024-April) • [May](#2024-May) • [June](#2024-June) • [July](#2024-July) • [August](#2024-August) • [September](#2024-September) • [October](#2024-October) • [November](#2024-November) • [December](#2024-December)
+
+### 2024 January
+
+- A quiet month
+
+### 2024 February
+
+- **United Arab Emirates**: Updated AUH/OMAA airport records [#2178](https://github.com/whosonfirst-data/whosonfirst-data/issues/2178)
+
 _NOTE: This document was created 2019 November._
