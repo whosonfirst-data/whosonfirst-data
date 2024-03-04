@@ -1330,5 +1330,6 @@ Jump to month: [January](#2024-January) • [February](#2024-February) • [Ma
 ### 2024 February
 
 - **United Arab Emirates**: Updated AUH/OMAA airport records [#2178](https://github.com/whosonfirst-data/whosonfirst-data/issues/2178)
+- **Great Britain**: Update colloquial and historical names for Sutton Coldfield [gb/#97](https://github.com/whosonfirst-data/whosonfirst-data-admin-gb/pull/97/)
 
 _NOTE: This document was created 2019 November._
