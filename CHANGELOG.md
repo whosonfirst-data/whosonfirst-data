@@ -1334,6 +1334,6 @@ Jump to month: [January](#2024-January) • [February](#2024-February) • [Ma
 
 ### 2024 March
 
-- **Global**: Identified ~20k duplicate neighbourhood and locality pairs across all admin repos; superseded records, merged properties and concordances. [#2181](https://github.com/whosonfirst-data/whosonfirst-data/issues/2181)
+- **Global**: Resolved ~20k duplicate neighbourhood and locality pairs across all admin repos; superseded records, merged properties and concordances. [#2181](https://github.com/whosonfirst-data/whosonfirst-data/issues/2181)
 
 _NOTE: This document was created 2019 November._
