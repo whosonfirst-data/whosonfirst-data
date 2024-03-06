@@ -1332,4 +1332,8 @@ Jump to month: [January](#2024-January) • [February](#2024-February) • [Ma
 - **United Arab Emirates**: Updated AUH/OMAA airport records [#2178](https://github.com/whosonfirst-data/whosonfirst-data/issues/2178)
 - **Great Britain**: Update colloquial and historical names for Sutton Coldfield [gb/#97](https://github.com/whosonfirst-data/whosonfirst-data-admin-gb/pull/97/)
 
+### 2024 March
+
+- **Global**: Identified ~20k duplicate neighbourhood and locality pairs across all admin repos; superseded records, merged properties and concordances. [#2181](https://github.com/whosonfirst-data/whosonfirst-data/issues/2181)
+
 _NOTE: This document was created 2019 November._
